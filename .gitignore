@@ -16,3 +16,11 @@ shaderpacks/
 xaero/
 XaeroWaypoints_BACKUP240807/
 profileImage/
+# Files that should be ignored
+minecraftinstance.json
+options.txt
+patchouli_data.json
+rhino.local.properties
+TrashSlotSaveState.json
+usercache.json
+usernamecache.json
