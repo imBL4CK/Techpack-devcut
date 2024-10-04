@@ -1,0 +1,99 @@
+{
+  "name": "Generator",
+  "namespace": "generator",
+  "appearance": {
+    "lightmode": "running",
+    "block": "kubejs:machine/industrial_revival/generator",
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "light": -1
+  },
+  "processor": {
+    "type": "custommachinery:machine"
+  },
+  "gui": [
+    {
+      "texture": "kubejs:textures/gui/simple_gui_background.png",
+      "x": 38,
+      "y": 20,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 103,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "id": "input_slot",
+      "x": 90,
+      "y": 48,
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 115,
+      "y": 56,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 149,
+      "y": 54,
+      "type": "custommachinery:energy",
+      "texture_empty": "kubejs:textures/gui/ic2_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/ic2_fillerd_energy_bar.png",
+      "highlight": false
+    },
+    {
+      "id": "upgrade_slot",
+      "x": 90,
+      "y": 66,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/upgrade_slot.png"
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 220,
+      "y": 40
+    },
+    {
+      "text": "Generator",
+      "x": 96,
+      "y": 25,
+      "type": "custommachinery:text"
+    },
+    {
+      "type": "custommachinery:text",
+      "text": "Inventory",
+      "x": 47,
+      "y": 93
+    },
+    {
+      "x": 196,
+      "y": 25,
+      "type": "custommachinery:status"
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "upgrade_slot",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1
+    },
+    {
+      "mode": "input",
+      "id": "input_slot",
+      "type": "custommachinery:item"
+    },
+    {
+      "capacity": 1024,
+      "type": "custommachinery:energy",
+      "maxInput": 0,
+      "maxOutput": 16,
+      "config": {
+        "default": "output"
+      }
+    }
+  ]
+}
