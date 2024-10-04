@@ -1,0 +1,18 @@
+# Folders that should be ignored
+logs/
+.mixin.out/
+.vscode/
+backups/
+crash-reports/
+downloads/
+local/
+mods/
+patchouli_books/
+resourcepacks/
+saves/
+schematics/
+screenshots/
+shaderpacks/
+xaero/
+XaeroWaypoints_BACKUP240807/
+profileImage/
