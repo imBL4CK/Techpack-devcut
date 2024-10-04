@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_iii"
+	group: "047995488C1C959F"
+	icon: "tfmg:capacitor"
+	id: "33CA0BD600A1FEDD"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Chapter III"
+}

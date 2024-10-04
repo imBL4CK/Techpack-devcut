@@ -1,0 +1,247 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "utilities__qol"
+	group: "4AD243FA5382E478"
+	icon: "ad_astra:wrench"
+	id: "47585FB508FF20CA"
+	images: [
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "comforts:sleeping_bag_white"
+			id: "22350396F07E287A"
+			tasks: [
+				{
+					id: "4CEBF0081A548564"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+					title: "Any #comforts:sleeping_bags"
+					type: "item"
+				}
+				{
+					id: "3F90A0D47A262238"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "Portable Bed"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "7652B75CEE9E68B5"
+			tasks: [
+				{
+					id: "18141F5CBAB0E75F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "constructionwand:stone_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:iron_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:diamond_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:infinity_wand"
+									tag: {
+										wand_options: { }
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "412A7ADB0D60F6A7"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "Avada Kedavra"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			icon: "breezy:hot_air_balloon"
+			id: "29C3701102469630"
+			tasks: [
+				{
+					id: "7FDE39CFA7DDD915"
+					item: "breezy:hot_air_balloon"
+					type: "item"
+				}
+				{
+					id: "1BC23480768FD858"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			icon: "woodworks:sawmill"
+			id: "16688A207B3B95FB"
+			tasks: [
+				{
+					id: "67995F3D2435431F"
+					item: "woodworks:sawmill"
+					type: "item"
+				}
+				{
+					id: "32D2768B1CE9711C"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "actuallyadditions:ring_of_magnetizing"
+				tag: { }
+			}
+			id: "5F968F496125C02A"
+			tasks: [
+				{
+					id: "257C21C84172844D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "actuallyadditions:ring_of_magnetizing"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "00D31291A2C23BE9"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			icon: "actuallyadditions:crafter_on_a_stick"
+			id: "1B0CAF47BD76317F"
+			tasks: [
+				{
+					id: "78876DAF361543C0"
+					item: "actuallyadditions:crafter_on_a_stick"
+					type: "item"
+				}
+				{
+					id: "33F5F398DB5B0108"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+	]
+	title: "Utilities and QoL"
+}

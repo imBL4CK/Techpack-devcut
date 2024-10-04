@@ -1,0 +1,333 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_0"
+	group: "047995488C1C959F"
+	icon: "supplementaries:globe"
+	id: "544B77AFD2678363"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"In this pack, you will explore new ways to merge magic and tech."
+				""
+				"lets to start with the basics, you need a basic knowledge of mods, if dont have it, its recommended that you learn the basics of the main mods"
+			]
+			icon: "ad_astra:earth_globe"
+			id: "7EA5A95D900AE893"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&5Welcome to Techpack!"
+			tasks: [{
+				id: "6DF5619E638D4CC6"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EA5A95D900AE893"]
+			description: ["in this pack, the recipe of crafting table has been changed, get a flint and planks to get it"]
+			id: "6F564216B9F32497"
+			subtitle: "Craft a Crafting Table"
+			tasks: [{
+				id: "61D260A67673D166"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Your old friend"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F564216B9F32497"]
+			description: [
+				"Craft the classic stone tools."
+				""
+				"No, this recipe has not been changed."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1388452A2332908E"
+			subtitle: "Craft a basic tools"
+			tasks: [
+				{
+					id: "18B81A8C14018A5C"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A3E935EAA99346F"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76361603E508BDE9"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "First Tools"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1388452A2332908E"]
+			description: ["Go to the cave and get the basic raw ores"]
+			icon: "minecraft:raw_iron"
+			id: "1B935334CB080110"
+			subtitle: "Get the basic ores"
+			tasks: [
+				{
+					count: 8L
+					id: "2F837C0C557020CB"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0DE6E7BAE6A4C7C0"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "35707DB1143C7BBC"
+					item: "thermal:raw_tin"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1B6915E191680D0D"
+					item: "thermal:raw_lead"
+					type: "item"
+				}
+			]
+			title: "Base Materials"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B935334CB080110"]
+			description: ["make your first furnace, it will be very important because it will be your first way to smelt things"]
+			id: "07FFBA74160FAE8B"
+			subtitle: "Craft a Furnace"
+			tasks: [{
+				id: "6A8BFE1104B1307A"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "The First Furnace"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07FFBA74160FAE8B"]
+			icon: "minecraft:iron_ingot"
+			id: "542401D3462C88C5"
+			subtitle: "Smelt raw ores"
+			tasks: [
+				{
+					count: 8L
+					id: "1C634CD84F8AF56F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5BEFC5501505AAB6"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "64BA73345D78A4D6"
+					item: "thermal:tin_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4D45C83123458F1A"
+					item: "thermal:lead_ingot"
+					type: "item"
+				}
+			]
+			title: "Ingots, Ingots and Ingots"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["542401D3462C88C5"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77B9E0D588D8AE06"
+			subtitle: "Get your first iron tools"
+			tasks: [
+				{
+					id: "5EBA7C451C36C010"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25CD23FCCB084E10"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EDBE67D2CFF4C6F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Tools"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["77B9E0D588D8AE06"]
+			description: ["Congratulations, you have completed pack tutorial!"]
+			icon: "create:goggles"
+			id: "5424DB4A95F1C2E4"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finished!"
+			tasks: [{
+				id: "251C7A07107E1767"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Finished"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5424DB4A95F1C2E4"]
+			description: ["in this pack, blocks related to redstone logic are obtained by placing a logic machine on the stonecutter."]
+			id: "11899420472A9464"
+			optional: true
+			shape: "circle"
+			subtitle: "Craft a Logistic Machine"
+			tasks: [{
+				id: "50AEF39098FC13C5"
+				item: "kubejs:logistic_machine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F564216B9F32497"]
+			hide: true
+			icon: "woodworks:oak_chest"
+			id: "5B052E46774AA7E7"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "472DFB9274967897"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "woodworks:oak_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:spruce_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:jungle_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:acacia_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:dark_oak_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:mangrove_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:cherry_chest"
+							}
+							{
+								Count: 1b
+								id: "upgrade_aquatic:driftwood_chest"
+							}
+							{
+								Count: 1b
+								id: "upgrade_aquatic:river_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:crimson_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:warped_chest"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "Chapter 0"
+}

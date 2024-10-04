@@ -1,0 +1,290 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cchapter_1"
+	group: "047995488C1C959F"
+	icon: "kubejs:makeshift_mechanism"
+	id: "70854EC513EDF2DB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5424DB4A95F1C2E4"]
+			icon: {
+				Count: 1
+				id: "kubejs:primitive_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "247A85BA2D94377F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4C506558D5E3A956"
+					item: {
+						Count: 1
+						id: "kubejs:primitive_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DEE06FAA177FD09"
+					item: {
+						Count: 1
+						id: "kubejs:primitive_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7049EE87E90CB766"
+					item: {
+						Count: 1
+						id: "kubejs:primitive_wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "First craft tools"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["247A85BA2D94377F"]
+			id: "720CC28CC9F618B8"
+			tasks: [{
+				id: "0BDFA91E2CB4ED6D"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "Smithing Crontraptions"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["720CC28CC9F618B8"]
+			id: "708D8EA7F48BBCC9"
+			tasks: [{
+				id: "6F8B591AAD496F98"
+				item: "kubejs:makeshift_mechanism"
+				type: "item"
+			}]
+			title: "First Toys"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["719CCBB870F4E1BB"]
+			icon: "create:mechanical_press"
+			id: "0BD719E2B483532D"
+			tasks: [
+				{
+					id: "6485B8DB2C1D3175"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "3E4255F3D1BF7D16"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "180936A0A368204D"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "6C1933A15BD71662"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "0153B0473FAB24DA"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "7EA0A4DBDD865BD6"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+			]
+			title: "Basic Parts"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["708D8EA7F48BBCC9"]
+			id: "719CCBB870F4E1BB"
+			tasks: [{
+				id: "4EECF75E6BBD3A14"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Wave Power"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["719CCBB870F4E1BB"]
+			hide: true
+			id: "2C6B32004A775B6E"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "56637A565C03CAD3"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Hydro Power Plant"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BD719E2B483532D"]
+			hide: true
+			id: "736B38375EA1F744"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "1157209A0F643C7F"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Milling Stones"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0BD719E2B483532D"]
+			icon: "create:brass_hand"
+			id: "19836D161547333E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					count: 16L
+					id: "5D7427A822DF1AFF"
+					item: "kubejs:makeshift_mechanism"
+					type: "item"
+				}
+				{
+					id: "0A5C3EEDAAF71002"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "Mechanism Factory"
+			x: -2.0357142857142847d
+			y: 1.4795918367346914d
+		}
+		{
+			dependencies: ["0BD719E2B483532D"]
+			hide: true
+			id: "45EB75887C0072AF"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "03DC1573612C72D5"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19836D161547333E"]
+			hide: true
+			icon: "minecraft:oak_log"
+			id: "27E6AAD9172781C3"
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 32L
+					id: "32A55BB83673DB96"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "6031F1F5AB5612AB"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19836D161547333E"]
+			hide: true
+			icon: "minecraft:cobblestone"
+			id: "3665DFE2A1D09BE1"
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 32L
+					id: "420DF5AA35AA38FA"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "52F6E1C7296BF97D"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19836D161547333E"]
+			hide: true
+			icon: "create:andesite_alloy"
+			id: "28DAC721F5712F37"
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 32L
+					id: "3E49633266B18EAF"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "6C196E217C38D9D3"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1CB3FDC18D9EB8D8"
+				"0BD719E2B483532D"
+			]
+			icon: "create:belt_connector"
+			id: "18BF2395E0A87ABC"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "6866DA7E87D27778"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+	]
+	title: "Chapter I"
+}

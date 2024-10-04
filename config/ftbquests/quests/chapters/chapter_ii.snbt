@@ -1,0 +1,527 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_ii"
+	group: "047995488C1C959F"
+	icon: "tfmg:radial_engine"
+	id: "6B362B835840791F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["19836D161547333E"]
+			icon: "tfmg:steel_flywheel"
+			id: "104E7094B28E8114"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "076F0038C4B33B4B"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Heavy Machinery"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["104E7094B28E8114"]
+			id: "1CB3FDC18D9EB8D8"
+			rewards: [{
+				id: "50FC86F7768CE341"
+				item: "thermal:rubberwood_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C18AB2D16093AEB"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Summary"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34CBD50768BD259C"]
+			icon: "create:blaze_burner"
+			id: "7E023B9ECD1E2E3C"
+			tasks: [
+				{
+					id: "4A0475CA0F643CFF"
+					item: "create:empty_blaze_burner"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1902B7492FBEEBDE"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CB3FDC18D9EB8D8"]
+			icon: "create:fluid_tank"
+			id: "0943528D87916444"
+			tasks: [
+				{
+					count: 4L
+					id: "7659A7F76EAE87A7"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "502992F23332A8C7"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3DF76BA8E501AF1C"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CB3FDC18D9EB8D8"]
+			icon: "malum:spirit_altar"
+			id: "34CBD50768BD259C"
+			tasks: [
+				{
+					id: "2ACD3FC914F8FD61"
+					item: "malum:encyclopedia_arcana"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6FD1E8F7BF21FA41"
+					item: "malum:spirit_altar"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E023B9ECD1E2E3C"]
+			hide_dependency_lines: true
+			icon: "create:polished_rose_quartz"
+			id: "2600F1D15E7F6E92"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "7CD225E6B023D0D5"
+					item: "create:rose_quartz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6979AFEF87E3F9E6"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C957F44162E6B3B"]
+			icon: {
+				Count: 1
+				id: "kubejs:rustic_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "596DCDACAC56F48B"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "2C830BCDFCC5070B"
+					item: {
+						Count: 1
+						id: "kubejs:rustic_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7147FE4B27ABE6F9"
+					item: {
+						Count: 1
+						id: "kubejs:rustic_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F73B397D5CF5A7D"
+					item: {
+						Count: 1
+						id: "kubejs:rustic_wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E023B9ECD1E2E3C"]
+			icon: "thermal:bronze_ingot"
+			id: "4C957F44162E6B3B"
+			tasks: [
+				{
+					count: 3L
+					id: "19F011FC598EE282"
+					item: { Count: 3, id: "thermal:tin_dust" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B51F3170807650B"
+					item: "thermal:copper_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7EB4B727B5DB6DE0"
+					item: "thermal:bronze_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1857C56FA8C9D67B"
+					item: { Count: 4, id: "thermal:bronze_ingot" }
+					type: "item"
+				}
+			]
+			title: "Orange Metals"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C957F44162E6B3B"]
+			icon: "tfmg:blast_furnace_output"
+			id: "449BBCE11138BB0E"
+			tasks: [
+				{
+					id: "6AD73E8EAE08A550"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "66A44854F3AAAB6F"
+					item: { Count: 16, id: "tfmg:fireproof_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "10F36F01F877582A"
+					item: { Count: 8, id: "tfmg:fireproof_brick_reinforcement" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D6DAED46CCFA300"]
+			icon: "create:smart_chute"
+			id: "42ADADFE7997A42B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1F147131813D1F53"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "2CB348D932B79847"
+					item: "create:content_observer"
+					type: "item"
+				}
+				{
+					id: "372BB9A9F25827CA"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+				{
+					id: "348A23857B7FAB95"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "20091916AFADAE5D"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+			]
+			title: "Smart Parts"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"449BBCE11138BB0E"
+				"2600F1D15E7F6E92"
+			]
+			icon: "create:precision_mechanism"
+			id: "0D6DAED46CCFA300"
+			tasks: [{
+				id: "556C7B5372FEF16C"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D6DAED46CCFA300"]
+			id: "228ABE25D3D564C6"
+			tasks: [{
+				count: 9L
+				id: "1C48DC06693A4956"
+				item: { Count: 9, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D6DAED46CCFA300"]
+			icon: "tfmg:casting_spout"
+			id: "4E8ED1850D00554D"
+			tasks: [
+				{
+					id: "6214C4C05EBB2440"
+					item: "tfmg:casting_spout"
+					type: "item"
+				}
+				{
+					id: "1C7ADF5B3294146F"
+					item: "tfmg:casting_basin"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4E8ED1850D00554D"
+				"228ABE25D3D564C6"
+			]
+			icon: "tfmg:steel_mechanism"
+			id: "4788CF6CA963803C"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1D073C5D44C912B2"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: -0.4761904761904745d
+			y: 6.559523809523803d
+		}
+		{
+			dependencies: ["4788CF6CA963803C"]
+			icon: {
+				Count: 1
+				id: "kubejs:basic_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61FF40E20DF6B835"
+			tasks: [
+				{
+					id: "75123E44ABBEC92E"
+					item: {
+						Count: 1
+						id: "kubejs:basic_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "738C04E493AA1273"
+					item: {
+						Count: 1
+						id: "kubejs:basic_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BA7572A9920CD5B"
+					item: {
+						Count: 1
+						id: "kubejs:basic_wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4788CF6CA963803C"]
+			icon: "create:controls"
+			id: "216FFEAF98DC6B1D"
+			shape: "circle"
+			tasks: [{
+				id: "737E46769C28A694"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4788CF6CA963803C"]
+			icon: "prettypipes:wrench"
+			id: "18EED714606C13D4"
+			tasks: [
+				{
+					id: "7654F7783F00F01C"
+					item: "prettypipes:wrench"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "625AF418893BBDCF"
+					item: "prettypipes:pipe"
+					type: "item"
+				}
+				{
+					id: "750AAFC7F6BEEDDB"
+					item: "prettypipes:item_terminal"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4788CF6CA963803C"]
+			id: "0565516A4C96C1C1"
+			tasks: [{
+				id: "565CE24D5482B563"
+				item: "tfmg:surface_scanner"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5884CEFF22577A10"]
+			icon: "tfmg:steel_distillation_controller"
+			id: "43465DA686CDFA87"
+			tasks: [
+				{
+					id: "20628A1658AE6662"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "69D7FEDDFCFAC561"
+					item: { Count: 5, id: "tfmg:steel_distillation_output" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0565516A4C96C1C1"]
+			icon: "tfmg:pumpjack_crank"
+			id: "5884CEFF22577A10"
+			tasks: [
+				{
+					id: "1CF62BA8210D733F"
+					item: "tfmg:pumpjack_hammer"
+					type: "item"
+				}
+				{
+					id: "437F01E28A2F660A"
+					item: "tfmg:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "1747EC03CCB08EE7"
+					item: "tfmg:pumpjack_base"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["43465DA686CDFA87"]
+			icon: "tfmg:radial_engine"
+			id: "7DD9D46FF4D3D170"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "03DFB5DAA8D41BC2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tfmg:gasoline_engine"
+							}
+							{
+								Count: 1b
+								id: "tfmg:lpg_engine"
+							}
+							{
+								Count: 1b
+								id: "tfmg:turbine_engine"
+							}
+							{
+								Count: 1b
+								id: "tfmg:diesel_engine"
+							}
+							{
+								Count: 1b
+								id: "tfmg:radial_engine"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5102040816326507d
+			y: 11.676870748299322d
+		}
+	]
+	title: "Chapter II"
+}
