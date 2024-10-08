@@ -7,6 +7,196 @@
 	id: "33CA0BD600A1FEDD"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["6C1780172F42FF4D"]
+			id: "1F6E66E47C8ED74E"
+			tasks: [{
+				id: "380DC5D8DB5B5FE7"
+				item: "actuallyadditions:atomic_reconstructor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DD9D46FF4D3D170"]
+			icon: "tfmg:rotor"
+			id: "15CBD942065B6730"
+			tasks: [
+				{
+					id: "33D55FC289247372"
+					title: "Done"
+					type: "checkmark"
+				}
+				{
+					id: "6D4ACFA646605400"
+					item: "tfmg:rotor"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15CBD942065B6730"]
+			id: "6C1780172F42FF4D"
+			tasks: [{
+				id: "0BBCA08287DE157F"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15CBD942065B6730"]
+			id: "263771ECEE559F9C"
+			tasks: [{
+				id: "67C022444C679D3B"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["15CBD942065B6730"]
+			id: "47B45AFEFDA9207E"
+			tasks: [{
+				id: "178111BEBF48FED9"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["15CBD942065B6730"]
+			icon: "thermal:fluid_duct"
+			id: "1AFB5148AA058B44"
+			tasks: [
+				{
+					count: 4L
+					id: "6AAE7CF6D5F94676"
+					item: "thermal:fluid_duct"
+					type: "item"
+				}
+				{
+					id: "1761CABB3145BBF7"
+					item: "thermal:servo_attachment"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["15CBD942065B6730"]
+			id: "6424100121F841BE"
+			tasks: [{
+				id: "01DA772DEDA4C988"
+				item: "tfmg:electric_motor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15CBD942065B6730"]
+			id: "5D9982460CAC5C38"
+			tasks: [{
+				id: "0294DE964813FF32"
+				item: "tfmg:resistor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C1780172F42FF4D"]
+			id: "491E9326157D7FA7"
+			tasks: [
+				{
+					id: "7CF3E711254FFB79"
+					item: {
+						Count: 1
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:industrialrevival/compressor"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B113010E1B09E0B"
+					item: {
+						Count: 1
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:industrialrevival/energetic_smelter"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21CFE951280C92DE"
+					item: {
+						Count: 1
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:industrialrevival/generator"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "755C8177A6A831D6"
+					item: {
+						Count: 1
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:industrialrevival/alloy_foundry"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40D775489B428417"
+					item: {
+						Count: 1
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:industrialrevival/macerator"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "5C63FE278D45C1EF"
+			tasks: [{
+				id: "58C7459E66A2194D"
+				item: "actuallyadditions:canola"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6C1780172F42FF4D"]
+			id: "126D09A515CB5C56"
+			tasks: [{
+				id: "781DFFAE37CD6B94"
+				item: "prettypipes:crafting_terminal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+	]
 	title: "Chapter III"
 }

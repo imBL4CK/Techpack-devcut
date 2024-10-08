@@ -487,38 +487,46 @@
 			id: "7DD9D46FF4D3D170"
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "03DFB5DAA8D41BC2"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "tfmg:gasoline_engine"
-							}
-							{
-								Count: 1b
-								id: "tfmg:lpg_engine"
-							}
-							{
-								Count: 1b
-								id: "tfmg:turbine_engine"
-							}
-							{
-								Count: 1b
-								id: "tfmg:diesel_engine"
-							}
-							{
-								Count: 1b
-								id: "tfmg:radial_engine"
-							}
-						]
+			tasks: [
+				{
+					id: "03DFB5DAA8D41BC2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tfmg:gasoline_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:lpg_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:turbine_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:diesel_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:radial_engine"
+								}
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3B1A386000ED917C"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "The Factory is Growing!"
 			x: -0.5102040816326507d
 			y: 11.676870748299322d
 		}

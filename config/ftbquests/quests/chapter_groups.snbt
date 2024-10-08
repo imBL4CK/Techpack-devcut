@@ -2,5 +2,6 @@
 	chapter_groups: [
 		{ id: "047995488C1C959F", title: "Main Questline" }
 		{ id: "4AD243FA5382E478", title: "Side Questline" }
+		{ id: "027DF5719475D040", title: "Gates" }
 	]
 }

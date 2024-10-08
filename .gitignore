@@ -24,3 +24,5 @@ rhino.local.properties
 TrashSlotSaveState.json
 usercache.json
 usernamecache.json
+.curseclient
+cherishedworlds-favorites.dat
