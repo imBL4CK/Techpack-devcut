@@ -92,7 +92,8 @@ ServerEvents.recipes((event) => {
     "enderio:wood_gear_corner",
     "create:crafting/kinetics/hose_pulley",
     "create:crafting/kinetics/item_drain",
-    "create:crafting/kinetics/spout"
+    "create:crafting/kinetics/spout",
+    "tfmg:mechanical_crafting/rotor"
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });

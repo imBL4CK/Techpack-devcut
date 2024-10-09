@@ -34,6 +34,12 @@
 					item: "tfmg:rotor"
 					type: "item"
 				}
+				{
+					count: 8L
+					id: "270DEEF8D659176D"
+					item: { Count: 8, id: "tfmg:stator" }
+					type: "item"
+				}
 			]
 			x: -1.0d
 			y: -4.0d
@@ -196,6 +202,16 @@
 			}]
 			x: -2.0d
 			y: -1.0d
+		}
+		{
+			id: "1E9F52AB8B35EF74"
+			tasks: [{
+				id: "3BBF6B3BD91B85A1"
+				item: "tfmg:copper_coil"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
 		}
 	]
 	title: "Chapter III"

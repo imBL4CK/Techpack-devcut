@@ -80,6 +80,25 @@ ServerEvents.recipes((e) => {
       },
       id: recipeId + "steam_engine",
     },
+    //TFMG Rotor
+    {
+      output: "tfmg:rotor",
+      pattern: [
+        " CCC ", 
+        "CRPWC", 
+        "CGSGC", 
+        "CWPRC", 
+        " CCC "],
+      keys: {
+        C: "tfmg:copper_coil",
+        R: "thermal:rf_coil",
+        P: "#forge:plates/bronze",
+        W: "#forge:wires/aluminum",
+        G: "#forge:gears/bronze",
+        S: "create:shaft"
+      },
+      id: recipeId + "rotor",
+    },
   ];
   recipes.forEach((recipe) => {
     e.recipes.create
