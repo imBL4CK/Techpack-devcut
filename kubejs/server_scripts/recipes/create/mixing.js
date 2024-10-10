@@ -1,7 +1,7 @@
 ServerEvents.recipes((e) => {
   let recipeId = "create:mixing/";
 
-  e.recipes.create.mixing(["4x #forge:dusts/bronze"], ["#forge:dusts/copper", "3x #forge:dusts/tin"]).id(recipeId + "bronze_blend").heated();
+  e.recipes.create.mixing(["4x #forge:dusts/bronze"], ["3x #forge:dusts/copper", "#forge:dusts/tin"]).id(recipeId + "bronze_blend").heated();
   e.recipes.create.mixing(["4x moreminecarts:silica_steel_mix"], ["#forge:dusts/iron", "#forge:coal_coke", "3x #forge:gems/quartz"]).id(recipeId + "coal_coke").heated();
 
   const recipes = [

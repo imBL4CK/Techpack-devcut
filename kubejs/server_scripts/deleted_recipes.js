@@ -95,7 +95,9 @@ ServerEvents.recipes((event) => {
     "create:crafting/kinetics/spout",
     "tfmg:mechanical_crafting/rotor",
     "create:crafting/kinetics/steam_engine",
-    "thermal:fluid_duct_4"
+    "thermal:fluid_duct_4",
+    "thermal:invar_dust_3",
+    "hexerei:mixing_cauldron"
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });

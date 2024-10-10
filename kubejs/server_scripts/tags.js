@@ -42,4 +42,23 @@ ServerEvents.tags("item", (e) => {
   //Actually Goggles
   e.add("curios:head", "actuallyadditions:engineers_goggles_advanced");
   e.add("curios:head", "actuallyadditions:engineers_goggles");
+  //Blend Tags
+  e.add("techpack:blends", [
+    "thermal:steel_dust",
+    "thermal:rose_gold_dust",
+    "thermal:bronze_dust",
+    "thermal:electrum_dust",
+    "thermal:invar_dust",
+    "thermal:constantan_dust",
+    "thermal:signalum_dust",
+    "thermal:lumium_dust",
+    "thermal:enderium_dust",
+    "thermalendergy:prismalium_dust",
+    "thermalendergy:stellarium_dust",
+    "thermalendergy:melodium_dust",
+  ]);
+  e.add("techpack:catalysts", [
+    "minecraft:glowstone_dust",
+    "minecraft:redstone",
+  ]);
 });

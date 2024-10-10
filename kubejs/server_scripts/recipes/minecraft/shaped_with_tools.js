@@ -254,5 +254,18 @@ ServerEvents.recipes((e) => {
   }).damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "spout");
+
+  //Steam Engine
+  e.shaped("create:steam_engine", ["BSB", "MCM", "WTH"], {
+    B: "#forge:plates/brass",
+    S: "create:shaft",
+    M: "tfmg:steel_mechanism",
+    C: "ae2:charged_certus_quartz_crystal",
+    W: "#forge:tools/saw",
+    T: "create:fluid_tank",
+    H: "#forge:tools/hammer",
+  }).damageIngredient("#forge:tools/saw", "8")
+    .damageIngredient("#forge:tools/hammer", "8")
+    .id(recipeId + "steam_engine");
 });
   
