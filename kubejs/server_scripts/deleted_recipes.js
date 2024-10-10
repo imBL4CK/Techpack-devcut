@@ -93,7 +93,9 @@ ServerEvents.recipes((event) => {
     "create:crafting/kinetics/hose_pulley",
     "create:crafting/kinetics/item_drain",
     "create:crafting/kinetics/spout",
-    "tfmg:mechanical_crafting/rotor"
+    "tfmg:mechanical_crafting/rotor",
+    "create:crafting/kinetics/steam_engine",
+    "thermal:fluid_duct_4"
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });
