@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "energy_transport"
+	group: "4AD243FA5382E478"
+	icon: "thermal:energy_duct"
+	id: "592957165FFD5FF3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		icon: "tfmg:cable_connector"
+		id: "340AA62D840E57FF"
+		tasks: [
+			{
+				id: "525D425C2C1EFF55"
+				item: "tfmg:cable_connector"
+				type: "item"
+			}
+			{
+				id: "4A4E885E46CA64C0"
+				item: "tfmg:copper_cable"
+				type: "item"
+			}
+		]
+		x: -0.5d
+		y: 0.0d
+	}]
+	title: "Energy Transport"
+}

@@ -234,6 +234,137 @@ ServerEvents.recipes((e) => {
       },
       id: recipeId + "item_terminal",
     },
+    //Servo attachment
+    {
+      result: Item.of("thermal:servo_attachment", 2),
+      pattern: ["GRG", "SIS", "PMP"],
+      key: {
+        G: "#forge:gears/tin",
+        R: "thermal:rf_coil",
+        S: "thermal:redstone_servo",
+        I: "#forge:ingots/red_alloy",
+        P: "#forge:plates/iron",
+        M: "tfmg:steel_mechanism",
+      },
+      id: recipeId + "servo_attachment",
+    },
+    //Electric Casing
+    {
+      result: "tfmg:electric_casing",
+      pattern: ["CCC", "AHA", "RSR"],
+      key: {
+        C: "tfmg:copper_cable",
+        A: "createaddition:capacitor",
+        H: "tfmg:heavy_machinery_casing",
+        R: "thermal:rf_coil",
+        S: "thermal:redstone_servo",
+      },
+      id: recipeId + "electric_casing",
+    },
+    //Electric Motor (TFMG)
+    {
+      result: "tfmg:electric_motor",
+      pattern: ["ICP", "MES", "ICP"],
+      key: {
+        I: "create:industrial_iron_block",
+        M: "tfmg:steel_mechanism",
+        C: "tfmg:copper_cable",
+        E: "tfmg:electric_casing",
+        S: "create:shaft",
+        P: "#forge:plates/copper",
+      },
+      id: recipeId + "electric_motor",
+    },
+    //Resistor (TFMG)
+    {
+      result: "tfmg:resistor",
+      pattern: ["PGP", "MES", "PGP"],
+      key: {
+        P: "#forge:plates/lead",
+        G: "#forge:gears/lead",
+        M: "tfmg:steel_mechanism",
+        E: "tfmg:electric_casing",
+        S: "create:shaft",
+      },
+      id: recipeId + "resistor",
+    },
+    //Charger
+    {
+      result: "ae2:charger",
+      pattern: ["FCI", "QGP", "FCI"],
+      key: {
+        F: "#forge:plates/iron",
+        I: "#forge:plates/invar",
+        C: "tfmg:electric_casing",
+        Q: "ae2:certus_quartz_crystal",
+        G: "#forge:glass",
+        P: "#forge:plates/copper",
+      },
+      id: recipeId + "charger",
+    },
+    //Copper Coil
+    {
+      result: "tfmg:copper_coil",
+      pattern: ["WWW", "WSW", "WWW"],
+      key: {
+        W: "#forge:wires/copper",
+        S: "#forge:ingots/steel",
+      },
+      id: recipeId + "copper_coil",
+    },
+    //Actually Casing
+    {
+      result: "actuallyadditions:iron_casing",
+      pattern: ["HVH", "TET", "HVH"],
+      key: {
+        H: "tfmg:heavy_machinery_casing",
+        T: "create:electron_tube",
+        V: "kubejs:vaccum_tube",
+        E: "tfmg:electric_casing",
+      },
+      id: recipeId + "iron_casing",
+    },
+    //Inscriber
+    {
+      result: "ae2:inscriber",
+      pattern: ["IPI", "GCG", "QPQ"],
+      key: {
+        I: "#forge:plates/invar",
+        P: "minecraft:sticky_piston",
+        G: "#forge:gears/invar",
+        C: "tfmg:electric_casing",
+        Q: "ae2:charged_certus_quartz_crystal",
+      },
+      id: recipeId + "inscriber",
+    },
+    //Atomic Reconstructor
+    {
+      result: "actuallyadditions:atomic_reconstructor",
+      pattern: ["PPP", "MCL", "PGP"],
+      key: {
+        P: "#forge:plates/steel",
+        G: "#forge:gears/steel",
+        M: "tfmg:electric_motor",
+        C: "actuallyadditions:iron_casing",
+        L: "actuallyadditions:lens"
+      },
+      id: recipeId + "atomic_reconstructor",
+    },
+    //Basic Circuit
+    {
+      result: "kubejs:basic_circuit",
+      pattern: ["BIC", "RSR", "VMV"],
+      key: {
+        B: "actuallyadditions:black_quartz",
+        I: "moreminecarts:silica_steel",
+        C: "actuallyadditions:basic_coil",
+        R: "thermal:rf_coil",
+        S: "thermal:redstone_servo",
+        V: "kubejs:vaccum_tube",
+        M: "tfmg:steel_mechanism"
+      },
+      id: recipeId + "basic_circuit",
+    },
   ];
   recipes.forEach((recipe) => {
     e.shaped(recipe.result, recipe.pattern, recipe.key).id(recipe.id);

@@ -12,4 +12,14 @@ ItemEvents.tooltip((e) => {
     ],
     "This block has the function of a furnace"
   );
+  //Energy Conduits
+  e.addAdvanced(["enderio:basic_energy_conduit"], (item, advanced, text) => {
+    text.add(1, [Text.of("Max Energy Transfer: 1280").aqua()]);
+  });
+  e.addAdvanced(["enderio:enhanced_energy_conduit"], (item, advanced, text) => {
+    text.add(1, [Text.of("Max Energy Transfer: 5120").aqua()]);
+  });
+  e.addAdvanced(["enderio:ender_energy_conduit"], (item, advanced, text) => {
+    text.add(1, [Text.of("Max Energy Transfer: 20480").aqua()]);
+  });
 });

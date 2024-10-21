@@ -264,7 +264,7 @@
 		}
 		{
 			dependencies: ["6F564216B9F32497"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "woodworks:oak_chest"
 			id: "5B052E46774AA7E7"
 			optional: true

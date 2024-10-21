@@ -29,7 +29,7 @@ ServerEvents.recipes((e) => {
         ]
     }).id(recipeId + "empty_blaze_burner")
 
-    //Item Terminal
+    //Crafting Terminal
     e.custom({
         "type": "malum:spirit_infusion",
         "extra_items": [
@@ -46,8 +46,8 @@ ServerEvents.recipes((e) => {
                 "item": "malum:spectral_optic"
             }, 
             {
-                "count": 2,
-                "item": "create:belt_connector"
+                "count": 1,
+                "item": "kubejs:basic_circuit"
             }
         ],
         "input": {

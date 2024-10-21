@@ -137,7 +137,7 @@
 		}
 		{
 			dependencies: ["719CCBB870F4E1BB"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2C6B32004A775B6E"
 			optional: true
 			shape: "circle"
@@ -152,7 +152,7 @@
 		}
 		{
 			dependencies: ["0BD719E2B483532D"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "736B38375EA1F744"
 			optional: true
 			shape: "circle"
@@ -190,7 +190,7 @@
 		}
 		{
 			dependencies: ["0BD719E2B483532D"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "45EB75887C0072AF"
 			optional: true
 			shape: "circle"
@@ -204,7 +204,7 @@
 		}
 		{
 			dependencies: ["19836D161547333E"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "minecraft:oak_log"
 			id: "27E6AAD9172781C3"
 			shape: "hexagon"
@@ -226,7 +226,7 @@
 		}
 		{
 			dependencies: ["19836D161547333E"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "minecraft:cobblestone"
 			id: "3665DFE2A1D09BE1"
 			shape: "hexagon"
@@ -248,7 +248,7 @@
 		}
 		{
 			dependencies: ["19836D161547333E"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "create:andesite_alloy"
 			id: "28DAC721F5712F37"
 			shape: "hexagon"

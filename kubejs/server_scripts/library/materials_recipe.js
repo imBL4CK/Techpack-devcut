@@ -14,7 +14,7 @@ ServerEvents.recipes((e) => {
     "netherite",
     "zinc",
   ];
-  let CustomMaterials = [
+  /*let CustomMaterials = [
     "mica",
     "stainless_steel",
     "tungsten",
@@ -36,7 +36,7 @@ ServerEvents.recipes((e) => {
     "melodic_alloy",
     "ferrous_pewter",
     "osgloglas",
-  ];
+  ];*/
 
   //Gears
   //Original Materials

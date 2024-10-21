@@ -1,7 +1,7 @@
 
 [Materials]
 	#If TRUE, Thermal Series' Rose Gold material and recipes are enabled.
-	"Rose Gold" = true
+	"Rose Gold" = false
 	#If TRUE, Thermal Series' Steel material and recipes are enabled.
 	Steel = true
 

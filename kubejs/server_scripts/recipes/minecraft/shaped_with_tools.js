@@ -267,5 +267,40 @@ ServerEvents.recipes((e) => {
   }).damageIngredient("#forge:tools/saw", "8")
     .damageIngredient("#forge:tools/hammer", "8")
     .id(recipeId + "steam_engine");
+
+  //Fluiduct
+  e.shaped("4x thermal:fluid_duct", [" B ", "GMG", "SBH"], {
+    B: "#forge:plates/bronze",
+    M: "tfmg:steel_mechanism",
+    G: "#forge:gears/lead",
+    S: "#forge:tools/saw",
+    H: "#forge:tools/hammer",
+  }).damageIngredient("#forge:tools/saw", "8")
+    .damageIngredient("#forge:tools/hammer", "8")
+    .id(recipeId + "fluiduct");
+  
+  //Windowed Fluiduct
+  e.shaped("4x thermal:fluid_duct_windowed", [" B ", "GMG", "SBH"], {
+    B: "#forge:plates/bronze",
+    M: "tfmg:steel_mechanism",
+    G: "#thermal:glass/hardened",
+    S: "#forge:tools/saw",
+    H: "#forge:tools/hammer",
+  }).damageIngredient("#forge:tools/saw", "8")
+    .damageIngredient("#forge:tools/hammer", "8")
+    .id(recipeId + "fluiduct_windowed");
+
+  //C:CA Capacitor
+  e.shaped("2x createaddition:capacitor", ["CEC", "ZRZ", "WSH"], {
+    C: "#forge:plates/copper",
+    E: "create:electron_tube",
+    Z: "#forge:plates/zinc",
+    R: "thermal:rf_coil",
+    W: "#forge:tools/saw",
+    S: "thermal:redstone_servo",
+    H: "#forge:tools/hammer",
+  }).damageIngredient("#forge:tools/saw", "2")
+    .damageIngredient("#forge:tools/hammer", "2")
+    .id(recipeId + "createaddition/capacitor");
 });
   

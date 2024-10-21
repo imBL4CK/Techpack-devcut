@@ -29,8 +29,8 @@
 				type: "checkmark"
 			}]
 			title: "The Factory Must Grow"
-			x: -1.5d
-			y: 0.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["31818F3FB9F2EA91"]
@@ -42,8 +42,8 @@
 				type: "checkmark"
 			}]
 			title: "Pretty Pipes"
-			x: -2.5d
-			y: 1.5d
+			x: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["33E4FB9502D12EEB"]
@@ -54,7 +54,7 @@
 				title: "Done"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -68,8 +68,8 @@
 				type: "checkmark"
 			}]
 			title: "Actually Substractions"
-			x: -1.5d
-			y: 2.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["31818F3FB9F2EA91"]
@@ -88,8 +88,8 @@
 				type: "checkmark"
 			}]
 			title: "Custom Machinery Pt1 "
-			x: -0.5d
-			y: 1.5d
+			x: 1.5d
+			y: -2.5d
 		}
 	]
 	title: "Gates"

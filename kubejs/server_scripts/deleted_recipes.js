@@ -97,7 +97,29 @@ ServerEvents.recipes((event) => {
     "create:crafting/kinetics/steam_engine",
     "thermal:fluid_duct_4",
     "thermal:invar_dust_3",
-    "hexerei:mixing_cauldron"
+    "hexerei:mixing_cauldron",
+    "enderio:energy_conduit",
+    "thermal:fluid_duct_windowed_4",
+    "thermal:fire_charge/obsidian_glass_2",
+    "thermal:servo_attachment_2",
+    "tfmg:crafting/electric_motor",
+    "createaddition:crafting/capacitor_1",
+    "createaddition:crafting/capacitor_2",
+    "tfmg:crafting/electric_casing",
+    "tfmg:crafting/resistor",
+    "ae2:network/blocks/crystal_processing_charger",
+    "thermal:fire_charge/invar_ingot_3",
+    "thermal:fire_charge/electrum_ingot_2",
+    "thermal:fire_charge/constantan_ingot_2",
+    "thermal:fire_charge/signalum_ingot_4",
+    "thermal:fire_charge/lumium_ingot_4",
+    "thermal:fire_charge/enderium_ingot_2",
+    "redstone_arsenal:materials/flux_ingot_fire_charge_from_dust",
+    "tfmg:crafting/copper_coil",
+    "tfmg:stonecutting/copper_wire",
+    "actuallyadditions:iron_casing",
+    "ae2:network/blocks/inscribers",
+    "actuallyadditions:atomic_reconstructor"
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });
