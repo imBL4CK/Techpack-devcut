@@ -1,7 +1,6 @@
 let recipeId = ["minecraft:smithing"];
 
 ServerEvents.recipes((e) => {
-
   //Makeshift Mechansim
   e.smithing(
     "kubejs:makeshift_mechanism",
@@ -79,7 +78,7 @@ ServerEvents.recipes((e) => {
     "create:precision_mechanism",
     "create:chute"
   ).id(recipeId + "smart_chute");
-  //Stockpile Switch
+  //Stockpile/Threshould Switch
   e.smithing(
     "create:stockpile_switch",
     "create:brass_casing",
@@ -137,7 +136,6 @@ ServerEvents.recipes((e) => {
   ).id(recipeId + "rustic_wirecutter");
 });
 ServerEvents.recipes((e) => {
-
   const recipes = [
     //Basic Hammer
     {
@@ -163,9 +161,10 @@ ServerEvents.recipes((e) => {
       input3: "#forge:ingots/steel",
       id: recipeId + "basic_wirecutter",
     },
-    ] 
-    ;
+  ];
   recipes.forEach((recipe) => {
-    e.smithing(recipe.output, recipe.input1, recipe.input2, recipe.input3).id(recipe.id);
+    e.smithing(recipe.output, recipe.input1, recipe.input2, recipe.input3).id(
+      recipe.id
+    );
   });
 });
