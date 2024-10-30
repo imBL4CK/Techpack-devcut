@@ -119,7 +119,20 @@ ServerEvents.recipes((event) => {
     "tfmg:stonecutting/copper_wire",
     "actuallyadditions:iron_casing",
     "ae2:network/blocks/inscribers",
-    "actuallyadditions:atomic_reconstructor"
+    "actuallyadditions:atomic_reconstructor",
+    "pneumaticcraft:pressure_tube",
+    "pneumaticcraft:pressure_chamber_interface",
+    "pneumaticcraft:pressure_chamber_valve_x4",
+    "pneumaticcraft:pressure_chamber_valve_x1",
+    "pneumaticcraft:pressure_chamber_valve",
+    "pneumaticcraft:pressure_chamber_wall",
+    "hexerei:pestle_and_mortar_from_mixing_cauldron",
+    "create_dd:crafting/kinetics/kinetic_motor",
+    "eidolon:pewter_blend",
+    "eidolon:smelt_pewter_blend",
+    "create:mixing/brass_ingot",
+    "thermal:smelting/bronze_ingot_from_dust_smelting",
+    "thermal:smelting/bronze_ingot_from_dust_blasting"
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });

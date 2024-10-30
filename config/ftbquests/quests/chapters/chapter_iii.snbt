@@ -16,7 +16,7 @@
 				item: "actuallyadditions:atomic_reconstructor"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
@@ -52,7 +52,7 @@
 				item: "ae2:charger"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -4.0d
 		}
 		{
@@ -67,15 +67,14 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["15CBD942065B6730"]
 			id: "47B45AFEFDA9207E"
 			tasks: [{
 				id: "178111BEBF48FED9"
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["15CBD942065B6730"]
@@ -136,7 +135,7 @@
 				item: "pneumaticcraft:pressure_chamber_interface"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
@@ -166,7 +165,7 @@
 				item: "kubejs:basic_circuit"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
@@ -178,7 +177,7 @@
 				item: "prettypipes:crafting_terminal"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
@@ -190,7 +189,7 @@
 				item: "kubejs:basic_machine_casing"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: -5.0d
 		}
 	]

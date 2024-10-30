@@ -346,7 +346,7 @@ ServerEvents.recipes((e) => {
         G: "#forge:gears/steel",
         M: "tfmg:electric_motor",
         C: "actuallyadditions:iron_casing",
-        L: "actuallyadditions:lens"
+        L: "actuallyadditions:lens",
       },
       id: recipeId + "atomic_reconstructor",
     },
@@ -361,10 +361,10 @@ ServerEvents.recipes((e) => {
         R: "thermal:rf_coil",
         S: "thermal:redstone_servo",
         V: "kubejs:vaccum_tube",
-        M: "tfmg:steel_mechanism"
+        M: "tfmg:steel_mechanism",
       },
       id: recipeId + "basic_circuit",
-    },
+    }
   ];
   recipes.forEach((recipe) => {
     e.shaped(recipe.result, recipe.pattern, recipe.key).id(recipe.id);

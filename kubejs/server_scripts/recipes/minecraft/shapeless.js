@@ -53,4 +53,14 @@ ServerEvents.recipes((e) => {
   ]).id(recipeId + "large_cogwheel")
     .damageIngredient("kubejs:primitive_hammer", "2")
     .damageIngredient("kubejs:primitive_saw", "2");
+    
+  //Pressure Chamber Wall
+  e.shapeless('4x pneumaticcraft:pressure_chamber_wall',[
+    '#forge:plates/invar',
+    'pneumaticcraft:reinforced_bricks',
+    '#forge:tools/hammer',
+    '#forge:tools/saw'
+  ]).id(recipeId + "pressure_chamber_wall")
+    .damageIngredient('#forge:tools/hammer', '1')
+    .damageIngredient('#forge:tools/saw', '1')
 });

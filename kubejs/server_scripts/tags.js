@@ -163,6 +163,21 @@ ServerEvents.tags("item", (e) => {
       tag: "forge:storage_blocks/coal_coke",
       item: "tfmg:coal_coke_block",
     },
+    //Industrial Iron Ingot
+    {
+      tag: "forge:ingots",
+      item: "createdeco:industrial_iron_ingot",
+    },
+    //Industrial Iron Ingot 2
+    {
+      tag: "forge:ingots/cast_iron",
+      item: "createdeco:industrial_iron_ingot",
+    },
+    //Cast Iron
+    {
+      tag: "createdeco:internal/ingots/industrial_iron_ingots",
+      item: "tfmg:cast_iron_ingot",
+    },
   ];
   customtag.forEach((custom) => {
     e.add(custom.tag, custom.item);

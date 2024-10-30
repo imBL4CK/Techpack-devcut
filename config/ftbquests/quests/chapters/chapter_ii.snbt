@@ -130,7 +130,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4C957F44162E6B3B"]
+			dependencies: ["22BA5B550D28DD66"]
 			icon: {
 				Count: 1
 				id: "kubejs:rustic_hammer"
@@ -180,43 +180,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7E023B9ECD1E2E3C"]
-			icon: "thermal:bronze_ingot"
-			id: "4C957F44162E6B3B"
-			tasks: [
-				{
-					count: 3L
-					id: "19F011FC598EE282"
-					item: { Count: 3, id: "thermal:tin_dust" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2B51F3170807650B"
-					item: "thermal:copper_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "7EB4B727B5DB6DE0"
-					item: "thermal:bronze_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "1857C56FA8C9D67B"
-					item: { Count: 4, id: "thermal:bronze_ingot" }
-					type: "item"
-				}
-			]
-			title: "Orange Metals"
-			x: -0.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4C957F44162E6B3B"]
+			dependencies: ["22BA5B550D28DD66"]
 			icon: "tfmg:blast_furnace_output"
 			id: "449BBCE11138BB0E"
 			tasks: [
@@ -529,6 +493,36 @@
 			title: "The Factory is Growing!"
 			x: -0.5102040816326507d
 			y: 11.676870748299322d
+		}
+		{
+			dependencies: ["7E023B9ECD1E2E3C"]
+			icon: "mm:alloy_klin_controller"
+			id: "22BA5B550D28DD66"
+			tasks: [
+				{
+					id: "4EFB58B9060C8EE9"
+					item: "mm:alloy_klin_controller"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "71129103463D4342"
+					item: { Count: 9, id: "kubejs:klin_bricks" }
+					type: "item"
+				}
+				{
+					id: "545F30350DF414C4"
+					item: "mm:klin_item_port_input"
+					type: "item"
+				}
+				{
+					id: "33350CE9AEEB1167"
+					item: "mm:klin_item_port_output"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
 		}
 	]
 	title: "Chapter II"

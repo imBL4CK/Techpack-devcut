@@ -1,5 +1,4 @@
-ServerEvents.MoreJS.wandererTrades((e) => {
-  
+/*MoreJS.wandererTrades((e) => {
   const trades = [
     //Andesite Alloy
     {
@@ -68,7 +67,9 @@ ServerEvents.MoreJS.wandererTrades((e) => {
       output: "create:precision_mechanism",
     },
   ];
+  e.addTrade(1, "minecraft:emerald", "minecraft:iron_ingot");
   trades.forEach((trade) => {
     e.addTrade(trade.level, trade.input, trade.output);
   });
 });
+*/

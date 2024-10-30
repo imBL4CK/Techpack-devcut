@@ -2,7 +2,7 @@ let CustomMaterials = [
     "bronze",
     "copper",
     "tin",
-    "red_alloy"
+    "redstone_alloy"
    ];
    let Raw_materials = [
     'mica',

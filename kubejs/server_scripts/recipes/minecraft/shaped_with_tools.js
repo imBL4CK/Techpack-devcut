@@ -8,7 +8,8 @@ ServerEvents.recipes((e) => {
     H: "create:hand_crank",
     S: "#forge:tools/saw",
     M: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/saw", "6")
+  })
+    .damageIngredient("#forge:tools/saw", "6")
     .damageIngredient("#forge:tools/hammer", "6")
     .id(recipeId + "water_wheel");
 
@@ -19,7 +20,8 @@ ServerEvents.recipes((e) => {
     S: "#forge:tools/saw",
     L: "create:water_wheel",
     H: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/saw", "4")
+  })
+    .damageIngredient("#forge:tools/saw", "4")
     .damageIngredient("#forge:tools/hammer", "4")
     .id(recipeId + "large_water_wheel");
 
@@ -31,7 +33,8 @@ ServerEvents.recipes((e) => {
     H: "#forge:tools/hammer",
     P: "#forge:tools/saw",
     G: "#forge:gears/wooden",
-  }).damageIngredient("#forge:tools/hammer", "16")
+  })
+    .damageIngredient("#forge:tools/hammer", "16")
     .damageIngredient("#forge:tools/saw", "16")
     .id(recipeId + "millstone");
 
@@ -42,7 +45,8 @@ ServerEvents.recipes((e) => {
     S: "minecraft:stick",
     W: "#forge:gears/wooden",
     G: "#forge:plates/gold",
-  }).damageIngredient("#forge:tools/hammer", "4")
+  })
+    .damageIngredient("#forge:tools/hammer", "4")
     .id(recipeId + "create_wrench");
 
   //Hand Crank
@@ -52,7 +56,8 @@ ServerEvents.recipes((e) => {
     W: "#forge:plates/wooden",
     C: "create:cogwheel",
     S: "#forge:tools/saw",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .id(recipeId + "hand_crank");
 
   //Primitive Saw
@@ -60,7 +65,8 @@ ServerEvents.recipes((e) => {
     S: "minecraft:stick",
     I: "#forge:ingots/iron",
     H: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/hammer", "2")
+  })
+    .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "primitive_saw");
 
   //Primitive Wirecutter
@@ -69,7 +75,8 @@ ServerEvents.recipes((e) => {
     I: "#forge:ingots/iron",
     W: "#forge:tools/saw",
     H: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "primitive_wirecutter");
 
@@ -82,7 +89,8 @@ ServerEvents.recipes((e) => {
     L: "minecraft:stone_slab",
     W: "#forge:tools/saw",
     H: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "logistic_machine");
 
@@ -93,7 +101,8 @@ ServerEvents.recipes((e) => {
     I: "#forge:ingots/iron",
     P: "#minecraft:planks",
     G: "#forge:gears/wooden",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "smithing_table");
 
@@ -105,7 +114,8 @@ ServerEvents.recipes((e) => {
     G: "#forge:plates/gold",
     W: "malum:runewood_planks",
     M: "kubejs:makeshift_mechanism",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "spirit_altar");
 
@@ -117,7 +127,8 @@ ServerEvents.recipes((e) => {
     B: "minecraft:bucket",
     S: "#forge:tools/saw",
     G: "#forge:gears/iron",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "arboreal_extractor");
 
@@ -127,8 +138,9 @@ ServerEvents.recipes((e) => {
     P: "#forge:plates/bronze",
     H: "#forge:tools/hammer",
     G: "#forge:glass_panes",
-    S: "#forge:tools/saw"
-  }).damageIngredient("#forge:tools/saw", "4")
+    S: "#forge:tools/saw",
+  })
+    .damageIngredient("#forge:tools/saw", "4")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "copper_fluid_tank");
 
@@ -138,7 +150,8 @@ ServerEvents.recipes((e) => {
     R: "thermal:cured_rubber",
     S: "#forge:tools/saw",
     H: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .damageIngredient("#forge:tools/crowbar", "2")
     .damageIngredient("#forge:tools/screwdriver", "1")
@@ -150,8 +163,9 @@ ServerEvents.recipes((e) => {
     C: "create:cogwheel",
     R: "thermal:cured_rubber",
     H: "#forge:tools/hammer",
-    S: "#forge:tools/saw"
-  }).damageIngredient("#forge:tools/saw", "2")
+    S: "#forge:tools/saw",
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "copper_mechanical_pump");
 
@@ -160,7 +174,8 @@ ServerEvents.recipes((e) => {
     R: "thermal:cured_rubber",
     S: "#forge:tools/saw",
     W: "#forge:tools/wirecutter",
-  }).damageIngredient("#forge:tools/saw", "1")
+  })
+    .damageIngredient("#forge:tools/saw", "1")
     .damageIngredient("#forge:tools/wirecutter", "1")
     .id(recipeId + "mechanical_belt");
 
@@ -168,8 +183,9 @@ ServerEvents.recipes((e) => {
   e.shaped("tfmg:fireproof_bricks", ["BRG", "RB ", "   "], {
     B: "tfmg:fireproof_brick",
     R: "#forge:plates/bronze",
-    G: "create:super_glue"
-  }).damageIngredient("create:super_glue", "1")
+    G: "create:super_glue",
+  })
+    .damageIngredient("create:super_glue", "1")
     .id(recipeId + "fireproof_bricks");
 
   //Blast Furnace Output
@@ -181,7 +197,8 @@ ServerEvents.recipes((e) => {
     S: "#forge:tools/saw",
     V: "thermal:redstone_servo",
     H: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "blast_furnace_output");
 
@@ -192,8 +209,9 @@ ServerEvents.recipes((e) => {
     S: "#forge:tools/saw",
     P: "create:precision_mechanism",
     H: "#forge:tools/hammer",
-    I: "tfmg:cast_iron_pipe"
-  }).damageIngredient("#forge:tools/saw", "2")
+    I: "tfmg:cast_iron_pipe",
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "casting_spout");
 
@@ -201,7 +219,8 @@ ServerEvents.recipes((e) => {
   e.shaped("minecraft:bucket", ["PHP", " S ", "   "], {
     P: "#forge:plates/iron",
     H: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/hammer", "2")
+  })
+    .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "bucket");
 
   //Casting Spout
@@ -212,7 +231,8 @@ ServerEvents.recipes((e) => {
     H: "#forge:tools/hammer",
     L: "prettypipes:pipe",
     S: "#forge:tools/saw",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "prettypipes_wrench");
 
@@ -225,7 +245,8 @@ ServerEvents.recipes((e) => {
     R: "#forge:rope",
     H: "#forge:tools/hammer",
     S: "#forge:tools/saw",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "hose_pulley");
 
@@ -238,10 +259,11 @@ ServerEvents.recipes((e) => {
     H: "#forge:tools/hammer",
     B: "minecraft:bucket",
     S: "#forge:tools/saw",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "item_drain");
-  
+
   //Spout
   e.shaped("create:spout", ["HTS", "RCR", "PBP"], {
     H: "#forge:tools/hammer",
@@ -251,7 +273,8 @@ ServerEvents.recipes((e) => {
     C: "create:copper_casing",
     P: "#forge:plates/bronze",
     B: "minecraft:bucket",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "spout");
 
@@ -264,7 +287,8 @@ ServerEvents.recipes((e) => {
     W: "#forge:tools/saw",
     T: "create:fluid_tank",
     H: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/saw", "8")
+  })
+    .damageIngredient("#forge:tools/saw", "8")
     .damageIngredient("#forge:tools/hammer", "8")
     .id(recipeId + "steam_engine");
 
@@ -275,10 +299,11 @@ ServerEvents.recipes((e) => {
     G: "#forge:gears/lead",
     S: "#forge:tools/saw",
     H: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/saw", "8")
+  })
+    .damageIngredient("#forge:tools/saw", "8")
     .damageIngredient("#forge:tools/hammer", "8")
     .id(recipeId + "fluiduct");
-  
+
   //Windowed Fluiduct
   e.shaped("4x thermal:fluid_duct_windowed", [" B ", "GMG", "SBH"], {
     B: "#forge:plates/bronze",
@@ -286,7 +311,8 @@ ServerEvents.recipes((e) => {
     G: "#thermal:glass/hardened",
     S: "#forge:tools/saw",
     H: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/saw", "8")
+  })
+    .damageIngredient("#forge:tools/saw", "8")
     .damageIngredient("#forge:tools/hammer", "8")
     .id(recipeId + "fluiduct_windowed");
 
@@ -299,8 +325,43 @@ ServerEvents.recipes((e) => {
     W: "#forge:tools/saw",
     S: "thermal:redstone_servo",
     H: "#forge:tools/hammer",
-  }).damageIngredient("#forge:tools/saw", "2")
+  })
+    .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "createaddition/capacitor");
+
+  //Pressure Tube
+  e.shaped("4x pneumaticcraft:pressure_tube", ["WCS", "SIS", "SCH"], {
+    W: "#forge:tools/saw",
+    C: "#forge:ingots/compressed_iron",
+    S: "#forge:plates/steel",
+    I: "#forge:plates/invar",
+    H: "#forge:tools/hammer",
+  })
+    .damageIngredient("#forge:tools/hammer", "2")
+    .damageIngredient("#forge:tools/saw", "2")
+    .id(recipeId + "pressure_tube");
+
+  //Pressure Chamber Interface
+  e.shaped("pneumaticcraft:pressure_chamber_interface", ["WPW", "HIG", "WEW"], {
+    W: "pneumaticcraft:pressure_chamber_wall",
+    P: "pneumaticcraft:omnidirectional_hopper",
+    H: "#forge:tools/hammer",
+    I: "#forge:ingots/compressed_iron",
+    G: "create:super_glue",
+    E: "#forge:gears/compressed_iron",
+  })
+    .damageIngredient("#forge:tools/hammer", "2")
+    .damageIngredient("#forge:tools/saw", "2")
+    .id(recipeId + "pressure_chamber_interface");
+
+  //Pressure Chamber Valve
+  e.shaped("pneumaticcraft:pressure_chamber_valve", ["WCW", "CHC", "WTW"], {
+    W: "pneumaticcraft:pressure_chamber_wall",
+    C: "#forge:ingots/compressed_iron",
+    H: "#forge:tools/hammer",
+    T: "pneumaticcraft:pressure_tube",
+  })
+    .damageIngredient("#forge:tools/hammer", "2")
+    .id(recipeId + "pressure_chamber_valve");
 });
-  

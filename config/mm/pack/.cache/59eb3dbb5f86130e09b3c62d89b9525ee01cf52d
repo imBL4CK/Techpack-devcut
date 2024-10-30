@@ -1,1 +1,9 @@
-// 1.20.1	2024-09-20T23:42:08.7493015	Loot Tables
+// 1.20.1	2024-10-29T15:36:01.5663061	Loot Tables
+69f857d85f5bea68a8f861b110f02be0e42c1f09 data/mm/loot_tables/blocks/alloy_klin_controller.json
+1e6a11d73a9126be7f334a3fe6ed604e0b4f2f48 data/mm/loot_tables/blocks/arc_furnace_controller.json
+1d4a7e35f8303f483758cd69979eb2ee23b6b334 data/mm/loot_tables/blocks/klin_item_port_input.json
+b60983ece664ed14d35f5b47818fc5f83074431a data/mm/loot_tables/blocks/klin_item_port_output.json
+a77cd0f7353012e6e0aef55d618f6534eb65e94e data/mm/loot_tables/blocks/steel_energy_port_input.json
+348cd796dee6278a5eed22f03354a5c520434a2a data/mm/loot_tables/blocks/steel_energy_port_output.json
+92a022add817a0eefa2c36f35df664f05872572c data/mm/loot_tables/blocks/steel_item_port_input.json
+3983cccb43a143c77a607f1ee05c863fbb08c962 data/mm/loot_tables/blocks/steel_item_port_output.json
