@@ -1,0 +1,142 @@
+{
+    "name": "Spirit Crystallizer",
+    "namespace": "spirit_crystallizer",
+    "appearance": {
+      "lightmode": "running",
+      "block": "kubejs:machine/malum/spirit_crystallizer",
+      "interaction_sound": "minecraft:iron_block",
+      "tool_type": "minecraft:mineable/pickaxe",
+      "mining_level": "minecraft:needs_iron_tool",
+      "light": -1
+    },
+    "processor": {
+      "type": "custommachinery:machine"
+    },
+    "gui": [
+      {
+        "texture": "kubejs:textures/gui/malum/spirit_crystallizer.png",
+        "x": 40,
+        "y": 20,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 103,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "id": "input_slot",
+        "x": 89,
+        "y": 37,
+        "type": "custommachinery:slot",
+        "texture": "kubejs:textures/gui/malum/slot_base.png"
+      },
+      {
+        "id": "input_slot2",
+        "x": 89,
+        "y": 67,
+        "type": "custommachinery:slot",
+        "variant": "custommachinery:fuel",
+        "texture": "kubejs:textures/gui/malum/slot_base.png"
+      },
+      {
+        "id": "output_slot",
+        "x": 149,
+        "y": 42,
+        "width": 20,
+        "height": 20,
+        "type": "custommachinery:slot",
+        "texture": "kubejs:textures/gui/malum/slot_base.png"
+      },
+      {
+        "id": "output_slot2",
+        "x": 169,
+        "y": 42,
+        "width": 20,
+        "height": 20,
+        "type": "custommachinery:slot",
+        "texture": "kubejs:textures/gui/malum/slot_base.png"
+      },
+      {
+        "id": "output_slot3",
+        "x": 149,
+        "y": 62,
+        "width": 20,
+        "height": 20,
+        "type": "custommachinery:slot",
+        "texture": "kubejs:textures/gui/malum/slot_base.png"
+      },
+      {
+        "id": "output_slot4",
+        "x": 169,
+        "y": 62,
+        "width": 20,
+        "height": 20,
+        "type": "custommachinery:slot",
+        "texture": "kubejs:textures/gui/malum/slot_base.png"
+      },
+      {
+        "x": 115,
+        "y": 53,
+        "type": "custommachinery:progress",
+        "texture_empty": "kubejs:textures/gui/malum/empty_progress_bar.png",
+        "texture_filled": "kubejs:textures/gui/malum/filled_progress_bar.png"
+      },
+      {
+        "type": "custommachinery:config",
+        "x": 220,
+        "y": 40
+      },
+      {
+        "x": 196,
+        "y": 25,
+        "type": "custommachinery:status",
+        "texture_idle": "kubejs:textures/gui/custommachinery/status_idle.png",
+        "texture_running": "kubejs:textures/gui/custommachinery/status_running.png",
+        "texture_errored": "kubejs:textures/gui/custommachinery/status_errored.png"
+      },
+      {
+        "x": 67,
+        "y": 40,
+        "texture_empty": "kubejs:textures/gui/malum/heat_bar_empty.png",
+        "texture_filled": "kubejs:textures/gui/malum/heat_bar_filled.png",
+        "type": "custommachinery:fuel"
+      }
+    ],
+    "components": [
+      {
+        "mode": "input",
+        "id": "input_slot",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "input_slot2",
+        "type": "custommachinery:item",
+        "variant": "custommachinery:fuel",
+        "filter": ["#minecraft:coals", "#forge:coal_coke"],
+        "whitelist": true,
+        "capacity": 64
+      },
+      {
+        "mode": "output",
+        "id": "output_slot",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output_slot2",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output_slot3",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output_slot4",
+        "type": "custommachinery:item"
+      }
+    ]
+  }

@@ -15,11 +15,11 @@
     ],
     "textures": {
     	"north": "kubejs:block/industrialrevival/generator",
-    	"east": "kubejs:block/industrialrevival/simple_machine_side",
-    	"south": "kubejs:block/industrialrevival/simple_machine_side",
-    	"west": "kubejs:block/industrialrevival/simple_machine_side",
-    	"up": "kubejs:block/industrialrevival/simple_machine_side",
-    	"down": "kubejs:block/industrialrevival/simple_machine_side",
-    	"particle": "kubejs:block/industrialrevival/simple_machine_side"
+    	"east": "kubejs:block/basic_machine_casing",
+    	"south": "kubejs:block/basic_machine_casing",
+    	"west": "kubejs:block/basic_machine_casing",
+    	"up": "kubejs:block/basic_machine_casing",
+    	"down": "kubejs:block/basic_machine_casing",
+    	"particle": "kubejs:block/basic_machine_casing"
     }
 }

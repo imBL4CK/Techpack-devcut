@@ -14,12 +14,12 @@
         }
     ],
     "textures": {
-    	"north": "kubejs:block/industrialrevival/alloy_foundry",
-    	"east": "kubejs:block/basic_machine_casing",
-    	"south": "kubejs:block/basic_machine_casing",
-    	"west": "kubejs:block/basic_machine_casing",
-    	"up": "kubejs:block/basic_machine_casing",
-    	"down": "kubejs:block/basic_machine_casing",
-    	"particle": "kubejs:block/basic_machine_casing"
+    	"north": "kubejs:block/custommachinery/spirit_crystalizer_side",
+    	"east": "kubejs:block/custommachinery/spirit_crystalizer_side",
+    	"south": "kubejs:block/custommachinery/spirit_crystalizer_side",
+    	"west": "kubejs:block/custommachinery/spirit_crystalizer_side",
+    	"up": "kubejs:block/custommachinery/spirit_crystalizer_top",
+    	"down": "kubejs:block/custommachinery/spirit_crystalizer_bottom",
+    	"particle": "kubejs:block/custommachinery/spirit_crystalizer_side"
     }
 }
