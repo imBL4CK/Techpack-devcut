@@ -18,8 +18,8 @@
     	"east": "kubejs:block/basic_machine_casing",
     	"south": "kubejs:block/basic_machine_casing",
     	"west": "kubejs:block/basic_machine_casing",
-    	"up": "kubejs:block/basic_machine_casing",
-    	"down": "kubejs:block/basic_machine_casing",
+		"up": "kubejs:block/basic_machine_casing_top",
+		"down": "kubejs:block/basic_machine_casing_bottom",
     	"particle": "kubejs:block/basic_machine_casing"
     }
 }

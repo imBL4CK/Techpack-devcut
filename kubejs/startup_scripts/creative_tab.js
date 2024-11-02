@@ -1,5 +1,5 @@
-StartupEvents.modifyCreativeTab("custommachinery:custommachinery", (event) => {
-  event.remove([
+StartupEvents.modifyCreativeTab("custommachinery:custom_machine", (e) => {
+  e.remove([
     Item.of(
       "custommachinery:custom_machine_item",
       '{machine:"custommachinery:industrialrevival/generator"}'
@@ -20,5 +20,5 @@ StartupEvents.modifyCreativeTab("custommachinery:custommachinery", (event) => {
       "custommachinery:custom_machine_item",
       '{machine:"custommachinery:industrialrevival/alloy_foundry"}'
     ),
-  ]); //doesn't remove from tab
+  ]);
 });

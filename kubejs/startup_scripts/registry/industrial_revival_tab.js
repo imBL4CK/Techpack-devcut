@@ -2,6 +2,7 @@ StartupEvents.registry("creative_mode_tab", (event) => {
   event.create("industrial_revival").icon(() =>
       Item.of("custommachinery:custom_machine_item",'{machine:"custommachinery:industrialrevival/energetic_smelter"}'))
     .content(() => [
+      "kubejs:basic_machine_casing",
       Item.of(
         "custommachinery:custom_machine_item",
         '{machine:"custommachinery:industrialrevival/generator"}'

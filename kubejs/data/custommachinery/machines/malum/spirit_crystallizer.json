@@ -114,8 +114,6 @@
         "id": "input_slot2",
         "type": "custommachinery:item",
         "variant": "custommachinery:fuel",
-        "filter": ["#minecraft:coals", "#forge:coal_coke"],
-        "whitelist": true,
         "capacity": 64
       },
       {
