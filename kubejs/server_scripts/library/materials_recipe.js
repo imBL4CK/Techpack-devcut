@@ -1,51 +1,30 @@
 ServerEvents.recipes((e) => {
-  let baseMaterials = [
-    "copper",
-    "iron",
-    "gold",
-    "tin",
-    "steel",
-    "bronze",
-    "invar",
+  let materials = [
     "brass",
-    "aluminum",
-    "aluminum_brass",
-    "diamond",
+    "bronze",
+    "constantan",
+    "copper",
+    "electrum",
+    "energized_steel",
+    "gold",
+    "invar",
+    "iron",
+    "lead",
+    "nickel",
     "netherite",
+    "red_alloy",
+    "silver",
+    "steel",
+    "tin",
     "zinc",
   ];
-  /*let CustomMaterials = [
-    "mica",
-    "stainless_steel",
-    "tungsten",
-    "tungstensteel",
-    "red_alloy",
-    "blue_alloy",
-    "aluminum_brass",
-    "draconium",
-    "awakened_draconium",
-    "manganese",
-    "arcanite_alloy",
-    "orichalcum",
-    "compressed_steel",
-    "crystaline_pink_slime",
-    "vivid_alloy",
-    "energetic_silver",
-    "crystalline_alloy",
-    "crude_steel",
-    "melodic_alloy",
-    "ferrous_pewter",
-    "osgloglas",
-  ];*/
-
-  //Gears
-  //Original Materials
-  baseMaterials.forEach((Material) => {
+  //Gears in Thermal Press
+  materials.forEach((ibMaterial) => {
     let gears = {
       type: "thermal:press",
       ingredients: [
         {
-          tag: "forge:plates/" + Material,
+          tag: "forge:plates/" + ibMaterial,
           count: 4,
         },
         {
@@ -54,68 +33,35 @@ ServerEvents.recipes((e) => {
       ],
       result: [
         {
-          tag: "forge:gears/" + Material,
+          tag: "forge:gears/" + ibMaterial,
         },
       ],
     };
-    e.custom(gears).id("thermal:press/og/" + Material);
+    e.custom(gears).id("thermal:press/library/" + ibMaterial);
   });
-  //Custom Materials
-  CustomMaterials.forEach((cMaterial) => {
-    let gears = {
-      type: "thermal:press",
-      ingredients: [
-        {
-          tag: "forge:plates/" + cMaterial,
-          count: 4,
-        },
-        {
-          item: "thermal:press_gear_die",
-        },
-      ],
-      result: [
-        {
-          tag: "forge:gears/" + cMaterial,
-        },
-      ],
-    };
-    e.custom(gears).id("thermal:press/library" + cMaterial);
-  });
-      //Plates
-    //Custom Materials
-  //Mechanical Press
-  CustomMaterials.forEach((cMaterial) => {
+  //Plates in Mechanical Press
+  materials.forEach((ibMaterials) => {
     let plates = {
       type: "create:pressing",
       ingredients: [
         {
-          tag: "forge:ingots/" + cMaterial,
+          tag: "forge:ingots/" + ibMaterials,
         },
       ],
       results: [
         {
-          tag: "forge:plates/" + cMaterial,
+          tag: "forge:plates/" + ibMaterials,
         },
       ],
     };
-    e.custom(plates).id("create/pressing/library" + cMaterial);
+    e.custom(plates).id("create/pressing/library/" + ibMaterials);
   });
-  /*
-  //Compressor
-  CustomMaterials.forEach((cMaterial) => {
-    let plates = {
-      type: "ad_astra:compressing",
-      cookingtime: 100,
-      energy: 20,
-      ingredient: {
-        item: cMaterial+"_ingot"
-      },
-      result: {
-        count: 1,
-        id: cMaterial+"_plate",
-      },
-    };
-    e.custom(plates).id("create/pressing/library" + cMaterial);
+  //Plates in iR Compressor
+  materials.forEach((ibMaterials) => {
+    e.recipes.custommachinery.custom_machine("custommachinery:industrialrevival/compressor", 200)
+    .requireEnergyPerTick(16)
+    .requireItem("kubejs:plate_mold", "input_slot_mold")
+    .requireItemTag("#forge:ingots/"+ibMaterials)
+    .produceItem("#forge:plates/"+ibMaterials);
   });
-  */
 });

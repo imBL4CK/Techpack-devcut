@@ -2,6 +2,7 @@
   "values": [
     "mm:arc_furnace_controller",
     "mm:alloy_klin_controller",
+    "mm:steam_macerator",
     "mm:steel_energy_port_input",
     "mm:steel_energy_port_output",
     "mm:steel_item_port_input",

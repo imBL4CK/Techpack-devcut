@@ -26,7 +26,7 @@
     },
     {
       "text": "Alloy Foundry",
-      "x": 90,
+      "x": 92,
       "y": 5,
       "type": "custommachinery:text"
     },
@@ -158,7 +158,7 @@
     },
     {
       "type": "custommachinery:energy",
-      "capacity": 1024,
+      "capacity": 4096,
       "maxInput": 32
     }
   ]

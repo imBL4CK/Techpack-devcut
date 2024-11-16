@@ -24,7 +24,7 @@ MMEvents.createProcesses((e) => {
         type: "mm:output/simple",
         ingredient: {
           type: "mm:item",
-          item: "kubejs:redstone_alloy_ingot",
+          item: "kubejs:red_alloy_ingot",
           count: 2,
         },
       });

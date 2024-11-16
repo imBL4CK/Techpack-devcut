@@ -132,7 +132,26 @@ ServerEvents.recipes((event) => {
     "eidolon:smelt_pewter_blend",
     "create:mixing/brass_ingot",
     "thermal:smelting/bronze_ingot_from_dust_smelting",
-    "thermal:smelting/bronze_ingot_from_dust_blasting"
+    "thermal:smelting/bronze_ingot_from_dust_blasting",
+    "create:crafting/kinetics/item_vault",
+    "eidolon:pewter_inlay",
+    "thermal:press/library/iron",
+    "actuallyadditions:lens",
+    "pneumaticcraft:air_compressor",
+    "pneumaticcraft:pressure_chamber/coal_to_diamond",
+    "thermal:dynamo_stirling",
+    "enderio:basic_capacitor",
+    "tfmg:crafting/capacitor_item",
+    "tfmg:crafting/copper_wire",
+    "systeams:boilers/stirling",
+    "systeams:boilers/compression",
+    "systeams:boilers/gourmand",
+    "systeams:boilers/lapidary",
+    "systeams:boilers/magmatic",
+    "systeams:boilers/numismatic",
+    "systeams:boilers/disenchantment",
+    "systeams:boilers/pneumatic",
+    "systeams:boilers/frost"
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });

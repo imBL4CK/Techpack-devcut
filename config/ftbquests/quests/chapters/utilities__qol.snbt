@@ -70,6 +70,14 @@
 			x: 1.0d
 			y: 2.5d
 		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -278,6 +286,16 @@
 				}
 			]
 			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "7ED78758347D6C1B"
+			tasks: [{
+				id: "0105AD4B7AE00074"
+				item: "easel_does_it:easel"
+				type: "item"
+			}]
+			x: -0.5d
 			y: 2.0d
 		}
 	]

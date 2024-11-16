@@ -116,6 +116,23 @@ ServerEvents.recipes((e) => {
       loops: 1,
       id: recipeId + "steel_mechanism",
     },
+    //Item Vault
+    {
+      output: ["create:item_vault"],
+      input: ["minecraft:barrel"],
+      processes: [
+        e.recipes.create.deploying("minecraft:barrel", [
+          "minecraft:barrel",
+          "#forge:plates/steel",
+        ]),
+        e.recipes.create.pressing("minecraft:barrel", [
+          "minecraft:barrel",
+        ]),
+      ],
+      transitionalItem: "minecraft:barrel",
+      loops: 2,
+      id: recipeId + "item_vault",
+    },
   ];
   recipes.forEach((recipe) => {
     e.recipes.create.sequenced_assembly(recipe.output, recipe.input, recipe.processes).transitionalItem(recipe.transitionalItem).loops(recipe.loops).id(recipe.id);

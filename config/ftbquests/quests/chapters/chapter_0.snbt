@@ -171,8 +171,8 @@
 				}
 				{
 					count: 8L
-					id: "4D45C83123458F1A"
-					item: "thermal:lead_ingot"
+					id: "7040EF214D0D3E8E"
+					item: { Count: 8, id: "thermal:lead_ingot" }
 					type: "item"
 				}
 			]

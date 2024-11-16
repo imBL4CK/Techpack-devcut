@@ -84,10 +84,11 @@
     {
       "mode": "input",
       "id": "input_slot",
-      "type": "custommachinery:item"
+      "type": "custommachinery:item",
+      "variant": "custommachinery:fuel"
     },
     {
-      "capacity": 1024,
+      "capacity": 4096,
       "type": "custommachinery:energy",
       "maxInput": 0,
       "maxOutput": 16,

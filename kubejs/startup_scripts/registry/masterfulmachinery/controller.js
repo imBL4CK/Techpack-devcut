@@ -8,4 +8,9 @@ MMEvents.registerControllers((e) => {
   e.create("alloy_klin_controller")
     .name("Alloy Klin Controller")
     .type("mm:machine");
+
+  //Steam Macerator
+  e.create("steam_macerator")
+    .name("Steam Macerator")
+    .type("mm:machine");
 });

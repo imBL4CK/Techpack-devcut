@@ -196,4 +196,29 @@ ServerEvents.recipes((e) => {
       },
     ],
   }).id(recipeId + "mixing_cauldron");
+  
+  //Pewter Inlay
+  e.custom({
+    type: "malum:spirit_infusion",
+    extra_items: [
+      {
+        count: 4,
+        item: "eidolon:pewter_ingot",
+      },
+    ],
+    input: {
+      count: 1,
+      item: "malum:processed_soulstone",
+    },
+    output: {
+      count: 2,
+      item: "eidolon:pewter_inlay",
+    },
+    spirits: [
+      {
+        type: "arcane",
+        count: 2,
+      },
+    ],
+  }).id(recipeId + "pewter_inlay");
 });

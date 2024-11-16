@@ -26,26 +26,44 @@
     },
     {
       "id": "input_slot",
-      "x": 89,
+      "x": 69,
       "y": 38,
       "type": "custommachinery:slot"
     },
     {
       "id": "input_slot2",
       "x": 89,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_slot3",
+      "x": 109,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input_slot4",
+      "x": 89,
       "y": 73,
       "type": "custommachinery:slot"
     },
     {
+      "id": "input_slot_mold",
+      "x": 220,
+      "y": 65,
+      "type": "custommachinery:slot"
+    },
+    {
       "id": "output_slot",
-      "x": 149,
+      "x": 159,
       "y": 54,
       "width": 20,
       "height": 20,
       "type": "custommachinery:slot"
     },
     {
-      "x": 115,
+      "x": 125,
       "y": 56,
       "type": "custommachinery:progress"
     },
@@ -103,6 +121,22 @@
     {
       "mode": "input",
       "id": "input_slot2",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input_slot3",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input_slot4",
+      "type": "custommachinery:item",
+      "capacity": 1
+    },
+    {
+      "mode": "input",
+      "id": "input_slot_mold",
       "type": "custommachinery:item",
       "capacity": 1
     },

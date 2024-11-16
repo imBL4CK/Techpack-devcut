@@ -253,6 +253,24 @@ ServerEvents.recipes(e => {
             grindingTime: 200,
             id: recipeId + "constantan_dust",
         },
+        //Pewter Blend
+        {
+            type: "hexerei:pestle_and_mortar",
+            ingredients: [
+            {
+                tag: "forge:ingots/iron",
+            },
+            {
+                tag: "forge:ingots/lead",
+            },
+            ],
+            output: {
+            item: "eidolon:pewter_blend",
+            count: 2,
+            },
+            grindingTime: 200,
+            id: recipeId + "pewter_blend",
+        },
     ];
     recipes.forEach((recipe) => {
         e.custom({

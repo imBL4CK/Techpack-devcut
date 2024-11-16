@@ -9,20 +9,25 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6C1780172F42FF4D"]
+			dependencies: [
+				"33F0F3679CF5C924"
+				"192B681B3650CE79"
+			]
 			id: "1F6E66E47C8ED74E"
 			tasks: [{
 				id: "380DC5D8DB5B5FE7"
 				item: "actuallyadditions:atomic_reconstructor"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["7DD9D46FF4D3D170"]
 			icon: "tfmg:rotor"
 			id: "15CBD942065B6730"
+			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
 					id: "33D55FC289247372"
@@ -52,19 +57,18 @@
 				item: "ae2:charger"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["15CBD942065B6730"]
 			id: "263771ECEE559F9C"
 			tasks: [{
 				id: "67C022444C679D3B"
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.0d
+			x: -3.0d
+			y: -5.5d
 		}
 		{
 			id: "47B45AFEFDA9207E"
@@ -73,11 +77,10 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -7.0d
+			x: -4.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["15CBD942065B6730"]
 			icon: "thermal:fluid_duct"
 			id: "1AFB5148AA058B44"
 			tasks: [
@@ -94,7 +97,7 @@
 				}
 			]
 			x: -2.0d
-			y: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["15CBD942065B6730"]
@@ -104,8 +107,8 @@
 				item: "tfmg:electric_motor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["15CBD942065B6730"]
@@ -115,8 +118,8 @@
 				item: "tfmg:resistor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			id: "5C63FE278D45C1EF"
@@ -127,16 +130,6 @@
 			}]
 			x: -3.0d
 			y: -6.5d
-		}
-		{
-			id: "5971772093F3BBC5"
-			tasks: [{
-				id: "7BF163C8380D33FD"
-				item: "pneumaticcraft:pressure_chamber_interface"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -4.0d
 		}
 		{
 			id: "267242C4FE2F43FF"
@@ -153,10 +146,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"5971772093F3BBC5"
-				"1F6E66E47C8ED74E"
-			]
+			dependencies: ["1F6E66E47C8ED74E"]
 			id: "29FF470AC8763F0A"
 			shape: "gear"
 			size: 2.0d
@@ -165,7 +155,7 @@
 				item: "kubejs:basic_circuit"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: -4.0d
 		}
 		{
@@ -177,7 +167,7 @@
 				item: "prettypipes:crafting_terminal"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
@@ -189,7 +179,305 @@
 				item: "kubejs:basic_machine_casing"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C1780172F42FF4D"]
+			id: "6F345395BF61297C"
+			tasks: [{
+				id: "7FA5DBA7F181E618"
+				item: "kubejs:energized_steel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C1780172F42FF4D"]
+			id: "41D030AEA9EE35DB"
+			tasks: [{
+				id: "7652E96C82023363"
+				item: "kubejs:vaccum_tube"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41D030AEA9EE35DB"]
+			id: "33F0F3679CF5C924"
+			tasks: [{
+				id: "0B9A2502EA43766C"
+				item: "actuallyadditions:iron_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F345395BF61297C"]
+			id: "192B681B3650CE79"
+			tasks: [{
+				id: "17D459C522085831"
+				item: "actuallyadditions:lens"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["443C5E95FB4DB70B"]
+			id: "0341022F88ECA69E"
+			tasks: [{
+				id: "4C658F6ABECDD5D1"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/compressor"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["443C5E95FB4DB70B"]
+			id: "3A8843507CC56B8D"
+			tasks: [{
+				id: "5F72B9F6EC3289C2"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/macerator"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3A8843507CC56B8D"
+				"0341022F88ECA69E"
+			]
+			id: "2A0485C84B55A14C"
+			tasks: [{
+				id: "3445BEE6F5339E1F"
+				item: "kubejs:advanced_alloy_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29FF470AC8763F0A"]
+			id: "76E9C57BA73B8A2D"
+			tasks: [{
+				id: "3EA624949A84CE5D"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["443C5E95FB4DB70B"]
+			id: "7374F15905AF6D4C"
+			shape: "square"
+			tasks: [{
+				id: "633DF900D692F2CE"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7374F15905AF6D4C"]
+			id: "4A34CEF8E287D0D4"
+			shape: "square"
+			tasks: [{
+				id: "36EB20DEA7270287"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/generator"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76E9C57BA73B8A2D"]
+			icon: "pneumaticcraft:pressure_chamber_valve"
+			id: "3361946450A6E81A"
+			tasks: [
+				{
+					count: 2L
+					id: "0D0E1A7E05F4A6B2"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					id: "02EAD4D4E2793F45"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					count: 62L
+					id: "38CAA03AE319C8E3"
+					item: { Count: 25, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "1971DDFC0251B842"
+					item: { Count: 47, id: "pneumaticcraft:pressure_chamber_glass" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2A0485C84B55A14C"]
+			icon: {
+				Count: 1
+				id: "kubejs:reinforced_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "01B744C54CBD01EA"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "0C206A755DD4F8E1"
+					item: {
+						Count: 1
+						id: "kubejs:reinforced_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B57D7DF065EF86C"
+					item: {
+						Count: 1
+						id: "kubejs:reinforced_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A5542C908C829A9"
+					item: {
+						Count: 1
+						id: "kubejs:reinforced_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7A768B0807409B"
+					item: {
+						Count: 1
+						id: "kubejs:reinforced_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "A Better Armor"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3361946450A6E81A"
+				"2A0485C84B55A14C"
+			]
+			icon: "tfmg:capacitor_"
+			id: "20239E6D777C43C4"
+			tasks: [{
+				id: "6245B120110F21C9"
+				item: "tfmg:capacitor_"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["20239E6D777C43C4"]
+			id: "0870F6E54CA5E9CF"
+			tasks: [{
+				id: "2E9A39F875AAAD3B"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/alloy_foundry"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20239E6D777C43C4"]
+			id: "3924D99918D63E9B"
+			tasks: [{
+				id: "0DF48A9A88902481"
+				item: "mm:arc_furnace_controller"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3924D99918D63E9B"
+				"0870F6E54CA5E9CF"
+				"641016411C678AF9"
+			]
+			id: "2A1CB8EE86AE42AE"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7008F0377B3663ED"
+				title: "Finished!"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["20239E6D777C43C4"]
+			id: "641016411C678AF9"
+			tasks: [{
+				id: "5667C4901277A06E"
+				item: "mm:steam_macerator"
+				type: "item"
+			}]
+			x: 9.5d
 			y: -5.0d
 		}
 	]

@@ -66,4 +66,10 @@ StartupEvents.registry("item", (e) => {
     .displayName("Basic Wirecutter")
     .maxStackSize(1)
     .maxDamage(312);
+  
+  //Reinforced Armor
+  e.create("reinforced_armor_helmet", "helmet").tier("reinforced_armor");
+  e.create("reinforced_armor_chestplate", "chestplate").tier("reinforced_armor");
+  e.create("reinforced_armor_leggings", "leggings").tier("reinforced_armor");
+  e.create("reinforced_armor_boots", "boots").tier("reinforced_armor");
 });

@@ -291,12 +291,12 @@ ServerEvents.recipes((e) => {
     //Charger
     {
       result: "ae2:charger",
-      pattern: ["FCI", "QGP", "FCI"],
+      pattern: ["FCI", "EGP", "FCI"],
       key: {
         F: "#forge:plates/iron",
         I: "#forge:plates/invar",
         C: "tfmg:electric_casing",
-        Q: "ae2:certus_quartz_crystal",
+        E: "kubejs:energized_steel_ingot",
         G: "#forge:glass",
         P: "#forge:plates/copper",
       },
@@ -327,13 +327,13 @@ ServerEvents.recipes((e) => {
     //Inscriber
     {
       result: "ae2:inscriber",
-      pattern: ["IPI", "GCG", "QPQ"],
+      pattern: ["IPI", "GCG", "EPE"],
       key: {
         I: "#forge:plates/invar",
         P: "minecraft:sticky_piston",
         G: "#forge:gears/invar",
         C: "tfmg:electric_casing",
-        Q: "ae2:charged_certus_quartz_crystal",
+        E: "kubejs:energized_steel_ingot",
       },
       id: recipeId + "inscriber",
     },
@@ -364,7 +364,168 @@ ServerEvents.recipes((e) => {
         M: "tfmg:steel_mechanism",
       },
       id: recipeId + "basic_circuit",
-    }
+    },
+    //iR Basic Casing
+    {
+      result: "kubejs:basic_machine_casing",
+      pattern: ["PGP", "GVG", "PIP"],
+      key: {
+        P: "#forge:plates/steel",
+        G: "#forge:gears/energized_steel",
+        V: "kubejs:vaccum_tube",
+        I: "actuallyadditions:iron_casing",
+      },
+      id: recipeId + "basic_machine_casing",
+    },
+    //iR Macerator
+    {
+      result: Item.of(
+        "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/macerator"}'
+      ),
+      pattern: ["SPD", "FCF", "GBG"],
+      key: {
+        S: "thermal:saw_blade",
+        P: "minecraft:piston",
+        D: "thermal:drill_head",
+        F: "minecraft:flint",
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/steel",
+        B: "kubejs:basic_machine_casing",
+      },
+      id: recipeId + "industrial_revival/macerator",
+    },
+    //iR Compressor
+    {
+      result: Item.of(
+        "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/compressor"}'
+      ),
+      pattern: [" M ", "PCP", "GBG"],
+      key: {
+        M: "create:mechanical_press",
+        P: "minecraft:piston",
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/compressed_iron",
+        B: "kubejs:basic_machine_casing",
+      },
+      id: recipeId + "industrial_revival/compressor",
+    },
+    //Lens
+    {
+      result: "actuallyadditions:lens",
+      pattern: ["PGP", "GGG", "PGP"],
+      key: {
+        P: "#forge:plates/energized_steel",
+        G: "#forge:glass_panes",
+      },
+      id: recipeId + "lens",
+    },
+    //Air Compressor
+    {
+      result: "pneumaticcraft:air_compressor",
+      pattern: [" C ", "GPG", "IEI"],
+      key: {
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/compressed_iron",
+        P: "pneumaticcraft:pressure_tube",
+        I: "#forge:ingots/compressed_iron",
+        E: Item.of(
+          "custommachinery:custom_machine_item",
+          '{machine:"custommachinery:industrialrevival/generator"}'
+        ).weakNBT(),
+      },
+      id: recipeId + "air_compressor",
+    },
+    //iR Combustion Generator
+    {
+      result: Item.of(
+        "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/generator"}'
+      ),
+      pattern: ["GFS", "RDR", "PBP"],
+      key: {
+        G: "kubejs:energized_steel_gear",
+        S: "thermal:redstone_servo",
+        F: "minecraft:blast_furnace",
+        R: "thermal:rf_coil",
+        D: "thermal:dynamo_stirling",
+        P: "kubejs:energized_steel_plate",
+        B: "kubejs:basic_machine_casing",
+      },
+      id: recipeId + "industrial_revival/generator",
+    },
+    //Stirling Generator
+    {
+      result: "thermal:dynamo_stirling",
+      pattern: [" C ", "SGS", "RBR"],
+      key: {
+        C: "thermal:rf_coil",
+        S: "thermal:redstone_servo",
+        G: "kubejs:energized_steel_gear",
+        R: "pneumaticcraft:reinforced_stone",
+        B: "kubejs:basic_machine_casing",
+      },
+      id: recipeId + "stirling_dynamo",
+    },
+    //Reinforced Armor Helmet
+    {
+      result: "kubejs:reinforced_armor_helmet",
+      pattern: ["AAA", "AIA", "   "],
+      key: {
+        A: "kubejs:advanced_alloy_ingot",
+        I: "minecraft:iron_helmet",
+      },
+      id: recipeId + "reinforced_armor_helmet",
+    },
+    //Reinforced Armor Chestplate
+    {
+      result: "kubejs:reinforced_armor_chestplate",
+      pattern: ["AIA", "AAA", "AAA"],
+      key: {
+        A: "kubejs:advanced_alloy_ingot",
+        I: "minecraft:iron_chestplate",
+      },
+      id: recipeId + "reinforced_armor_chestplate",
+    },
+    //Reinforced Armor Leggings
+    {
+      result: "kubejs:reinforced_armor_leggings",
+      pattern: ["AAA", "AIA", "A A"],
+      key: {
+        A: "kubejs:advanced_alloy_ingot",
+        I: "minecraft:iron_leggings",
+      },
+      id: recipeId + "reinforced_armor_leggings",
+    },
+    //Reinforced Armor Boots
+    {
+      result: "kubejs:reinforced_armor_boots",
+      pattern: ["   ", "AIA", "A A"],
+      key: {
+        A: "kubejs:advanced_alloy_ingot",
+        I: "minecraft:iron_boots",
+      },
+      id: recipeId + "reinforced_armor_boots",
+    },
+    //Alloy Foundry
+    {
+      result: Item.of(
+        "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/alloy_foundry"}'
+      ),
+      pattern: ["ACA", "PIB", "RMR"],
+      key: {
+        A: "kubejs:advanced_alloy_plate",
+        C: "kubejs:basic_circuit",
+        P: "actuallyadditions:powered_furnace",
+        I: "tfmg:capacitor_",
+        B: "minecraft:blast_furnace",
+        R: "thermal:rf_coil",
+        M: "kubejs:basic_machine_casing",
+      },
+      id: recipeId + "industrial_revival/alloy_foundry",
+    },
   ];
   recipes.forEach((recipe) => {
     e.shaped(recipe.result, recipe.pattern, recipe.key).id(recipe.id);

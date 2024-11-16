@@ -1,34 +1,12 @@
 {
   "favorites": [
     {
-      "stack": "item:malum:spirit_altar"
-    },
-    {
-      "stack": "item:woodworks:sawmill",
-      "recipe": "woodworks:sawmill"
-    },
-    {
       "stack": "item:quark:feeding_trough",
       "recipe": "quark:automation/crafting/feeding_trough"
     },
     {
-      "stack": "item:breezy:hot_air_balloon",
-      "recipe": "breezy:hot_air_balloon"
-    },
-    {
-      "stack": "item:furniture:display",
-      "recipe": "furniture:display"
-    },
-    {
       "stack": "item:actuallyadditions:ring_of_magnetizing",
       "recipe": "actuallyadditions:ring_of_magnetizing"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "moreminecarts:silica_steel_mix",
-        "amount": 2
-      }
     },
     {
       "stack": "item:malum:soul_stained_steel_scythe{Damage:0,Enchantments:[{id:\"malum:haunted\",lvl:2s},{id:\"malum:rebound\",lvl:2s},{id:\"minecraft:sweeping\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s},{id:\"malum:spirit_plunder\",lvl:1s}],RepairCost:127}"
@@ -36,10 +14,6 @@
     {
       "stack": "item:tfmg:synthetic_leather",
       "recipe": "jei:/tfmg/pressing/synthetic_leather"
-    },
-    {
-      "stack": "item:create:electron_tube",
-      "recipe": "create:crafting/materials/electron_tube"
     },
     {
       "stack": "item:create:chromatic_compound",
@@ -64,9 +38,6 @@
       "stack": "item:createdieselgenerators:large_diesel_engine"
     },
     {
-      "stack": "item:tfmg:electric_casing"
-    },
-    {
       "stack": "item:enderio:wood_gear"
     },
     {
@@ -82,17 +53,11 @@
       "stack": "item:akashictome:tome"
     },
     {
-      "stack": "item:prettypipes:item_terminal"
-    },
-    {
       "stack": {
         "type": "fluid",
         "id": "tfmg:heavy_oil",
         "amount": 40
       }
-    },
-    {
-      "stack": "item:minecraft:furnace"
     },
     {
       "stack": "item:create:portable_fluid_interface",
@@ -101,20 +66,6 @@
     {
       "stack": "item:create:steam_whistle",
       "recipe": "create:crafting/kinetics/steam_whistle"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "tfmg:resistor",
-        "amount": 2
-      }
-    },
-    {
-      "stack": "item:tfmg:electric_motor"
-    },
-    {
-      "stack": "item:create:item_vault",
-      "recipe": "create:crafting/kinetics/item_vault"
     },
     {
       "stack": "item:kubejs:calcium_dust"
@@ -151,9 +102,6 @@
       }
     },
     {
-      "stack": "item:tfmg:casting_spout"
-    },
-    {
       "stack": {
         "type": "item",
         "id": "eidolon:polished_planks",
@@ -168,15 +116,6 @@
     {
       "stack": "item:eidolon:lesser_soul_gem",
       "recipe": "jei:/eidolon/lesser_soul_gem"
-    },
-    {
-      "stack": "item:eidolon:pewter_inlay"
-    },
-    {
-      "stack": "item:malum:twisted_rock"
-    },
-    {
-      "stack": "item:malum:tainted_rock"
     },
     {
       "stack": "item:enderio:basic_energy_conduit"
@@ -197,22 +136,12 @@
       "stack": "item:tfmg:capacitor_"
     },
     {
-      "stack": "item:actuallyadditions:black_quartz",
-      "recipe": "actuallyadditions:black_quartz_ore_smelting"
-    },
-    {
       "stack": {
         "type": "item",
         "id": "create:controller_rail",
         "amount": 6
       },
       "recipe": "create:crafting/kinetics/controller_rail"
-    },
-    {
-      "stack": "item:kubejs:vaccum_tube"
-    },
-    {
-      "stack": "item:create:electron_tube"
     },
     {
       "stack": "item:ae2:inscriber"
@@ -229,8 +158,7 @@
         "type": "item",
         "id": "tfmg:copper_cable",
         "amount": 4
-      },
-      "recipe": "tfmg:crafting/copper_wire"
+      }
     },
     {
       "stack": {
@@ -241,34 +169,10 @@
       "recipe": "tfmg:crafting/copper_wire_plastic"
     },
     {
-      "stack": "item:create:zinc_ingot"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "dustrial_decor:industrial_iron_billet",
-        "amount": 4
-      },
-      "recipe": "dustrial_decor:industrial_iron_billet"
-    },
-    {
       "stack": "item:ad_astra:steel_rod"
     },
     {
       "stack": "item:create_dd:kinetic_motor"
-    },
-    {
-      "stack": "item:minecraft:jungle_trapdoor"
-    },
-    {
-      "stack": "item:minecraft:jungle_door"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "eidolon:pewter_blend",
-        "amount": 2
-      }
     },
     {
       "stack": "item:createdeco:industrial_iron_ingot"
@@ -278,47 +182,550 @@
     },
     {
       "stack": "item:custommachinery:custom_machine_item{machine:\"custommachinery:malum/spirit_crystallizer\"}"
+    },
+    {
+      "stack": "item:easel_does_it:easel"
+    },
+    {
+      "stack": "item:kubejs:golden_hand"
+    },
+    {
+      "stack": "item:createdieselgenerators:basin_lid"
+    },
+    {
+      "stack": "item:eidolon:raven_cloak"
+    },
+    {
+      "stack": "item:eidolon:terminus_mirror"
+    },
+    {
+      "stack": {
+        "type": "fluid",
+        "id": "enderio:nutrient_distillation",
+        "amount": 1000
+      },
+      "recipe": "jei:/create/empty_enderio_nutrient_distillation_bucket_of_enderio_nutrient_distillation"
+    },
+    {
+      "stack": "item:enderio:clear_glass"
+    },
+    {
+      "stack": "item:enderio:fused_quartz_p"
+    },
+    {
+      "stack": "item:kubejs:klin_bricks",
+      "recipe": "jei:/create/mixing/klin_bricks"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "tfmg:capacitor_",
+        "amount": 2
+      }
+    },
+    {
+      "stack": "item:systeams:boiler_pipe"
     }
   ],
   "lookup_history": [
-    "item:thermal:tin_ingot",
-    "item:thermal:bronze_ingot",
-    {
-      "type": "item",
-      "id": "minecraft:copper_ingot",
-      "amount": 3
-    },
-    {
-      "type": "item",
-      "id": "malum:arcane_spirit",
-      "amount": 14
-    },
+    "item:redstone_arsenal:flux_chestplate",
+    "item:kubejs:basic_machine_casing",
     "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/alloy_foundry\"}",
+    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/generator\"}",
+    "item:actuallyadditions:powered_furnace",
+    "item:ad_astra:etrionic_blast_furnace",
+    "item:enderio:alloy_smelter",
+    "item:enderio:primitive_alloy_smelter",
+    "item:systeams:boiler_pipe",
+    "item:thermal_extra:dynamo_frost",
+    "item:systeams:frost_boiler",
+    "item:systeams:pneumatic_boiler",
+    "item:systeams:disenchantment_boiler",
+    "item:systeams:numismatic_boiler",
+    "item:systeams:magmatic_boiler",
+    "item:systeams:lapidary_boiler",
+    "item:systeams:gourmand_boiler",
+    "item:systeams:compression_boiler",
+    "item:systeams:stirling_boiler",
+    "item:systeams:steam_dynamo",
+    "item:pneumaticcraft:capacitor",
+    "item:tfmg:capacitor_",
+    "item:enderio:basic_capacitor",
+    "item:pneumaticcraft:transistor",
+    "item:pneumaticcraft:pressure_chamber_interface",
+    "item:tfmg:copper_cable",
+    "item:tfmg:electric_motor",
+    "item:actuallyadditions:atomic_reconstructor",
+    "item:thermal:cured_rubber",
+    "item:create_dd:rubber",
+    "#item:forge:plastic",
+    "item:pneumaticcraft:plastic",
+    "item:tfmg:copper_wire",
+    "item:kubejs:basic_circuit",
+    "item:thermal:rf_coil",
+    "item:minecraft:copper_ingot",
+    "item:enderio:grains_of_infinity",
+    "item:minecraft:diamond",
+    "item:pneumaticcraft:empty_pcb",
+    "item:pneumaticcraft:empty_pcb{\"pneumaticcraft:uv_exposure\":100}",
+    "item:pneumaticcraft:printed_circuit_board",
+    "item:pneumaticcraft:unassembled_pcb",
+    "item:createaddition:capacitor",
+    "item:kubejs:advanced_alloy_ingot",
+    "item:kubejs:reinforced_armor_boots{Damage:0}",
+    "item:kubejs:reinforced_armor_leggings{Damage:0}",
+    "item:kubejs:reinforced_armor_chestplate{Damage:0}",
+    "item:kubejs:reinforced_armor_helmet{Damage:0}",
+    "item:minecraft:chainmail_chestplate{Damage:0}",
+    "item:minecraft:iron_chestplate{Damage:0}",
+    "item:minecraft:golden_chestplate{Damage:0}",
+    "item:minecraft:netherite_chestplate{Damage:0}",
+    "item:pneumaticcraft:compressed_iron_chestplate{Damage:0}",
+    "item:pneumaticcraft:pneumatic_chestplate{Damage:0}",
+    "item:thermal:diving_chestplate{Damage:0}",
+    "item:thermal:beekeeper_chestplate{Damage:0}",
+    "item:enlightened_end:adamantite_armor_chestplate{Damage:0}",
+    "item:alexsmobs:rocky_chestplate{Damage:0}",
+    "item:alexsmobs:crocodile_chestplate{Damage:0}",
+    "item:eidolon:bonelord_chestplate{Damage:0}",
+    "item:eidolon:silver_chestplate{Damage:0}",
+    "item:hexerei:witch_chestplate{Damage:0}",
+    "item:thermal:hazmat_chestplate{Damage:0}",
+    "item:unusualprehistory:shedscale_chestplate{Damage:0}",
+    "item:thermal_extra:soul_infused_chestplate{Damage:0}",
+    "item:upgrade_aquatic:driftwood_fence_gate",
+    "item:pneumaticcraft:air_compressor",
+    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/macerator\"}",
+    "item:kubejs:plate_mold",
+    "item:kubejs:klin_bricks",
+    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/compressor\"}",
+    "item:thermal:dynamo_stirling",
+    "item:thermal:bronze_dust",
     {
       "type": "item",
-      "id": "minecraft:iron_ingot",
-      "amount": 64
+      "id": "thermal:bronze_ingot",
+      "amount": 4
     },
-    "item:malum:tainted_rock",
+    {
+      "type": "item",
+      "id": "create:brass_ingot",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "id": "kubejs:red_alloy_ingot",
+      "amount": 2
+    },
+    "item:mm:alloy_klin_controller",
+    "item:kubejs:advanced_alloy_dust",
+    "item:kubejs:mixed_metal_ingot",
+    "item:kubejs:red_alloy_gear",
+    "item:enderio:stirling_generator",
+    "item:thermal:jar",
+    "item:pneumaticcraft:reinforced_stone",
+    "item:pneumaticcraft:reinforced_bricks",
+    "item:kubejs:energized_steel_ingot",
+    {
+      "type": "item",
+      "id": "kubejs:energized_steel_plate",
+      "amount": 4
+    },
+    "item:kubejs:energized_steel_gear",
+    "item:pneumaticcraft:compressed_iron_gear",
+    "item:minecraft:furnace",
+    "item:pneumaticcraft:pressure_tube",
+    "item:eidolon:merammer_resin",
+    "item:eidolon:enchanted_ash",
+    "item:eidolon:offering_incense",
+    "item:malum:arcane_spirit",
+    "item:tfmg:cinderflourblock",
+    "item:eidolon:tallow",
+    "item:enderio:dense_me_conduit",
+    "item:pneumaticcraft:ingot_iron_compressed",
+    "item:pneumaticcraft:pressure_chamber_valve",
+    "item:pneumaticcraft:pressure_chamber_wall",
+    "item:thermal:tin_ingot",
+    "item:actuallyadditions:lens",
     "item:thermal:steel_ingot",
+    "item:enlightened_end:adamantite_ingot",
+    "item:thermal:fluid_duct",
+    "item:enderio:redstone_alloy_ingot",
+    "item:kubejs:rustic_wirecutter{Damage:0}",
+    "item:kubejs:rustic_hammer{Damage:0}",
+    "item:kubejs:rustic_saw{Damage:0}",
+    "item:actuallyadditions:lens_of_detonation",
+    "item:actuallyadditions:laser_relay",
+    "item:actuallyadditions:laser_relay_item",
+    "item:actuallyadditions:laser_relay_fluids",
+    "item:quark:obsidian_pressure_plate",
+    "item:thermal:cooked_mushroom",
+    "item:thermal:gunpowder_mushroom_spores",
+    "item:create:mechanical_press",
+    "item:create_dd:hydraulic_press",
+    "item:actuallyadditions:iron_casing",
+    "item:thermal:machine_press",
+    "item:ad_astra:compressor",
+    "item:tfmg:electric_casing",
+    "item:minecraft:piston",
+    "item:create:mechanical_piston",
+    "item:thermal:machine_sawmill",
+    "item:thermal:machine_pulverizer",
+    "item:thermal:machine_furnace",
+    "item:thermal:machine_smelter",
+    "item:thermal:steel_plate",
+    "#item:ad_astra:steel_plates",
+    "item:enderio:dark_steel_ingot",
+    "item:enderio:dark_bimetal_gear",
+    "item:unusualfishmod:ancient_weapon_smithing_template",
+    "item:actuallyadditions:wood_casing",
+    "item:tfmg:resistor",
+    "item:kubejs:vaccum_tube",
+    "item:enderio:pressurized_fluid_conduit",
+    "item:enderio:fluid_conduit",
+    "item:enderio:item_conduit",
+    "item:enderio:advanced_capacitor_bank",
+    "item:enderio:basic_capacitor_bank",
+    "item:enderio:industrial_insulation_block",
+    "item:enderio:vibrant_capacitor_bank",
+    "item:enderio:energetic_photovoltaic_module",
+    "item:enderio:pulsating_photovoltaic_module",
+    "item:enderio:vibrant_photovoltaic_module",
+    "item:ad_astra:solar_panel",
+    "item:enderio:pressurized_fluid_tank",
+    "item:enderio:fluid_tank",
+    "item:enderio:enchanter",
+    "item:enderio:enderman_head",
+    "item:enderio:aversion_obelisk",
+    "item:enderio:xp_obelisk",
+    "item:enderio:ensouled_chassis",
+    "item:enderio:powered_spawner{}",
+    "item:minecraft:sugar_cane",
+    "item:enderio:plant_matter_green",
+    "item:minecraft:coal",
+    {
+      "type": "jemi",
+      "uid": "createoreexcavation:ore_vein_type/coal"
+    },
+    "item:enderio:end_steel_ingot",
+    "item:enderio:soularium_ingot",
+    "item:enderio:pulsating_alloy_ingot",
+    "item:enderio:conductive_alloy_ingot",
+    "item:enderio:vibrant_alloy_ingot",
+    "item:enderio:energetic_alloy_ingot",
+    "item:enderio:copper_alloy_ingot",
+    "item:enderio:enderios",
     {
       "type": "item",
-      "id": "minecraft:coal",
-      "amount": 64
+      "id": "enderio:organic_green_dye",
+      "amount": 2
     },
+    "item:enderio:nethercotta",
+    "item:enderio:glider_wing",
+    "item:enderio:advanced_item_filter",
+    "item:enderio:basic_item_filter",
+    "item:enderio:basic_fluid_filter",
+    "item:enderio:entity_filter",
+    "item:enderio:redstone_filter_base",
+    "item:enderio:redstone_alloy_nugget",
+    "item:enderio:frank_n_zombie",
+    "item:enderio:weather_crystal",
+    "item:enderio:ender_resonator",
+    "item:enderio:sentient_ender",
+    "item:enderio:skeletal_contractor",
+    "item:enderio:dark_steel_ladder",
+    "item:enderio:dark_steel_bars",
+    "item:enderio:dark_steel_door",
+    "item:enderio:coordinate_selector",
+    "item:enderio:cake_base",
+    "item:enderio:photovoltaic_plate",
+    "item:enderio:organic_black_dye",
+    "item:enderio:organic_brown_dye",
+    "item:enderio:vibrant_gear",
+    "item:enderio:energized_gear",
+    "item:enderio:stone_gear",
+    "item:enderio:silent_light_weighted_pressure_plate",
+    "item:enderio:soul_chain",
+    "item:enderio:fused_quartz",
+    "item:enderio:fused_quartz_p",
+    "item:enderio:clear_glass",
+    "item:enderio:void_chassis",
+    "item:enderio:clayed_glowstone",
+    "item:enderio:dark_steel_sword{Damage:0}",
+    "item:enderio:experience_rod",
+    "item:enderio:nutritious_stick",
+    "item:enderio:wood_gear",
+    "item:ae2:inscriber",
+    "item:ae2:charger",
+    "item:create:electron_tube",
+    "item:create:blaze_burner",
+    "item:create:empty_blaze_burner",
+    "item:tfmg:coke_oven",
+    "item:enderio:iron_gear",
+    "#item:forge:gears/iron",
+    "item:enderio:staff_of_travelling{Energy:{EnergyStored:100000,MaxEnergyStored:100000,MaxEnergyUse:100000}}",
+    "item:enderio:infinity_rod",
+    "item:enderio:staff_of_levity{Energy:{EnergyStored:1000,MaxEnergyStored:1000,MaxEnergyUse:1000},Fluid:{Amount:1000,FluidName:\"enderio:flowing_vapor_of_levity\"}}",
+    "item:enderio:octadic_capacitor",
+    "item:enderio:extraction_speed_upgrade_4",
+    "item:enderio:extraction_speed_upgrade_3",
+    "item:enderio:extraction_speed_upgrade_2",
+    "item:enderio:extraction_speed_upgrade_1",
+    "item:enderio:redstone_toggle_filter",
+    "item:enderio:redstone_or_filter",
+    "item:enderio:redstone_not_filter",
+    "item:enderio:electromagnet{Energy:{EnergyStored:0,MaxEnergyStored:100000,MaxEnergyUse:100000}}",
+    "item:enderio:yeta_wrench",
+    "item:forbidden_arcanus:soulless_sandstone_wall",
+    "item:enderio:black_paper",
+    "item:enderio:player_token",
+    "item:enderio:monster_token",
+    "item:enderio:animal_token",
+    "item:farm_and_charm:dog_food",
+    "item:enderio:soularium_grinding_ball",
+    "#item:enderio:fused_quartz",
+    "item:enderio:fused_quartz_gray",
+    "item:enderio:plant_matter_brown",
+    {
+      "type": "fluid",
+      "id": "enderio:nutrient_distillation",
+      "amount": 1000
+    },
+    "item:industrialforegoing:iron_gear",
+    "item:thermal:iron_gear",
+    "item:enderio:withering_powder",
+    "item:enderio:powdered_coal",
+    "item:enderio:soul_powder",
+    "item:enderio:photovoltaic_composite",
+    {
+      "type": "fluid",
+      "id": "createaddition:seed_oil",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "createdieselgenerators:plant_oil",
+      "amount": 0
+    },
+    "item:thermal:watering_can",
+    {
+      "type": "tag",
+      "registry": "minecraft:fluid",
+      "id": "forge:plantoil",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "hexerei:blood_fluid",
+      "amount": 0
+    },
+    "item:eidolon:wraith_heart",
+    "item:eidolon:tattered_cloth",
+    "item:eidolon:zombie_heart",
+    "item:hexerei:mixing_cauldron",
+    "item:thermal:syrup_bottle",
+    {
+      "type": "fluid",
+      "id": "thermal:syrup",
+      "amount": 250
+    },
+    {
+      "type": "fluid",
+      "id": "thermal:sap",
+      "amount": 1000
+    },
+    "item:thermal:sap_bucket",
+    "item:enderio:filled_soul_vial{BlockEntityTag:{EntityStorage:{Entity:{id:\"alexsmobs:emu\"}}}}",
+    "item:supplementaries:lumisene_bucket",
+    "item:supplementaries:lumisene_bottle",
+    {
+      "type": "fluid",
+      "id": "supplementaries:lumisene",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "enderio:rocket_fuel",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "hexerei:tallow_fluid",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "createdieselgenerators:biodiesel",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "industrialforegoing:fermented_ore_meat",
+      "amount": 200
+    },
+    {
+      "type": "fluid",
+      "id": "industrialforegoing:raw_ore_meat",
+      "amount": 0
+    },
+    "item:eidolon:oanna_bloom",
+    "item:eidolon:wicked_weave",
+    "item:eidolon:warlock_cloak{Damage:6}",
+    "item:forbidden_arcanus:tyr_helmet{Damage:0}",
+    "item:hexerei:infused_fabric",
+    "item:thermal_extra:twinite_chestplate{Damage:0}",
+    "item:eidolon:resolute_belt",
+    "item:eidolon:enervating_ring",
+    "item:eidolon:angels_sight{mode:2}",
+    "item:eidolon:void_amulet",
+    "item:create:goggles",
+    "item:eidolon:raven_feather",
+    "item:eidolon:raven_cloak",
+    "item:eidolon:deathbringer_scythe{Damage:0}",
+    "item:eidolon:grape_candy",
+    "item:eidolon:red_candy",
+    "item:eidolon:soulfire_wand{Damage:0}",
+    "item:enlightened_end:adamantite_pickaxe{Damage:0}",
+    "item:minecraft:villager_spawn_egg",
+    "item:eidolon:unholy_effigy",
+    "item:eidolon:pewter_block",
+    "item:eidolon:notetaking_tools",
+    "item:eidolon:arcane_seal",
+    "item:eidolon:soul_enchanter",
+    "item:eidolon:magic_candle",
+    "item:eidolon:summoning_staff",
+    "item:eidolon:worktable",
+    "item:eidolon:brazier",
+    "item:eidolon:terminus_mirror",
+    "item:eidolon:reaper_scythe{Damage:0}",
+    "item:eidolon:magicians_wax",
+    "item:eidolon:candle",
+    "item:eidolon:death_essence",
+    "item:eidolon:elder_brick",
+    "item:eidolon:basic_belt",
+    "item:eidolon:basic_amulet",
+    "item:eidolon:basic_ring",
+    "item:eidolon:top_hat{Damage:0}",
+    "item:eidolon:gold_inlay",
+    "item:kubejs:calcium_dust",
+    "#item:ad_astra:steel_ingots",
+    "item:enderio:enticing_crystal",
+    "item:enderio:ender_crystal",
+    "item:thermal:lead_plate",
+    "item:thermal:tin_dust",
+    "#item:forge:dusts/tin",
+    "item:thermal:bronze_ingot",
+    "item:thermal:bronze_plate",
+    "item:thermal:bronze_plate",
+    "item:thermal:silver_dust",
+    "item:thermal:electrum_plate",
+    "#item:forge:plates/electrum",
+    {
+      "type": "item",
+      "id": "thermal:constantan_ingot",
+      "amount": 4
+    },
+    "item:thermal:press_gear_die",
+    "item:thermal_extra:chiller_plate_cast",
+    "item:kubejs:red_alloy_plate",
+    "item:thermal:invar_dust",
+    "item:minecraft:iron_ingot",
+    {
+      "type": "fluid",
+      "id": "thermal_extra:flux_infused_oil",
+      "amount": 1000
+    },
+    "item:thermal_extra:flux_infused_oil_bucket",
+    "item:eidolon:pewter_inlay",
+    "item:redstone_arsenal:flux_dust",
+    "item:redstone_arsenal:flux_ingot",
+    "item:thermal:silver_ingot",
+    "item:thermal:lead_ingot",
+    "item:thermal:tin_ingot",
+    "item:minecraft:gold_ingot",
+    "item:malum:hallowed_gold_ingot",
+    "item:thermal_extra:soul_infused_ingot",
+    "item:thermal:constantan_ingot",
+    "item:thermal:signalum_ingot",
+    {
+      "type": "item",
+      "id": "eidolon:pewter_blend",
+      "amount": 2
+    },
+    "item:create:item_vault",
+    "item:eidolon:pewter_ingot",
+    "item:malum:spirit_altar",
+    "item:thermal:device_tree_extractor",
+    {
+      "type": "fluid",
+      "id": "thermal:latex",
+      "amount": 250
+    },
+    "item:thermal:rubber",
+    "item:create:belt_connector",
+    "item:create:water_wheel",
+    "item:kubejs:makeshift_mechanism",
+    "item:minecraft:smithing_table",
+    "item:tfmg:surface_scanner",
+    "item:tfmg:steel_mechanism",
+    "item:tfmg:casting_spout",
+    "item:create:brass_sheet",
+    "item:create:precision_mechanism",
+    "item:tfmg:blast_furnace_output",
+    "item:tfmg:fireproof_bricks",
+    "item:tfmg:screw",
+    "item:create:rose_quartz",
+    "item:create:polished_rose_quartz",
+    "item:tfmg:large_steel_cogwheel",
+    {
+      "type": "item",
+      "id": "dustrial_decor:industrial_iron_billet",
+      "amount": 4
+    },
+    "item:create:zinc_ingot",
+    "item:ae2:certus_quartz_crystal",
+    "item:minecraft:jungle_door",
+    "item:malum:twisted_rock",
+    {
+      "type": "item",
+      "id": "create:controller_rail",
+      "amount": 6
+    },
+    "item:actuallyadditions:black_quartz",
+    "item:createaddition:electric_motor",
+    "item:actuallyadditions:basic_coil",
+    "item:hexerei:small_satchel",
+    "item:quark:backpack",
+    "item:supplementaries:quiver",
+    "item:prettypipes:item_terminal",
+    "item:kubejs:wooden_gear",
+    "item:create:portable_fluid_interface",
+    "item:akashictome:tome",
+    "item:enderstorage:ender_tank",
+    "item:enderstorage:ender_chest",
+    "item:actuallyadditions:crafter_on_a_stick",
+    "item:createdieselgenerators:large_diesel_engine",
+    "item:moreminecarts:coupler",
+    "item:create:chromatic_compound",
+    "item:tfmg:synthetic_leather",
+    {
+      "type": "item",
+      "id": "moreminecarts:silica_steel_mix",
+      "amount": 2
+    },
+    "item:quark:feeding_trough",
+    "item:woodworks:sawmill",
+    "item:kubejs:golden_hand",
+    "item:easel_does_it:easel",
+    "item:malum:intricate_assembly",
+    "item:minecraft:tipped_arrow{Potion:\"minecraft:luck\"}",
+    "item:minecraft:lingering_potion{Potion:\"minecraft:luck\"}",
+    "item:minecraft:potion{Potion:\"minecraft:luck\"}",
+    "item:thermal:cinnabar",
+    "item:thermal:press_unpacking_die",
+    "item:malum:tainted_rock",
     "item:ad_astra:oxygen_gear",
     "item:ad_astra:photovoltaic_etrium_cell",
-    "item:pneumaticcraft:pressure_chamber_interface",
-    "item:thermal:rf_coil",
-    "item:actuallyadditions:basic_coil",
-    "item:kubejs:basic_circuit",
-    "item:actuallyadditions:lens",
-    "item:actuallyadditions:atomic_reconstructor",
-    "item:tfmg:electric_casing",
-    "item:actuallyadditions:iron_casing",
-    "item:kubejs:vaccum_tube",
     "item:custommachinery:custom_machine_item{machine:\"custommachinery:malum/spirit_crystallizer\"}",
-    "item:eidolon:gold_inlay",
     "item:eidolon:ender_calx",
     "#item:techpack:malum/1arcane_spirit",
     "item:eidolon:holy_symbol",
@@ -327,7 +734,6 @@
       "id": "minecraft:beacon",
       "amount": 62
     },
-    "item:eidolon:basic_ring",
     {
       "type": "item",
       "id": "hexerei:selenite_shard",
@@ -335,13 +741,10 @@
     },
     "item:minecraft:iron_pickaxe{Damage:0}",
     "item:eidolon:crucible",
-    "item:eidolon:worktable",
     "item:kubejs:willing_spirit",
-    "item:minecraft:furnace",
     "item:actuallyadditions:coal_generator",
     "item:malum:wicked_spirit",
     "item:thermal:coal_coke",
-    "item:kubejs:klin_bricks",
     "item:malum:spirit_crucible",
     "item:malum:spirit_catalyzer",
     "item:malum:wicked_spirited_glass",
@@ -350,11 +753,6 @@
     "item:createdeco:industrial_iron_sheet",
     "item:createdeco:industrial_iron_ingot",
     "item:create:industrial_iron_block",
-    "item:create:rose_quartz",
-    "item:create:polished_rose_quartz",
-    "item:create:brass_ingot",
-    "item:create:brass_sheet",
-    "item:create:precision_mechanism",
     "item:malum:repair_pylon",
     "item:minecraft:stone_pickaxe{Damage:0}",
     "item:tfmg:aluminum_ingot",
@@ -365,47 +763,18 @@
       "id": "minecraft:brick",
       "amount": 2
     },
-    "item:thermal:bronze_dust",
-    "item:create:empty_blaze_burner",
-    "item:tfmg:blast_furnace_output",
-    "item:create:blaze_burner",
-    "item:thermal:lead_ingot",
-    "item:thermal:silver_ingot",
     "item:thermal:nickel_ingot",
     "item:enlightened_end:bismuth_ingot",
     "item:thermal:constantan_dust",
-    "item:thermal:constantan_ingot",
     "item:minecraft:packed_mud",
     "item:minecraft:mud_bricks",
     "item:minecraft:bricks",
-    "item:malum:hallowed_gold_ingot",
     "item:malum:soul_stained_steel_ingot",
-    "item:enderio:end_steel_ingot",
-    "item:enderio:soularium_ingot",
-    "item:enderio:dark_steel_ingot",
-    "item:enderio:pulsating_alloy_ingot",
-    "item:enderio:conductive_alloy_ingot",
     "item:enderio:redstone_alloy_ingot",
-    "item:enderio:vibrant_alloy_ingot",
-    "item:enderio:energetic_alloy_ingot",
-    "item:enderio:copper_alloy_ingot",
     "item:forbidden_arcanus:deorum_ingot",
     "item:draconicevolution:draconium_ingot",
-    "item:create:zinc_ingot",
     "item:enlightened_end:adamantite_smithing_template",
-    "item:enlightened_end:adamantite_ingot",
     "item:eidolon:arcane_gold_ingot",
-    "item:eidolon:pewter_blend",
-    "item:eidolon:pewter_ingot",
-    "item:redstone_arsenal:flux_dust",
-    "item:redstone_arsenal:flux_ingot",
-    {
-      "type": "item",
-      "id": "malum:twisted_rock",
-      "amount": 2
-    },
-    "item:hexerei:mixing_cauldron{display:{color:4337438}}",
-    "item:actuallyadditions:wood_casing",
     "item:actuallyadditions:emeradic_crystal",
     "item:actuallyadditions:tiny_torch",
     "item:actuallyadditions:empowerer",
@@ -413,8 +782,6 @@
     "item:actuallyadditions:phantom_energyface",
     "item:actuallyadditions:heat_collector",
     "item:thermal:sushi_maki",
-    "item:mm:alloy_klin_controller",
-    "item:kubejs:redstone_alloy_ingot",
     "item:mm:arc_furnace_controller",
     "item:createoreexcavation:raw_redstone",
     "item:create_dd:sap_bucket",
@@ -432,9 +799,7 @@
     "item:thermal_extra:signalum_rod",
     "item:ad_astra:steel_rod",
     "item:ad_astra:etrium_ingot",
-    "item:pneumaticcraft:ingot_iron_compressed",
     "item:dustrial_decor:rusty_iron_ingot",
-    "item:create:item_vault",
     "item:prettypipes:crafting_terminal",
     "item:ad_astra:encased_steel_block",
     "item:hexerei:ender_satchel",
@@ -448,37 +813,20 @@
     "item:malum:spectral_lens",
     "item:malum:malignant_lead",
     "item:malum:cthonic_gold",
-    "item:malum:spirit_altar",
-    "item:pneumaticcraft:pressure_chamber_valve",
-    "item:pneumaticcraft:pressure_chamber_wall",
-    "item:pneumaticcraft:compressed_iron_gear",
     "#item:forge:tools/hammer",
     "item:pneumaticcraft:omnidirectional_hopper",
     "item:create:super_glue{Damage:0}",
-    "item:pneumaticcraft:reinforced_stone",
     "item:pneumaticcraft:reinforced_brick_tile",
-    "item:pneumaticcraft:reinforced_bricks",
     "item:moreminecarts:silica_steel",
-    "item:pneumaticcraft:pressure_tube",
     "item:pneumaticcraft:advanced_pressure_tube",
-    "item:enderio:ender_crystal",
-    "item:enderio:staff_of_travelling",
-    "item:enderio:enticing_crystal",
     "item:enderio:guardian_diode",
-    "item:enderio:skeletal_contractor",
     "item:enderio:z_logic_controller",
-    "item:enderio:ender_resonator",
-    "item:enderio:frank_n_zombie",
     "item:enderio:double_layer_capacitor",
     "item:enderio:zombie_electrode",
     "item:enderio:pulsating_crystal",
-    "item:enderio:basic_capacitor",
     "item:enderio:conduit_binder",
     "item:enderio:conduit_binder_composite",
-    "item:create:electron_tube",
     "item:ae2:charged_certus_quartz_crystal",
-    "item:ae2:charger",
-    "item:ae2:inscriber",
     "item:tfmg:rotor",
     "item:minecraft:coal_block",
     "item:railways:smokestack_coalburner",
@@ -486,22 +834,16 @@
     "item:pneumaticcraft:drill_pipe",
     "item:actuallyadditions:restonia_crystal",
     "item:actuallyadditions:enori_crystal",
-    "item:prettypipes:item_terminal",
-    "item:tfmg:electric_motor",
     "item:create:crushed_raw_aluminum",
     "item:tfmg:lithium_ingot",
     "#item:create:create_ingots",
     "item:thermal:invar_ingot",
     "item:eidolon:silver_ingot",
     "item:tfmg:lead_ingot",
-    "item:tfmg:copper_cable",
     "item:tfmg:plastic_sheet",
-    "item:createaddition:capacitor",
     "item:thermal:iron_plate",
     "#item:forge:plates/iron",
-    "item:kubejs:makeshift_mechanism",
     "item:thermal:redstone_servo",
-    "item:tfmg:steel_mechanism",
     {
       "type": "item",
       "id": "thermal:electrum_dust",
@@ -522,19 +864,10 @@
       "id": "ad_astra:cable_duct",
       "amount": 2
     },
-    {
-      "type": "item",
-      "id": "thermal:steel_plate",
-      "amount": 4
-    },
     "item:thermal:invar_block",
-    "item:actuallyadditions:black_quartz",
-    "item:moreminecarts:silica_steel_mix",
     "item:actuallyadditions:lens_of_certain_death",
-    "item:actuallyadditions:lens_of_detonation",
     "item:actuallyadditions:lens_of_color",
     "item:tfmg:heavy_machinery_casing",
-    "item:tfmg:capacitor_",
     "item:industrialforegoing:laser_lens14",
     {
       "type": "item",
@@ -548,7 +881,6 @@
     },
     "item:create:steam_engine",
     "item:appflux:energy_processor_press",
-    "item:tfmg:copper_wire",
     "item:actuallyadditions:lava_factory_casing",
     "item:actuallyadditions:ender_star",
     "item:tfmg:copper_coil",
@@ -565,14 +897,11 @@
     "item:thermal:enderium_dust",
     "item:thermal:lumium_ingot",
     "item:thermal:lumium_dust",
-    "item:thermal:signalum_ingot",
     "item:thermal:signalum_dust",
-    "item:thermal:invar_dust",
     "item:thermal:electrum_ingot",
     "item:thermal:rose_gold_dust",
     "item:thermal:steel_dust",
     "item:thermal:energy_cell{BlockEntityTag:{AmountIn:1000,AmountOut:144000,Augments:[{Count:1b,id:\"thermal_extra:abyssal_rf_coil_storage_augment\"},{Count:1b,id:\"thermalendergy:endergy_upgrade_3\"}],Energy:16047000,EnergyMax:1000000,EnergyRecv:144000,EnergySend:144000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,1B,0B,0B,0B,0B],Xfer:{XferIn:1b,XferOut:0b}},Properties:{BaseMod:12.0f,RFMax:26.0f,RFXfer:12.0f}}",
-    "item:tfmg:resistor",
     "item:create:shaft",
     "#item:forge:ingots/lead",
     "item:tfmg:resistor_",
@@ -588,33 +917,20 @@
     "item:create:mechanical_mixer",
     "item:thermal:obsidian_glass",
     "#item:thermal:glass/hardened",
-    {
-      "type": "item",
-      "id": "thermal:bronze_plate",
-      "amount": 2
-    },
     "item:thermal:fluid_duct_windowed",
     "item:thermal:rice",
     "item:farmersdelight:cooking_pot",
     "item:actuallyadditions:advanced_coil",
-    "item:enderio:item_conduit",
-    "item:enderio:fluid_conduit",
     "item:enderio:energy_conduit",
     "item:thermal:rose_gold_gear",
     "item:thermal:rose_gold_ingot",
     "item:hexerei:tallow_bottle",
-    {
-      "type": "fluid",
-      "id": "hexerei:tallow_fluid",
-      "amount": 2000
-    },
     {
       "type": "item",
       "id": "hexerei:animal_fat",
       "amount": 2
     },
     "item:sophisticatedbackpacks:backpack",
-    "item:quark:backpack",
     "item:forbidden_arcanus:wax",
     "item:forbidden_arcanus:hephaestus_forge",
     "item:forbidden_arcanus:sanity_meter",
@@ -624,7 +940,6 @@
     "item:eidolon:music_disc_parousia",
     "item:eidolon:straw_effigy",
     "item:eidolon:stone_altar",
-    "item:eidolon:grape_candy",
     {
       "type": "fluid",
       "id": "thermal_extra:raw_iron",
@@ -668,7 +983,6 @@
     "item:thermal:redstone_mushroom_spores",
     "item:ae2:silicon",
     "#item:forge:silicon",
-    "item:kubejs:calcium_dust",
     "item:tfmg:stator",
     "item:minecraft:cobblestone",
     "#item:forge:cobblestone",
@@ -677,7 +991,6 @@
     "item:minecraft:gray_dye",
     "item:actuallyadditions:display_stand",
     "item:actuallyadditions:empowered_oil_bucket",
-    "item:thermal:fluid_duct",
     "item:tfmg:aluminum_wire",
     "item:tfmg:steel_distillation_controller",
     "item:tfmg:steel_distillation_output",
@@ -704,34 +1017,23 @@
     "item:actuallyadditions:ethetic_green_block",
     "item:actuallyadditions:crystallized_canola_seed",
     "item:malum:hex_ash",
-    "item:tfmg:synthetic_leather",
-    "item:woodworks:sawmill",
     "item:tfmg:pumpjack_base",
     "item:tfmg:pumpjack_crank",
     "item:tfmg:pumpjack_hammer",
-    "item:tfmg:surface_scanner",
     "item:kubejs:basic_hammer{Damage:0}",
     "item:prettypipes:pipe",
     "item:prettypipes:wrench",
     "item:tfmg:casting_basin",
-    "item:tfmg:casting_spout",
-    "item:tfmg:coke_oven",
     "item:create:smart_chute",
     "item:tfmg:fireproof_brick_reinforcement",
-    "item:tfmg:fireproof_bricks",
     "item:create:mechanical_pump",
     "item:create:fluid_pipe",
     "item:create:fluid_tank",
     "item:create:millstone",
     "item:create:large_water_wheel",
-    "item:create:water_wheel",
     "item:create:mechanical_crafter",
-    "item:kubejs:rustic_wirecutter{Damage:0}",
     "item:kubejs:primitive_wirecutter{Damage:0}",
-    "item:kubejs:rustic_saw{Damage:0}",
-    "item:kubejs:rustic_hammer{Damage:0}",
     "item:kubejs:primitive_hammer{Damage:0}",
-    "item:minecraft:smithing_table",
     "item:woodworks:warped_chest",
     "item:woodworks:crimson_chest",
     "item:upgrade_aquatic:river_chest",
@@ -762,8 +1064,6 @@
     "item:actuallyadditions:leaf_blower",
     "item:actuallyadditions:ring_of_growth{Charged:1b,Energy:1000000.0d}",
     "item:moreminecarts:silica_steel_block",
-    "item:kubejs:wooden_gear",
-    "item:enderstorage:ender_chest",
     "item:farm_and_charm:cooked_salmon",
     "item:farm_and_charm:roaster",
     {
@@ -792,11 +1092,8 @@
     "item:advanced_ae:quantum_multi_threader",
     "item:alexsmobs:rocky_shell",
     "item:kubejs:basic_wirecutter{Damage:0}",
-    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/generator\"}",
     "item:minecraft:oak_slab",
-    "item:create:chromatic_compound",
     "item:create:steam_whistle",
-    "item:create:portable_fluid_interface",
     "item:create:spout",
     "item:create:item_drain",
     "item:create:hose_pulley",
@@ -808,8 +1105,6 @@
     "item:farmersdelight:rope",
     "item:supplementaries:rope",
     "item:suppsquared:copper_plaque",
-    "item:enderio:wood_gear",
-    "item:tfmg:screw",
     "item:create:display_board",
     "item:malum:encyclopedia_arcana{\"akashictome:data\":{actuallyadditions:{Count:1b,id:\"actuallyadditions:booklet\",tag:{\"akashictome:displayName\":{text:\u0027{\"translate\":\"item.actuallyadditions.booklet\"}\u0027},\"akashictome:is_morphing\":1b,display:{Name:\u0027{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.actuallyadditions.booklet\"}]}\u0027}}},ad_astra:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"ad_astra:astrodux\"}},enderio:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"enderio:guide\"}},industrialforegoing:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"industrialforegoing:industrial_foregoing\"}},pneumaticcraft:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"pneumaticcraft:book\"}},thermal:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"thermal:guidebook\"}}},\"akashictome:displayName\":{text:\u0027{\"translate\":\"item.malum.encyclopedia_arcana\"}\u0027},\"akashictome:is_morphing\":1b,display:{Name:\u0027{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.malum.encyclopedia_arcana\"}]}\u0027}}",
     "item:custommachinery:configuration_card",
@@ -818,7 +1113,6 @@
     "item:minecraft:potion{Potion:\"upgrade_aquatic:vibing\"}",
     "item:minecraft:potion{Potion:\"upgrade_aquatic:vibing_long\"}",
     "item:upgrade_aquatic:mulberry_pie",
-    "item:moreminecarts:coupler",
     "item:malum:soul_stained_steel_scythe{Damage:0,Enchantments:[{id:\"malum:haunted\",lvl:2s},{id:\"malum:rebound\",lvl:2s},{id:\"minecraft:sweeping\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s},{id:\"malum:spirit_plunder\",lvl:1s}],RepairCost:127}",
     "item:malum:tuning_fork",
     "item:malum:soulwood_tablet",
@@ -868,15 +1162,7 @@
     "item:thermal_extra:endothermic_dehydrator",
     "item:thermal_extra:cod_jerky",
     "item:thermal:machine_frame",
-    "item:thermal:machine_sawmill",
-    "item:pneumaticcraft:printed_circuit_board",
     "item:ae2:printed_calculation_processor",
-    "#item:ad_astra:steel_ingots",
-    {
-      "type": "item",
-      "id": "create:belt_connector",
-      "amount": 2
-    },
     "item:malum:spectral_optic",
     "item:malum:glass_brooch",
     "item:malum:runic_brooch",
@@ -912,25 +1198,13 @@
     "item:create:wrench",
     "item:create:crimsite",
     "item:moreminecarts:hard_light_lens",
-    "item:thermal:device_tree_extractor",
-    {
-      "type": "fluid",
-      "id": "thermal:latex",
-      "amount": 250
-    },
-    "item:thermal:rubber",
-    "item:thermal:cured_rubber",
     "item:forbidden_arcanus:edelwood_bucket",
-    "item:thermal:iron_gear",
-    "item:industrialforegoing:iron_gear",
-    "#item:forge:gears/iron",
     {
       "type": "item",
       "id": "tfmg:coal_coke_dust",
       "amount": 2
     },
     "fluid:tfmg:molten_steel",
-    "#item:ad_astra:steel_plates",
     "item:create:minecart_coupling",
     "item:create:crafter_slot_cover",
     "item:create:sturdy_sheet",
@@ -961,7 +1235,6 @@
     "item:tfmg:engine_chamber",
     "item:tfmg:large_aluminum_cogwheel",
     "item:tfmg:aluminum_cogwheel",
-    "item:tfmg:large_steel_cogwheel",
     "item:thermal_extra:device_lava_gen",
     "item:tfmg:coal_coke",
     "item:thermal:fluid_reservoir",
@@ -976,11 +1249,8 @@
     "item:ae2:printed_silicon",
     "item:forbidden_arcanus:test_tube",
     "item:supplementaries:sconce",
-    "item:enderio:yeta_wrench",
-    "item:enderio:stone_gear",
     "item:dustrial_decor:cast_iron_billet",
     "item:eidolon:mind_shielding_plate",
-    "item:unusualprehistory:shedscale_chestplate{Damage:0}",
     "item:malum:soul_stained_steel_plating",
     "item:tfmg:generator",
     "item:tfmg:neon_tube",
@@ -996,8 +1266,6 @@
     },
     "item:tfmg:ethylene_bucket",
     "item:createdieselgenerators:diesel_engine",
-    "item:createdieselgenerators:large_diesel_engine",
-    "item:thermal:lead_plate",
     "item:forbidden_arcanus:utrem_jar",
     "item:malum:crushed_soulstone",
     "item:moreminecarts:high_speed_upgrade",
@@ -1047,11 +1315,7 @@
     "item:dustrial_decor:mini_padded_block",
     "#item:forge:tools/saw",
     "item:breezy:hot_air_balloon",
-    "item:ad_astra:etrionic_blast_furnace",
     "item:malum:runic_tainted_rock_bricks",
-    "item:thermal:machine_furnace",
-    "item:thermal:machine_smelter",
-    "item:enderio:primitive_alloy_smelter",
     "item:architects_palette:flint_tiles",
     "item:thermal_extra:component_assembly",
     "item:thermal:rubber_block",
@@ -1101,7 +1365,6 @@
     "item:upgrade_aquatic:river_planks",
     "item:minecraft:trapped_chest",
     "item:minecraft:chest",
-    "item:create:mechanical_press",
     "item:create:cogwheel",
     "item:create:hand_crank",
     "item:minecraft:oak_planks",
@@ -1129,7 +1392,6 @@
     "item:architects_palette:cerebral_plate",
     "item:unusualprehistory:antarcto_plate",
     "item:thermal:constantan_plate",
-    "item:thermal:electrum_plate",
     "item:thermalendergy:prismalium_plate",
     "item:architects_palette:sunmetal_blend",
     "item:architects_palette:algal_brick",
@@ -1145,10 +1407,7 @@
     "item:create:mechanical_drill",
     "item:malum:necklace_of_tidal_affinity",
     "item:malum:lead_node",
-    "item:create:goggles",
-    "item:eidolon:angels_sight",
     "item:forbidden_arcanus:edelwood_stick",
-    "item:enderio:nutritious_stick",
     "item:minecraft:cherry_fence_gate",
     "item:industrialforegoing:latex_processing_unit",
     "item:create:brass_hand",
@@ -1156,18 +1415,14 @@
     "item:create:propeller",
     "item:thermal:saw_blade",
     "item:thermal:drill_head",
-    "item:eidolon:notetaking_tools",
-    "item:minecraft:villager_spawn_egg",
     "item:architects_palette:unobtanium",
     "item:industrialforegoing:dryrubber",
     "item:industrialforegoing:tinydryrubber",
     "item:ae2:portable_fluid_cell_256k",
     "item:breezy:gust_gauge",
-    "item:enderio:dark_steel_sword{Damage:0}",
     "item:unusualprehistory:petrified_wood_log",
     "item:unusualfishmod:depth_claw",
     "item:unusualfishmod:depth_scythe{Damage:0}",
-    "item:unusualfishmod:ancient_weapon_smithing_template",
     "item:draconicevolution:wyvern_chestpiece",
     "item:draconicevolution:reactor_prt_focus_ring",
     "item:upgrade_aquatic:prismarine_rod",
@@ -1196,11 +1451,6 @@
     "#item:forge:ingots/nickel",
     "item:create:copper_diving_helmet{Damage:0}",
     "item:thermal:glowstone_mushroom_spores",
-    {
-      "type": "fluid",
-      "id": "thermal_extra:flux_infused_oil",
-      "amount": 100
-    },
     "item:thermal_extra:fluid_mixer",
     {
       "type": "fluid",
@@ -1220,60 +1470,69 @@
     "item:farm_and_charm:wild_beetroots"
   ],
   "craft_history": [
+    "minecraft:shaped/industrial_revival/generator",
+    "minecraft:shaped/industrial_revival/alloy_foundry",
+    "minecraft:shaped/stirling_dynamo",
+    "minecraft:shaped/air_compressor",
     "minecraft:oak_stairs"
   ],
   "recipe_defaults": {
     "added": [
-      "pneumaticcraft:reinforced_stone",
-      "jei:/create/mechanical_crafting/pumpjack_base",
-      "jei:/tfmg/casting/amogus",
-      "jei:/create/compacting/rubber",
+      "pneumaticcraft:omnidirectional_hopper",
       "tfmg:crafting/air_intake",
+      "minecraft:shaped/stirling_dynamo",
+      "jei:/create/sandpaper_polishing/rose_quartz",
+      "jei:/actuallyadditions/laser/crystalize_enori_crystal",
+      "jei:/eidolon/offering_incense",
+      "minecraft:shaped/reinforced_armor_leggings",
+      "jei:/malum/spirit_infusion/hallowed_gold_ingot",
+      "jei:/enderio/alloy_smelting/energetic_alloy_ingot",
+      "thermal:smelting/cured_rubber_from_smelting",
+      "minecraft:smelting/advanced_alloy_ingot",
+      "jei:/create/pressing/steel_ingot",
+      "create:crafting/kinetics/super_glue",
+      "jei:/enderio/alloy_smelting/pulsating_alloy_ingot",
+      "minecraft:shaped/reinforced_armor_boots",
+      "jei:/kubejs/custom_machine/custommachinery/industrialrevival/macerator/0",
+      "jei:/enderio/alloy_smelting/copper_alloy_ingot",
+      "jei:/tfmg/item_application/heavy_machinery_casing_using_deployer",
+      "minecraft:shaped/basic_machine_casing",
+      "create:crafting/materials/electron_tube",
+      "jei:/enderio/alloy_smelting/redstone_alloy_ingot",
+      "minecraft:shaped/industrial_revival/generator",
+      "minecraft:shaped/industrial_revival/macerator",
+      "minecraft:shaped/industrial_revival/compressor",
+      "minecraft:shaped/industrial_revival/alloy_foundry",
+      "jei:/pneumaticcraft/kjs/7ugj7yyghkhfti7hbnio5y279",
+      "jei:/enderio/alloy_smelting/conductive_alloy_ingot",
+      "jei:/enderio/alloy_smelting/soularium_ingot",
+      "jei:/malum/spirit_infusion/soul_stained_steel_ingot",
+      "pneumaticcraft:compressed_iron_gear",
+      "minecraft:shaped/air_compressor",
+      "jei:/tfmg/industrial_blasting/steel",
+      "pneumaticcraft:reinforced_stone",
+      "jei:/enderio/alloy_smelting/end_steel_ingot",
+      "minecraft:shaped/reinforced_armor_chestplate",
+      "jei:/eidolon/bonelord_chestplate",
+      "tfmg:crafting/fireproof_brick_reinforcement",
+      "thermal:smelting/slag_from_smelting",
+      "jei:/pneumaticcraft/kjs/8hssl2i5zkw4mfwx47yv4fl15",
+      "moreminecarts:silica_steel_smelting",
+      "jei:/tfmg/casting/amogus",
+      "jei:/ae2/inscriber/vaccum_tube",
+      "jei:/enderio/alloy_smelting/vibrant_alloy_ingot",
+      "tfmg:crafting/casting_basin",
+      "minecraft:shaped/reinforced_armor_helmet",
+      "jei:/enderio/alloy_smelting/dark_steel_ingot",
+      "jei:/tfmg/pressing/synthetic_leather",
+      "quark:tools/smithing/flamerang_smithing",
+      "jei:/tfmg/compacting/plastic_molding",
+      "tfmg:crafting/hubs/heavy",
+      "tfmg:crafting/pumpjack_hammer",
+      "thermal:smelting/invar_ingot_from_dust_smelting",
       "jei:/createaddition/rolling/copper_plate",
       "jei:/pneumaticcraft/explosion_crafting/compressed_iron_ingot",
-      "create:crafting/kinetics/super_glue",
-      "jei:/create/sequency_assembly/steel_mechanism",
-      "jei:/create/mechanical_crafting/steel_distillation_controller",
-      "jei:/create/sequency_assembly/coke_oven",
-      "jei:/create/sequency_assembly/redstone_servo",
-      "create:crafting/materials/electron_tube",
-      "thermal:smelting/invar_ingot_from_dust_smelting",
-      "jei:/enderio/alloy_smelting/vibrant_alloy_ingot",
-      "jei:/tfmg/industrial_blasting/steel",
-      "jei:/create/mechanical_crafting/pumpjack_crank",
-      "jei:/enderio/alloy_smelting/pulsating_alloy_ingot",
-      "jei:/create/mechanical_crafting/surface_scanner",
-      "tfmg:crafting/pumpjack_hammer",
-      "quark:tools/smithing/flamerang_smithing",
-      "jei:/create/sandpaper_polishing/rose_quartz",
-      "jei:/create/pressing/steel_ingot",
-      "jei:/create/mechanical_crafting/steel_distillation_output",
-      "jei:/tfmg/pressing/synthetic_leather",
-      "jei:/create/compacting/rose_quartz",
-      "thermal:smelting/slag_from_smelting",
-      "pneumaticcraft:omnidirectional_hopper",
-      "jei:/enderio/alloy_smelting/soularium_ingot",
-      "jei:/enderio/alloy_smelting/end_steel_ingot",
-      "jei:/actuallyadditions/laser/crystalize_enori_crystal",
-      "jei:/create/sequency_assembly/precision_mechanism",
-      "jei:/malum/spirit_infusion/hallowed_gold_ingot",
-      "thermal:smelting/cured_rubber_from_smelting",
-      "jei:/tfmg/item_application/heavy_machinery_casing_using_deployer",
-      "jei:/enderio/alloy_smelting/energetic_alloy_ingot",
-      "jei:/create/mixing/bronze_ingot_from_dusts",
-      "pneumaticcraft:compressed_iron_gear",
-      "moreminecarts:silica_steel_smelting",
-      "jei:/create/conversion_0",
-      "jei:/tfmg/compacting/plastic_molding",
-      "jei:/malum/spirit_infusion/soul_stained_steel_ingot",
-      "jei:/create/mixing/klin_bricks",
-      "jei:/enderio/alloy_smelting/redstone_alloy_ingot",
-      "tfmg:crafting/hubs/heavy",
-      "jei:/enderio/alloy_smelting/conductive_alloy_ingot",
-      "jei:/enderio/alloy_smelting/copper_alloy_ingot",
-      "tfmg:crafting/casting_basin",
-      "tfmg:crafting/fireproof_brick_reinforcement",
-      "jei:/enderio/alloy_smelting/dark_steel_ingot"
+      "jei:/create/conversion_0"
     ],
     "tags": {},
     "resolutions": {
@@ -3937,6 +4196,10 @@
     "item:enderio:fused_quartz_orange",
     "item:enderio:clear_glass_white",
     "item:enderio:clear_glass_orange",
-    "item:enderio:clear_glass_magenta"
+    "item:enderio:clear_glass_magenta",
+    "item:enderio:clear_glass_cyan",
+    "item:enderio:clear_glass_light_gray",
+    "item:enderio:clear_glass_gray",
+    "item:enderio:clear_glass_pink"
   ]
 }
