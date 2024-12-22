@@ -196,7 +196,7 @@ ServerEvents.recipes((e) => {
       },
     ],
   }).id(recipeId + "mixing_cauldron");
-  
+
   //Pewter Inlay
   e.custom({
     type: "malum:spirit_infusion",
@@ -221,4 +221,41 @@ ServerEvents.recipes((e) => {
       },
     ],
   }).id(recipeId + "pewter_inlay");
+
+  //Chromatic Compound
+  e.custom({
+    type: "malum:spirit_infusion",
+    extra_items: [
+      {
+        count: 4,
+        item: "create:polished_rose_quartz",
+      },
+      {
+        count: 4,
+        item: "create:powdered_obsidian",
+      },
+      {
+        count: 4,
+        item: "minecraft:glowstone_dust",
+      },
+    ],
+    input: {
+      count: 1,
+      item: "malum:ether",
+    },
+    output: {
+      count: 1,
+      item: "create:chromatic_compound",
+    },
+    spirits: [
+      {
+        type: "arcane",
+        count: 2,
+      },
+      {
+        type: "sacred",
+        count: 2,
+      },
+    ],
+  }).id(recipeId + "chrmomatic_compound");
 });

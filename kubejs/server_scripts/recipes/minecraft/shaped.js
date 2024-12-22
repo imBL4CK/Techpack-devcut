@@ -4,21 +4,21 @@ ServerEvents.recipes((e) => {
   const recipes = [
     //Wooden Gear
     {
-      result: "4x #forge:gears/wooden",
+      result: "4x #forge:gears/wood",
       pattern: [" W ", "W W", " W "],
       key: {
-        W: "#forge:plates/wooden",
+        W: "#forge:plates/wood",
       },
-      id: recipeId + "wooden_gear",
+      id: recipeId + "wood_gear",
     },
     //Wooden Gear by Planks
     {
-      result: "#forge:gears/wooden",
+      result: "#forge:gears/wood",
       pattern: [" W ", "W W", " W "],
       key: {
         W: "#minecraft:planks",
       },
-      id: recipeId + "wooden_gear_by_planks",
+      id: recipeId + "wood_gear_by_planks",
     },
     //Crafting Table
     {
@@ -36,7 +36,7 @@ ServerEvents.recipes((e) => {
       pattern: ["CCC", "CGC", "COC"],
       key: {
         C: "#forge:cobblestone",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         O: "#minecraft:coals",
       },
       id: recipeId + "furnace",
@@ -68,7 +68,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "minecraft:oak_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "oak_chest",
@@ -79,7 +79,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "minecraft:spruce_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "spruce_chest",
@@ -90,7 +90,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "minecraft:birch_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "birch_chest",
@@ -101,7 +101,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "minecraft:acacia_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "acacia_chest",
@@ -112,7 +112,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "minecraft:jungle_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "jungle_chest",
@@ -123,7 +123,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "minecraft:dark_oak_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "dark_oak_chest",
@@ -134,7 +134,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "minecraft:mangrove_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "mangrove_chest",
@@ -145,7 +145,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "minecraft:crimson_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "crimson_chest",
@@ -156,7 +156,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "minecraft:warped_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "warped_chest",
@@ -167,7 +167,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "minecraft:cherry_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "cherry_chest",
@@ -178,7 +178,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "upgrade_aquatic:driftwood_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "driftwood_chest",
@@ -189,7 +189,7 @@ ServerEvents.recipes((e) => {
       pattern: ["GWG", "WBW", "GWG"],
       key: {
         W: "upgrade_aquatic:river_planks",
-        G: "#forge:gears/wooden",
+        G: "#forge:gears/wood",
         B: "minecraft:stone_button",
       },
       id: recipeId + "river_chest",
@@ -291,12 +291,11 @@ ServerEvents.recipes((e) => {
     //Charger
     {
       result: "ae2:charger",
-      pattern: ["FCI", "EGP", "FCI"],
+      pattern: ["FCI", "FGP", "FCI"],
       key: {
         F: "#forge:plates/iron",
         I: "#forge:plates/invar",
         C: "tfmg:electric_casing",
-        E: "kubejs:energized_steel_ingot",
         G: "#forge:glass",
         P: "#forge:plates/copper",
       },
@@ -383,9 +382,9 @@ ServerEvents.recipes((e) => {
         "custommachinery:custom_machine_item",
         '{machine:"custommachinery:industrialrevival/macerator"}'
       ),
-      pattern: ["SPD", "FCF", "GBG"],
+      pattern: ["WPD", "FCF", "GBG"],
       key: {
-        S: "thermal:saw_blade",
+        W: "create:crushing_wheel",
         P: "minecraft:piston",
         D: "thermal:drill_head",
         F: "minecraft:flint",
@@ -468,46 +467,6 @@ ServerEvents.recipes((e) => {
       },
       id: recipeId + "stirling_dynamo",
     },
-    //Reinforced Armor Helmet
-    {
-      result: "kubejs:reinforced_armor_helmet",
-      pattern: ["AAA", "AIA", "   "],
-      key: {
-        A: "kubejs:advanced_alloy_ingot",
-        I: "minecraft:iron_helmet",
-      },
-      id: recipeId + "reinforced_armor_helmet",
-    },
-    //Reinforced Armor Chestplate
-    {
-      result: "kubejs:reinforced_armor_chestplate",
-      pattern: ["AIA", "AAA", "AAA"],
-      key: {
-        A: "kubejs:advanced_alloy_ingot",
-        I: "minecraft:iron_chestplate",
-      },
-      id: recipeId + "reinforced_armor_chestplate",
-    },
-    //Reinforced Armor Leggings
-    {
-      result: "kubejs:reinforced_armor_leggings",
-      pattern: ["AAA", "AIA", "A A"],
-      key: {
-        A: "kubejs:advanced_alloy_ingot",
-        I: "minecraft:iron_leggings",
-      },
-      id: recipeId + "reinforced_armor_leggings",
-    },
-    //Reinforced Armor Boots
-    {
-      result: "kubejs:reinforced_armor_boots",
-      pattern: ["   ", "AIA", "A A"],
-      key: {
-        A: "kubejs:advanced_alloy_ingot",
-        I: "minecraft:iron_boots",
-      },
-      id: recipeId + "reinforced_armor_boots",
-    },
     //Alloy Foundry
     {
       result: Item.of(
@@ -525,6 +484,132 @@ ServerEvents.recipes((e) => {
         M: "kubejs:basic_machine_casing",
       },
       id: recipeId + "industrial_revival/alloy_foundry",
+    },
+    //AA Crusher
+    {
+      result: "actuallyadditions:crusher",
+      pattern: ["GBG", "FCF", "GIG"],
+      key: {
+        G: "kubejs:energized_steel_gear",
+        B: "actuallyadditions:basic_coil",
+        F: "minecraft:flint",
+        C: "kubejs:basic_circuit",
+        I: "actuallyadditions:iron_casing",
+      },
+      id: recipeId + "actuallysubstractions/crusher",
+    },
+    //AA Double Crusher
+    {
+      result: "actuallyadditions:crusher_double",
+      pattern: ["GBG", "RCR", "GIG"],
+      key: {
+        G: "kubejs:energized_steel_gear",
+        B: "actuallyadditions:advanced_coil",
+        R: "actuallyadditions:crusher",
+        C: "kubejs:basic_circuit",
+        I: "actuallyadditions:iron_casing",
+      },
+      id: recipeId + "actuallysubstractions/double_crusher",
+    },
+    //AA Powered Furnace
+    {
+      result: "actuallyadditions:powered_furnace",
+      pattern: ["EBE", "FCF", "GIG"],
+      key: {
+        B: "actuallyadditions:basic_coil",
+        E: "actuallyadditions:enori_crystal",
+        F: "minecraft:furnace",
+        C: "kubejs:basic_circuit",
+        G: "kubejs:energized_steel_gear",
+        I: "actuallyadditions:iron_casing",
+      },
+      id: recipeId + "actuallysubstractions/powered_furnace",
+    },
+    //Leather Backpack
+    {
+      result: "sophisticatedbackpacks:backpack",
+      pattern: ["SIS", "LCL", "III"],
+      key: {
+        S: "#forge:string",
+        I: "kubejs:industrial_leather",
+        L: "minecraft:lead",
+        C: "#forge:chests",
+      },
+      id: recipeId + "leather_backpack",
+    },
+    //TFMG Copper Cable wRubber
+    {
+      result: "tfmg:copper_cable",
+      pattern: [" C ", "CSC", "RC "],
+      key: {
+        C: "#forge:wires/copper",
+        S: "createaddition:spool",
+        R: "thermal:cured_rubber",
+      },
+      id: recipeId + "tfmg/copper_cable_with_rubber",
+    },
+    //TFMG Copper Cable wPlastic
+    {
+      result: "tfmg:copper_cable",
+      pattern: [" C ", "CSC", "RC "],
+      key: {
+        C: "#forge:wires/copper",
+        S: "createaddition:spool",
+        R: "#forge:plastic",
+      },
+      id: recipeId + "tfmg/copper_cable_with_plastic",
+    },
+    //Golden Hand
+    {
+      result: "kubejs:golden_hand",
+      pattern: [" A ", "PPP", " P "],
+      key: {
+        A: "create:andesite_alloy",
+        P: "#forge:plates/gold",
+      },
+      id: recipeId + "golden_hand",
+    },
+    //Alloy Klin Controller
+    {
+      result: "mm:alloy_klin_controller",
+      pattern: ["AAA", "FBF", "AAA"],
+      key: {
+        A: "kubejs:klin_bricks",
+        F: "minecraft:furnace",
+        B: "create:blaze_burner",
+      },
+      id: recipeId + "alloy_klin_controller",
+    },
+    //Fishing Basin
+    {
+      result: Item.of(
+        "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/fishing_basin"}'
+      ),
+      pattern: ["PSP", "SFS", "PSP"],
+      key: {
+        P: "#minecraft:planks",
+        S: "#forge:string",
+        F: "minecraft:fishing_rod",
+      },
+      id: recipeId + "industrialrevival/fishing_basin",
+    },
+    //iR Metal Former
+    {
+      result: Item.of(
+        "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/metal_former"}'
+      ),
+      pattern: ["PCP", "RMR", "OBO"],
+      key: {
+        P: "minecraft:piston",
+        C: "kubejs:basic_circuit",
+        R: "thermal:rf_coil",
+        M: "create:mechanical_press",
+        O: "actuallyadditions:basic_coil",
+        B: "kubejs:basic_machine_casing",
+      },
+      id: recipeId + "industrial_revival/metal_former",
     },
   ];
   recipes.forEach((recipe) => {

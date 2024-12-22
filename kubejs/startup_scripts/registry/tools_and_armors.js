@@ -1,4 +1,10 @@
-StartupEvents.registry("item", (e) => {
+StartupEvents.registry("item", (e) => { 
+  //Primitive Saw
+  e.create("primitive_fishing_net")
+    .displayName("Primitive Fishing Net")
+    .maxStackSize(1)
+    .maxDamage(256)
+    .texture("kubejs:item/placeholder")
   //Primitive Saw
   e.create("primitive_saw", "axe")
     .displayName("Primitive Saw")

@@ -78,6 +78,30 @@
 			x: -0.5d
 			y: 2.5d
 		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 4.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -297,6 +321,96 @@
 			}]
 			x: -0.5d
 			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Open: 0b
+						SelectedSlot: 0b
+						Size: 6
+					}
+				}
+				id: "supplementaries:lunch_basket"
+			}
+			id: "03852DF6437F8413"
+			tasks: [
+				{
+					id: "3335F0329535333B"
+					title: "Done"
+					type: "checkmark"
+				}
+				{
+					id: "1932124FDC219E6E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Open: 0b
+								SelectedSlot: 0b
+								Size: 6
+							}
+						}
+						id: "supplementaries:lunch_basket"
+					}
+					type: "item"
+				}
+			]
+			title: "Lunch Basket"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "custommachinery:industrialrevival/fishing_basin"
+				}
+			}
+			id: "5F9C124AFFE377A1"
+			tasks: [
+				{
+					id: "1F06C3FE48B7E47E"
+					title: "Done"
+					type: "checkmark"
+				}
+				{
+					id: "6A11D5794B7FC792"
+					item: {
+						Count: 1
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:industrialrevival/fishing_basin"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fishing Basin"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			icon: "supplementaries:faucet"
+			id: "46779F1A99465E3C"
+			tasks: [
+				{
+					id: "34A6ACDF2CD9BD52"
+					item: "supplementaries:faucet"
+					type: "item"
+				}
+				{
+					id: "14D7925CEF22B592"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 5.5d
+			y: 3.5d
 		}
 	]
 	title: "Utilities and QoL"

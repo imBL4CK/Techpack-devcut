@@ -1,10 +1,13 @@
-// 1.20.1	2024-11-16T13:11:26.1423538	Loot Tables
+// 1.20.1	2024-12-20T11:18:47.5171475	Loot Tables
 69f857d85f5bea68a8f861b110f02be0e42c1f09 data/mm/loot_tables/blocks/alloy_klin_controller.json
 1e6a11d73a9126be7f334a3fe6ed604e0b4f2f48 data/mm/loot_tables/blocks/arc_furnace_controller.json
+a355345f73624db9f7a5a6003320198da54a2834 data/mm/loot_tables/blocks/freezer_controller.json
 1d4a7e35f8303f483758cd69979eb2ee23b6b334 data/mm/loot_tables/blocks/klin_item_port_input.json
 b60983ece664ed14d35f5b47818fc5f83074431a data/mm/loot_tables/blocks/klin_item_port_output.json
-3075c7878b33c5263ae1bec763b644372bcac285 data/mm/loot_tables/blocks/steam_macerator.json
+ff8aa5622e6290c6a5ff24bb3cef5cc4323debc1 data/mm/loot_tables/blocks/steam_macerator_controller.json
 a77cd0f7353012e6e0aef55d618f6534eb65e94e data/mm/loot_tables/blocks/steel_energy_port_input.json
 348cd796dee6278a5eed22f03354a5c520434a2a data/mm/loot_tables/blocks/steel_energy_port_output.json
+2587f49949a92a8456a86a61f504b6bb959fc0a5 data/mm/loot_tables/blocks/steel_fluid_port_input.json
+9688d4fbc0a5f9b623870f1d9226396edd51d0ef data/mm/loot_tables/blocks/steel_fluid_port_output.json
 92a022add817a0eefa2c36f35df664f05872572c data/mm/loot_tables/blocks/steel_item_port_input.json
 3983cccb43a143c77a607f1ee05c863fbb08c962 data/mm/loot_tables/blocks/steel_item_port_output.json

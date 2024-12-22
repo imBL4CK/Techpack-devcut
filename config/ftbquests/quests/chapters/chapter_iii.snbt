@@ -471,10 +471,11 @@
 		}
 		{
 			dependencies: ["20239E6D777C43C4"]
+			icon: "mm:steam_macerator_controller"
 			id: "641016411C678AF9"
 			tasks: [{
-				id: "5667C4901277A06E"
-				item: "mm:steam_macerator"
+				id: "4D886C6FE2B04D71"
+				item: "mm:steam_macerator_controller"
 				type: "item"
 			}]
 			x: 9.5d

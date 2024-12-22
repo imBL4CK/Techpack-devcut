@@ -1,0 +1,55 @@
+MMEvents.createProcesses((e) => {
+  //Shadow Bronze
+  {
+    e.create("mm:arc_furnace/shadow_bronze_coil/hot_stainless")
+      .structureId("mm:arc_furnace_shadow_bronze_structure")
+      .ticks(600)
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:item",
+          tag: "forge:ingots/iron",
+          count: 2,
+        },
+      })
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:item",
+          item: "kubejs:manganese_ingot",
+          count: 2,
+        },
+      })
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:item",
+          item: "kubejs:chromium_dust",
+          count: 1,
+        },
+      })
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:item",
+          tag: "forge:ingots/invar",
+          count: 1,
+        },
+      })
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:energy",
+          amount: 8192,
+        },
+      })
+      .output({
+        type: "mm:output/simple",
+        ingredient: {
+          type: "mm:item",
+          item: "kubejs:hot_stainless_steel_ingot",
+          count: 4,
+        },
+      });
+  };
+});

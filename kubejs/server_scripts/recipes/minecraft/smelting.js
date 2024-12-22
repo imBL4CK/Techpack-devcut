@@ -2,11 +2,17 @@ ServerEvents.recipes((e) => {
   let recipeId = ["minecraft:smelting/"];
 
   const recipes = [
-    //Wooden Gear
+    //Advanced Alloy
     {
       Input: "kubejs:advanced_alloy_dust",
       Output: "kubejs:advanced_alloy_ingot",
       id: recipeId + "advanced_alloy_ingot",
+    },
+    //Manganese Ingot
+    {
+      Input: "kubejs:manganese_dust",
+      Output: "kubejs:manganese_ingot",
+      id: recipeId + "manganese_ingot",
     },
   ];
   recipes.forEach((recipe) => {

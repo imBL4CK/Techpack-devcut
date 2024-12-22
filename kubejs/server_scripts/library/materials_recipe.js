@@ -56,12 +56,4 @@ ServerEvents.recipes((e) => {
     };
     e.custom(plates).id("create/pressing/library/" + ibMaterials);
   });
-  //Plates in iR Compressor
-  materials.forEach((ibMaterials) => {
-    e.recipes.custommachinery.custom_machine("custommachinery:industrialrevival/compressor", 200)
-    .requireEnergyPerTick(16)
-    .requireItem("kubejs:plate_mold", "input_slot_mold")
-    .requireItemTag("#forge:ingots/"+ibMaterials)
-    .produceItem("#forge:plates/"+ibMaterials);
-  });
 });

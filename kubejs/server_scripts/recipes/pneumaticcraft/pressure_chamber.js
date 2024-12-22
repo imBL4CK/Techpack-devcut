@@ -1,23 +1,23 @@
-ServerEvents.recipes((event) => {
+ServerEvents.recipes((e) => {
   //Diamond
-  event.custom({
+  e.custom({
     type: "pneumaticcraft:pressure_chamber",
     inputs: [
       {
         type: "pneumaticcraft:stacked_item",
-        tag: "forge:storage_blocks/coke",
+        tag: "forge:storage_blocks/coal_coke",
         count: 16,
       },
     ],
     pressure: 4,
     results: [
       {
-        tag: "minecraft:gems/diamond",
+        item: "minecraft:diamond",
       },
     ],
   });
   //Ender IO Basic Capacitor
-  event.custom({
+  e.custom({
     type: "pneumaticcraft:pressure_chamber",
     inputs: [
       {
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
     ],
   });
   //Ender IO Basic Capacitor
-  event.custom({
+  e.custom({
     type: "pneumaticcraft:pressure_chamber",
     inputs: [
       {
@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
   });
   //PCB
   /*
-  event.custom({
+  e.custom({
     type: "pneumaticcraft:pressure_chamber",
     inputs: [
       {

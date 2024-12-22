@@ -17,11 +17,22 @@ MMEvents.registerPorts((e) => {
         c.rows(2).columns(2);
       });
   }
+  //Steel Fluid Port
+  {
+    e.create("steel_fluid_port")
+      .name("Steel Fluid Port")
+      .controllerId("mm:steam_macerator_controller")
+      .config("mm:fluid", (c) => {
+        c.rows(1).columns(1).slotCapacity(1000);
+      });
+  }
   //Klin Item Port
+  {
     e.create("klin_item_port")
       .name("Klin Item Port")
       .controllerId("mm:alloy_klin_controller")
       .config("mm:item", (c) => {
         c.rows(1).columns(2);
       });
+  }
 });

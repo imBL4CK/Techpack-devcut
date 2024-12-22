@@ -56,10 +56,10 @@
       "y": 40
     },
     {
-      "text": "Generator",
-      "x": 96,
-      "y": 25,
-      "type": "custommachinery:text"
+      "texture": "kubejs:textures/gui/industrialrevival/gui_generator.png",
+      "x": 63,
+      "y": 6,
+      "type": "custommachinery:texture"
     },
     {
       "type": "custommachinery:text",

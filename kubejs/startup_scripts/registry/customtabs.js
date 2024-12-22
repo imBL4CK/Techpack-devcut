@@ -28,5 +28,13 @@ StartupEvents.registry("creative_mode_tab", (e) => {
         "custommachinery:custom_machine_item",
         '{machine:"custommachinery:industrialrevival/alloy_foundry"}'
       ),
+      Item.of(
+        "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/metal_former"}'
+      ),
+      Item.of(
+        "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/fishing_basin"}'
+      ),
     ]);
 });

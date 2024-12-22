@@ -62,12 +62,12 @@ ServerEvents.tags("item", (e) => {
     },
     //Wooden Board
     {
-      tag: "forge:plates/wooden",
+      tag: "forge:plates/wood",
       item: "kubejs:wooden_board",
     },
     //Wooden Gear
     {
-      tag: "forge:gears/wooden",
+      tag: "forge:gears/wood",
       item: "kubejs:wooden_gear",
     },
     //Techpack Crafting Tools
@@ -177,6 +177,11 @@ ServerEvents.tags("item", (e) => {
     {
       tag: "createdeco:internal/ingots/industrial_iron_ingots",
       item: "tfmg:cast_iron_ingot",
+    },
+    //Bio Plastic Mesh
+    {
+      tag: "forge:plastic",
+      item: "kubejs:bio_plastic_mesh",
     },
   ];
   customtag.forEach((custom) => {

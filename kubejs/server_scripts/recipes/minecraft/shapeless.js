@@ -26,7 +26,7 @@ ServerEvents.recipes((e) => {
   //Cogwheel
   e.shapeless("create:cogwheel", [
     "create:shaft",
-    "kubejs:wooden_gear",
+    { tag: "forge:gears/wood" },
     "kubejs:primitive_hammer",
     "kubejs:primitive_saw",
   ]).id(recipeId + "cogwheel")
@@ -36,7 +36,7 @@ ServerEvents.recipes((e) => {
   //Large Cogwheel From Little
   e.shapeless("create:large_cogwheel", [
     "create:cogwheel",
-    "kubejs:wooden_gear",
+    { tag: "forge:gears/wood" },
     "kubejs:primitive_saw",
     "kubejs:primitive_hammer",
   ]).id(recipeId + "large_cogwheel_from_little")
@@ -46,8 +46,8 @@ ServerEvents.recipes((e) => {
   //Large Cogwheel
   e.shapeless("create:large_cogwheel", [
     "create:shaft",
-    "kubejs:wooden_gear",
-    "kubejs:wooden_gear",
+    { tag: "forge:gears/wood" },
+    { tag: "forge:gears/wood" },
     "kubejs:primitive_saw",
     "kubejs:primitive_hammer",
   ]).id(recipeId + "large_cogwheel")

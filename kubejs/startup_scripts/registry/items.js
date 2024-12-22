@@ -4,6 +4,7 @@ StartupEvents.registry("item", (e) => {
     "wooden_board",
     "makeshift_mechanism",
     "basic_circuit",
+    "advanced_circuit",
     "logistic_machine",
     "vaccum_tube",
     "golden_hand",
@@ -14,12 +15,18 @@ StartupEvents.registry("item", (e) => {
     "advanced_alloy_ingot",
     "advanced_alloy_plate",
     "bearing",
-    "plate_mold",
     "modifier_base",
     "speed_modifier",
     "energy_modifier",
     "luck_modifier",
     "fuel_efficiency_modifier",
+    "industrial_leather",
+    "bio_plastic",
+    "bio_plastic_mesh",
+    "hdpe_sheet",
+    "hot_stainless_steel_ingot",
+    "chromium_dust",
+    "manganese_dust"
   ];
   item.forEach((registry) => {
     e.create(registry);

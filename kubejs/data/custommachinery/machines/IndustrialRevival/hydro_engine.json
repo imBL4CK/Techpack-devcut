@@ -1,0 +1,97 @@
+{
+  "name": "Hydro Engine",
+  "namespace": "hydro_engine",
+  "appearance": {
+    "lightmode": "running",
+    "block": "kubejs:block/placeholder",
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "light": 0
+  },
+  "processor": {
+    "type": "custommachinery:machine"
+  },
+  "gui": [
+    {
+      "texture": "kubejs:textures/gui/base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 103,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "id": "input_slot",
+      "x": 92,
+      "y": 63,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "x": 45,
+      "y": 30,
+      "id": "fluid_tank",
+      "texture": "kubejs:textures/gui/industrialrevival/tank.png"
+    },
+    {
+      "id": "upgrade_slot",
+      "x": 213,
+      "y": 19,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/upgrade_slot.png"
+    },
+    {
+      "type": "custommachinery:config",
+      "tooltips": "I/O Side Configuration",
+      "width": 18,
+      "height": 18,
+      "x": 213,
+      "y": 39,
+      "texture": "kubejs:textures/gui/industrialrevival/side_config_slot.png",
+      "texture_hovered": "kubejs:textures/gui/industrialrevival/hovered_side_config_slot.png"
+    },
+    {
+      "x": 196,
+      "y": 15,
+      "type": "custommachinery:status",
+      "texture_idle": "kubejs:textures/gui/industrialrevival/status_idle.png",
+      "texture_running": "kubejs:textures/gui/industrialrevival/status_running.png",
+      "texture_errored": "kubejs:textures/gui/industrialrevival/status_errored.png"
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "upgrade_slot",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1
+    },
+    {
+      "mode": "input",
+      "id": "input_slot",
+      "type": "custommachinery:item"
+    },
+    {
+      "type": "custommachinery:contraption",
+      "stress_impact": 0,
+      "config": {
+        "default": "output"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 4000,
+      "id": "tank",
+      "maxInput": 100,
+      "maxOutput": 100,
+      "filter": ["ad_astra:hydrogen"],
+      "whitelist": true
+    }
+  ]
+}

@@ -5,8 +5,11 @@ StartupEvents.registry("block", (e) => {
     ];
     let casing = [
       "heatproof_casing",
+      "frostproof_casing",
       "steel_casing",
-      "basic_machine_casing"
+      "bronze_casing",
+      "basic_machine_casing",
+      "shadow_bronze_coil"
     ];
     casing.forEach((registry) => {
       e.create(registry)

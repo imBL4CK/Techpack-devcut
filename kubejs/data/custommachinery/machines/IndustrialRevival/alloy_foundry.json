@@ -25,10 +25,10 @@
       "type": "custommachinery:player_inventory"
     },
     {
-      "text": "Alloy Foundry",
-      "x": 92,
-      "y": 5,
-      "type": "custommachinery:text"
+      "texture": "kubejs:textures/gui/industrialrevival/gui_alloy_foundry.png",
+      "x": 63,
+      "y": 6,
+      "type": "custommachinery:texture"
     },
     {
       "id": "input_slot",
@@ -113,7 +113,10 @@
     {
       "x": 196,
       "y": 5,
-      "type": "custommachinery:status"
+      "type": "custommachinery:status",
+      "texture_idle": "kubejs:textures/gui/industrialrevival/status_idle.png",
+      "texture_running": "kubejs:textures/gui/industrialrevival/status_running.png",
+      "texture_errored": "kubejs:textures/gui/industrialrevival/status_errored.png"
     }
   ],
   "components": [

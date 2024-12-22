@@ -88,10 +88,10 @@
       "y": 40
     },
     {
-      "text": "Compressor",
-      "x": 96,
-      "y": 25,
-      "type": "custommachinery:text"
+      "texture": "kubejs:textures/gui/industrialrevival/gui_compressor.png",
+      "x": 63,
+      "y": 6,
+      "type": "custommachinery:texture"
     },
     {
       "type": "custommachinery:text",

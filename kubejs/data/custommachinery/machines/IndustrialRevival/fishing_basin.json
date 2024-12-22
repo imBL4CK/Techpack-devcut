@@ -1,0 +1,78 @@
+{
+  "name": "Fishing Basin",
+  "namespace": "fishing_basin",
+  "appearance": {
+    "lightmode": "running",
+    "block": "kubejs:machine/industrial_revival/fishing_basin",
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "light": 0
+  },
+  "processor": {
+    "type": "custommachinery:machine"
+  },
+  "gui": [
+    {
+      "texture": "kubejs:textures/gui/industrialrevival/fishing_basin.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 93,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "id": "input_slot",
+      "x": 115,
+      "y": 20,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_slot",
+      "x": 115,
+      "y": 65,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "upgrade_slot",
+      "x": 213,
+      "y": 19,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/upgrade_slot.png"
+    },
+    {
+      "x": 115,
+      "y": 45,
+      "type": "custommachinery:progress",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_progress_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_progress_bar.png"
+    },
+    {
+      "x": 196,
+      "y": 25,
+      "type": "custommachinery:status"
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "input_slot",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "upgrade_slot",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1
+    }
+  ]
+}

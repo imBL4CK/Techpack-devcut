@@ -161,6 +161,46 @@ ServerEvents.recipes((e) => {
       input3: "#forge:ingots/steel",
       id: recipeId + "basic_wirecutter",
     },
+    //Bronze Backpack
+    {
+      output: "sophisticatedbackpacks:iron_backpack",
+      input1: "tfmg:steel_mechanism",
+      input2: "sophisticatedbackpacks:copper_backpack",
+      input3: "#forge:ingots/bronze",
+      id: recipeId + "bronze_backpack",
+    },
+    //Reinforced Helmet
+    {
+      output: "kubejs:reinforced_armor_helmet",
+      input1: "tfmg:steel_mechanism",
+      input2: "minecraft:iron_helmet",
+      input3: "kubejs:advanced_alloy_ingot",
+      id: recipeId + "reinforced_armor_helmet",
+    },
+    //Reinforced Chestplate
+    {
+      output: "kubejs:reinforced_armor_chestplate",
+      input1: "tfmg:steel_mechanism",
+      input2: "minecraft:iron_chestplate",
+      input3: "kubejs:advanced_alloy_ingot",
+      id: recipeId + "reinforced_armor_chestplate",
+    },
+    //Reinforced Leggings
+    {
+      output: "kubejs:reinforced_armor_leggings",
+      input1: "tfmg:steel_mechanism",
+      input2: "minecraft:iron_leggings",
+      input3: "kubejs:advanced_alloy_ingot",
+      id: recipeId + "reinforced_armor_leggings",
+    },
+    //Reinforced Boots
+    {
+      output: "kubejs:reinforced_armor_boots",
+      input1: "tfmg:steel_mechanism",
+      input2: "minecraft:iron_boots",
+      input3: "kubejs:advanced_alloy_ingot",
+      id: recipeId + "reinforced_armor_boots",
+    },
   ];
   recipes.forEach((recipe) => {
     e.smithing(recipe.output, recipe.input1, recipe.input2, recipe.input3).id(

@@ -1,12 +1,13 @@
 {
   "modPriorities": [
     "minecraft",
-    "kubejs",
     "crafttweaker",
     "thermal",
     "create",
+    "enderio",
     "immersiveengineering",
     "mekanism",
+    "kubejs",
     "ae2",
     "pneumaticcraft",
     "tfmg"
@@ -84,6 +85,7 @@
     "tin",
     "tungsten",
     "uranium",
+    "wood",
     "zinc"
   ],
   "priorityOverrides": {},
@@ -94,7 +96,7 @@
   "blockTagInheritanceMode": "ALLOW",
   "blockTagInheritance": {},
   "ignoredTags": [],
-  "ignoredItems": [],
+  "ignoredItems": ["kubejs:bio_plastic_mesh"],
   "ignoredRecipeTypes": ["cucumber:shaped_tag"],
   "ignoredRecipes": [],
   "itemsHidingJeiRei": true

@@ -151,7 +151,16 @@ ServerEvents.recipes((event) => {
     "systeams:boilers/numismatic",
     "systeams:boilers/disenchantment",
     "systeams:boilers/pneumatic",
-    "systeams:boilers/frost"
+    "systeams:boilers/frost",
+    "sophisticatedbackpacks:iron_backpack",
+    "sophisticatedbackpacks:iron_backpack_from_copper",
+    "actuallyadditions:crusher",
+    "actuallyadditions:crusher_double",
+    "actuallyadditions:powered_furnace",
+    "sophisticatedbackpacks:backpack",
+    "tfmg:crafting/copper_wire_plastic",
+    "createdieselgenerators:crafting/basin_lid",
+    "thermal:compat/create/smelter_create_alloy_chromatic_compound",
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });

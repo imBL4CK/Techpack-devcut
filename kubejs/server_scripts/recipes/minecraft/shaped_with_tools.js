@@ -3,8 +3,8 @@ ServerEvents.recipes((e) => {
 
   //Water Wheel
   e.shaped("create:water_wheel", ["WSW", "GHG", "WMW"], {
-    G: "#forge:gears/wooden",
-    W: "#forge:plates/wooden",
+    G: "#forge:gears/wood",
+    W: "#forge:plates/wood",
     H: "create:hand_crank",
     S: "#forge:tools/saw",
     M: "#forge:tools/hammer",
@@ -15,8 +15,8 @@ ServerEvents.recipes((e) => {
 
   //Large Water Wheel
   e.shaped("create:large_water_wheel", ["WGW", "SLH", "WGW"], {
-    G: "#forge:gears/wooden",
-    W: "#forge:plates/wooden",
+    G: "#forge:gears/wood",
+    W: "#forge:plates/wood",
     S: "#forge:tools/saw",
     L: "create:water_wheel",
     H: "#forge:tools/hammer",
@@ -32,7 +32,7 @@ ServerEvents.recipes((e) => {
     C: "create:cogwheel",
     H: "#forge:tools/hammer",
     P: "#forge:tools/saw",
-    G: "#forge:gears/wooden",
+    G: "#forge:gears/wood",
   })
     .damageIngredient("#forge:tools/hammer", "16")
     .damageIngredient("#forge:tools/saw", "16")
@@ -43,7 +43,7 @@ ServerEvents.recipes((e) => {
     C: "create:cogwheel",
     H: "#forge:tools/hammer",
     S: "minecraft:stick",
-    W: "#forge:gears/wooden",
+    W: "#forge:gears/wood",
     G: "#forge:plates/gold",
   })
     .damageIngredient("#forge:tools/hammer", "4")
@@ -52,8 +52,8 @@ ServerEvents.recipes((e) => {
   //Hand Crank
   e.shaped("create:hand_crank", ["GWW", "SCA"], {
     A: "create:andesite_alloy",
-    G: "#forge:gears/wooden",
-    W: "#forge:plates/wooden",
+    G: "#forge:gears/wood",
+    W: "#forge:plates/wood",
     C: "create:cogwheel",
     S: "#forge:tools/saw",
   })
@@ -100,7 +100,7 @@ ServerEvents.recipes((e) => {
     S: "#forge:tools/saw",
     I: "#forge:ingots/iron",
     P: "#minecraft:planks",
-    G: "#forge:gears/wooden",
+    G: "#forge:gears/wood",
   })
     .damageIngredient("#forge:tools/saw", "2")
     .damageIngredient("#forge:tools/hammer", "2")
@@ -364,4 +364,16 @@ ServerEvents.recipes((e) => {
   })
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "pressure_chamber_valve");
+
+  //Create DG Basin Lid
+  e.shaped("createdieselgenerators:basin_lid", ["HCW", "SSS", "RRR"], {
+    S: "#forge:plates/steel",
+    H: "#forge:tools/hammer",
+    W: "#forge:tools/saw",
+    C: "minecraft:clock",
+    R: "tfmg:screw",
+  })
+    .damageIngredient("#forge:tools/hammer", "1")
+    .damageIngredient("#forge:tools/saw", "1")
+    .id(recipeId + "basin_lid");
 });

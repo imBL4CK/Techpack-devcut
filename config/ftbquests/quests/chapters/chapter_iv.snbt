@@ -1,0 +1,194 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_iv"
+	group: "047995488C1C959F"
+	icon: "thermal:machine_frame"
+	id: "098264AB96359862"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2A1CB8EE86AE42AE"]
+			icon: {
+				Count: 1
+				id: "create:chromatic_compound"
+				tag: { }
+			}
+			icon_scale: 0.8d
+			id: "26E1CC7335517E87"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4425E946A963BFD0"
+					title: "Done"
+					type: "checkmark"
+				}
+				{
+					id: "1F4953F4574C1CD0"
+					item: {
+						Count: 1
+						id: "create:chromatic_compound"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "79C24EF9E9C064BE"
+					item: "pneumaticcraft:plastic"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26E1CC7335517E87"]
+			id: "0A901DED2039B74D"
+			tasks: [{
+				id: "087E7F7E8D313168"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26E1CC7335517E87"]
+			id: "3868AB12309432F2"
+			tasks: [{
+				id: "5A1BBD57568DAF6B"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A901DED2039B74D"]
+			icon: "enderio:alloy_smelter"
+			id: "015A8605ACDAC301"
+			tasks: [
+				{
+					id: "66F1637B2CE80969"
+					item: "enderio:sag_mill"
+					type: "item"
+				}
+				{
+					id: "58D2B4D7CE158969"
+					item: "enderio:alloy_smelter"
+					type: "item"
+				}
+			]
+			title: "EnderIO Machines"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3868AB12309432F2"]
+			icon: "thermal:machine_smelter"
+			id: "4FA97EDCE3E23820"
+			tasks: [{
+				id: "5FDD8D2642DD096C"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "54F0B51419109001"
+			shape: "rsquare"
+			tasks: [{
+				id: "2F201CACAAB39FC7"
+				item: "pneumaticcraft:plastic_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E7954695FA68424"]
+			icon: "industrialforegoing:plant_gatherer"
+			id: "362C5DFD6719A7AA"
+			tasks: [
+				{
+					id: "78D77D31EE6D22D4"
+					item: "industrialforegoing:plant_gatherer"
+					type: "item"
+				}
+				{
+					id: "3F3DD35542734053"
+					item: "industrialforegoing:plant_fertilizer"
+					type: "item"
+				}
+				{
+					id: "6785BE76F591D670"
+					item: "industrialforegoing:plant_sower"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54F0B51419109001"]
+			id: "2E7954695FA68424"
+			tasks: [{
+				id: "65F253F2BBE2B3AA"
+				item: "kubejs:bio_plastic"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "64A0FCD6C9E9CB17"
+			tasks: [{
+				id: "231845555F063FC4"
+				item: "kubejs:duroplast_sheet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4FA97EDCE3E23820"
+				"015A8605ACDAC301"
+			]
+			id: "28FD7D94AFA954AC"
+			tasks: [{
+				id: "38D424F1DD99FBED"
+				item: "kubejs:shadow_bronze_coil"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28FD7D94AFA954AC"]
+			id: "040DCF7AA269A6D1"
+			tasks: [{
+				id: "569BB896900878AD"
+				item: "mm:freezer_controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["040DCF7AA269A6D1"]
+			id: "70AFD416D91BF60D"
+			tasks: [{
+				id: "021656F9E60F8780"
+				item: "kubejs:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "Chapter IV"
+}
