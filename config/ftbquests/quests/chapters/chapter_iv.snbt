@@ -5,7 +5,7 @@
 	group: "047995488C1C959F"
 	icon: "thermal:machine_frame"
 	id: "098264AB96359862"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -45,138 +45,68 @@
 		}
 		{
 			dependencies: ["26E1CC7335517E87"]
-			id: "0A901DED2039B74D"
-			tasks: [{
-				id: "087E7F7E8D313168"
-				item: "enderio:void_chassis"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["26E1CC7335517E87"]
+			icon: "thermal:machine_frame"
 			id: "3868AB12309432F2"
-			tasks: [{
-				id: "5A1BBD57568DAF6B"
-				item: "thermal:machine_frame"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0A901DED2039B74D"]
-			icon: "enderio:alloy_smelter"
-			id: "015A8605ACDAC301"
 			tasks: [
 				{
-					id: "66F1637B2CE80969"
-					item: "enderio:sag_mill"
+					id: "5A1BBD57568DAF6B"
+					item: "thermal:machine_frame"
 					type: "item"
 				}
 				{
-					id: "58D2B4D7CE158969"
-					item: "enderio:alloy_smelter"
+					id: "720091A888EAD3BA"
+					item: "enderio:void_chassis"
 					type: "item"
 				}
 			]
-			title: "EnderIO Machines"
-			x: -2.0d
-			y: 3.0d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3868AB12309432F2"]
-			icon: "thermal:machine_smelter"
+			icon: "thermal:machine_centrifuge"
 			id: "4FA97EDCE3E23820"
 			tasks: [{
-				id: "5FDD8D2642DD096C"
-				item: "thermal:machine_smelter"
+				id: "4E53C4ABE3B9C19E"
+				item: "thermal:machine_centrifuge"
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
-			id: "54F0B51419109001"
-			shape: "rsquare"
-			tasks: [{
-				id: "2F201CACAAB39FC7"
-				item: "pneumaticcraft:plastic_bucket"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["2E7954695FA68424"]
-			icon: "industrialforegoing:plant_gatherer"
-			id: "362C5DFD6719A7AA"
-			tasks: [
-				{
-					id: "78D77D31EE6D22D4"
-					item: "industrialforegoing:plant_gatherer"
-					type: "item"
-				}
-				{
-					id: "3F3DD35542734053"
-					item: "industrialforegoing:plant_fertilizer"
-					type: "item"
-				}
-				{
-					id: "6785BE76F591D670"
-					item: "industrialforegoing:plant_sower"
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["54F0B51419109001"]
+			dependencies: ["4A7DE9089BAB937A"]
 			id: "2E7954695FA68424"
+			shape: "square"
 			tasks: [{
 				id: "65F253F2BBE2B3AA"
 				item: "kubejs:bio_plastic"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.0d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
-			id: "64A0FCD6C9E9CB17"
-			tasks: [{
-				id: "231845555F063FC4"
-				item: "kubejs:duroplast_sheet"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"4FA97EDCE3E23820"
-				"015A8605ACDAC301"
-			]
+			dependencies: ["4FA97EDCE3E23820"]
 			id: "28FD7D94AFA954AC"
 			tasks: [{
 				id: "38D424F1DD99FBED"
 				item: "kubejs:shadow_bronze_coil"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["28FD7D94AFA954AC"]
+			dependencies: ["4E5F9339DF04B2D3"]
 			id: "040DCF7AA269A6D1"
 			tasks: [{
 				id: "569BB896900878AD"
 				item: "mm:freezer_controller"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["040DCF7AA269A6D1"]
@@ -186,8 +116,122 @@
 				item: "kubejs:stainless_steel_ingot"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28FD7D94AFA954AC"]
+			icon_scale: 0.8d
+			id: "4E5F9339DF04B2D3"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "17A48C250DF701C4"
+				item: "kubejs:hdpe_sheet"
+				type: "item"
+			}]
+			x: 1.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["3868AB12309432F2"]
+			id: "7B8705F6994E0B4A"
+			shape: "circle"
+			tasks: [{
+				id: "28E9F37CC0B276EF"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3868AB12309432F2"]
+			id: "1EA08F704BF05E15"
+			shape: "circle"
+			tasks: [{
+				id: "45F01F5F883FB7C9"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10C579E100FEF689"]
+			icon_scale: 0.8d
+			id: "7B73AF14FF95E43A"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2095764A5F5333D1"
+				item: "kubejs:advanced_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"70AFD416D91BF60D"
+				"6A179AA4B4E821A8"
+			]
+			id: "10C579E100FEF689"
+			tasks: [{
+				id: "5C4B2C0604506382"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E5F9339DF04B2D3"]
+			id: "30CFEEEDD6CB254E"
+			tasks: [{
+				id: "3007F356C2BFE73C"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/assembler"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30CFEEEDD6CB254E"]
+			id: "6A179AA4B4E821A8"
+			tasks: [{
+				id: "5884F51274764067"
+				item: "kubejs:duroplast_sheet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E5F9339DF04B2D3"]
+			icon: "industrialforegoing:latex_processing_unit"
+			id: "4A7DE9089BAB937A"
+			shape: "square"
+			tasks: [
+				{
+					id: "2F9A3ACCF4AC46FF"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+				{
+					id: "086004504BFA64C6"
+					item: "industrialforegoing:latex_processing_unit"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
 		}
 	]
 	title: "Chapter IV"

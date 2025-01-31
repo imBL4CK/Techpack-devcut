@@ -26,7 +26,18 @@ StartupEvents.registry("item", (e) => {
     "hdpe_sheet",
     "hot_stainless_steel_ingot",
     "chromium_dust",
-    "manganese_dust"
+    "manganese_dust",
+    "crushed_raw_desh",
+    "crushed_raw_ostrum",
+    "crushed_raw_calorite",
+    "resistance_circuit",
+    "black_quartzite_ingot",
+    "iron_shard",
+    "iron_clump",
+    "gold_shard",
+    "gold_clump",
+    "copper_shard",
+    "copper_clump",
   ];
   item.forEach((registry) => {
     e.create(registry);

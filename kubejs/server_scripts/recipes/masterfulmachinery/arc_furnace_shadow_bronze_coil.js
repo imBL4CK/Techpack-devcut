@@ -1,5 +1,5 @@
 MMEvents.createProcesses((e) => {
-  //Shadow Bronze
+  //Hot Stainless Steel
   {
     e.create("mm:arc_furnace/shadow_bronze_coil/hot_stainless")
       .structureId("mm:arc_furnace_shadow_bronze_structure")
@@ -49,6 +49,35 @@ MMEvents.createProcesses((e) => {
           type: "mm:item",
           item: "kubejs:hot_stainless_steel_ingot",
           count: 4,
+        },
+      });
+  };
+  //HDPE Sheet
+  {
+    e.create("mm:arc_furnace/shadow_bronze_coil/hdpe_sheet")
+      .structureId("mm:arc_furnace_shadow_bronze_structure")
+      .ticks(600)
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:item",
+          item: "pneumaticcraft:plastic",
+          count: 4,
+        },
+      })
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:energy",
+          amount: 8192,
+        },
+      })
+      .output({
+        type: "mm:output/simple",
+        ingredient: {
+          type: "mm:item",
+          item: "kubejs:hdpe_sheet",
+          count: 1,
         },
       });
   };

@@ -19,4 +19,23 @@ ServerEvents.recipes((e) => {
       item: "kubejs:vaccum_tube",
     },
   }).id(recipeId + "vaccum_tube");
+  //Black Quartzite
+  e.custom({
+    type: "ae2:inscriber",
+    ingredients: {
+      bottom: {
+        item: "tfmg:magnetic_ingot",
+      },
+      middle: {
+        item: "actuallyadditions:black_quartz",
+      },
+      top: {
+        item: "minecraft:amethyst_shard",
+      },
+    },
+    mode: "press",
+    result: {
+      item: "kubejs:black_quartzite_ingot",
+    },
+  }).id(recipeId + "black_quartzite_ingot");
 });

@@ -5,7 +5,7 @@
 	group: "047995488C1C959F"
 	icon: "supplementaries:globe"
 	id: "544B77AFD2678363"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

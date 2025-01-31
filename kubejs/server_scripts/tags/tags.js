@@ -183,6 +183,21 @@ ServerEvents.tags("item", (e) => {
       tag: "forge:plastic",
       item: "kubejs:bio_plastic_mesh",
     },
+    //Alchemical Brass Ingot
+    {
+      tag: "forge:ingots/brass",
+      item: "kubejs:alchemical_brass_ingot",
+    },
+    //Alchemical Brass Plate
+    {
+      tag: "forge:plates/brass",
+      item: "kubejs:alchemical_brass_plate",
+    },
+    //Alchemical Brass Gear
+    {
+      tag: "forge:gears/brass",
+      item: "kubejs:alchemical_brass_gear",
+    },
   ];
   customtag.forEach((custom) => {
     e.add(custom.tag, custom.item);

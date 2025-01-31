@@ -34,7 +34,16 @@ StartupEvents.registry("creative_mode_tab", (e) => {
       ),
       Item.of(
         "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/assembler"}'
+      ),
+      Item.of(
+        "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/rail_attacher"}'
+      ),
+      Item.of(
+        "custommachinery:custom_machine_item",
         '{machine:"custommachinery:industrialrevival/fishing_basin"}'
       ),
+      Item.of("custommachinery:configuration_card"),
     ]);
 });

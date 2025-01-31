@@ -1,0 +1,19 @@
+{
+  "fluid": "#forge:diesel",
+  "sound_speed": 0,
+  "normal": {
+    "speed": 0.0,
+    "strength": 0.0,
+    "burn_rate": 0
+  },
+  "modular": {
+    "speed": 0.0,
+    "strength": 0.0,
+    "burn_rate": 0
+  },
+  "huge": {
+    "speed": 0.0,
+    "strength": 0.0,
+    "burn_rate": 0
+  }
+}

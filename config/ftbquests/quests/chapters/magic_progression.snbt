@@ -1,0 +1,185 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "magic_progression"
+	group: "4AD243FA5382E478"
+	icon: "eidolon:crucible"
+	id: "6F209FCB727F4A18"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 0.8d
+			id: "2C82A646DD73D098"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1EB19F04F4C19D5A"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C82A646DD73D098"]
+			id: "13A8204A678E8D08"
+			tasks: [{
+				id: "6FED9E75E9D6B46F"
+				item: "eidolon:brazier"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C82A646DD73D098"]
+			id: "7497B7C6DE49AA8D"
+			tasks: [{
+				id: "6170E1BD6511B011"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13A8204A678E8D08"]
+			id: "3E88CB29C2064E4D"
+			tasks: [{
+				id: "6879CF9A137EDB34"
+				item: "malum:spirit_altar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E88CB29C2064E4D"]
+			id: "7CD3F4D3F97B4B41"
+			tasks: [{
+				id: "37BC19BEF72A6C70"
+				item: "malum:runewood_obelisk"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E88CB29C2064E4D"]
+			id: "0E91686F7DC948D9"
+			tasks: [{
+				id: "36A36A4B478A4994"
+				item: "forbidden_arcanus:clibano_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E88CB29C2064E4D"]
+			id: "31EC1C6F2B75A280"
+			tasks: [{
+				id: "2F4F04E02BB5AB6F"
+				item: "malum:spirit_jar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E88CB29C2064E4D"]
+			id: "08B2817C064C702C"
+			tasks: [{
+				id: "341F266A16667B77"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08B2817C064C702C"]
+			id: "4D243B47D943562B"
+			tasks: [{
+				id: "0616AECC1194C892"
+				item: "forbidden_arcanus:hephaestus_forge"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C82A646DD73D098"]
+			id: "4B5DCE1829967837"
+			shape: "circle"
+			tasks: [{
+				id: "0E620C928ACA4D1E"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["08B2817C064C702C"]
+			icon: {
+				Count: 1
+				id: "hexerei:mahogany_broom"
+				tag: { }
+			}
+			id: "28F7AA1258919A48"
+			shape: "circle"
+			tasks: [{
+				id: "730243183E42B334"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:mahogany_broom"
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_broom"
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_broom"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D243B47D943562B"]
+			id: "68E43B333193A3FC"
+			tasks: [{
+				id: "6DB4EBCD0C6076E2"
+				item: "malum:spirit_crucible"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D243B47D943562B"]
+			icon_scale: 0.8d
+			id: "652F9843A9F3CF99"
+			tasks: [{
+				id: "2464C8873493C080"
+				item: "malum:repair_pylon"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+	]
+	title: "Magic Progression"
+}

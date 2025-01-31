@@ -5,7 +5,7 @@
 	group: "047995488C1C959F"
 	icon: "kubejs:makeshift_mechanism"
 	id: "70854EC513EDF2DB"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

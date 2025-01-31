@@ -5,7 +5,7 @@
 	group: "047995488C1C959F"
 	icon: "tfmg:capacitor"
 	id: "33CA0BD600A1FEDD"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -480,6 +480,16 @@
 			}]
 			x: 9.5d
 			y: -5.0d
+		}
+		{
+			id: "3A9388207BE02133"
+			tasks: [{
+				id: "3BA65EEBA3CDF4FE"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
 		}
 	]
 	title: "Chapter III"

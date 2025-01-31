@@ -17,6 +17,8 @@ ServerEvents.recipes((e) => {
     "steel",
     "tin",
     "zinc",
+    "alchemical_brass",
+    "stainless_steel",
   ];
   //Gears in Thermal Press
   materials.forEach((ibMaterial) => {

@@ -1,5 +1,5 @@
 ServerEvents.recipes((e) => {
-  //Fluid Tank
+  //Bronze Ingot
   {
     e.recipes.custommachinery.custom_machine("custommachinery:industrialrevival/alloy_foundry", 300)
       .requireEnergyPerTick(16)

@@ -3,7 +3,7 @@ MMEvents.createProcesses((e) => {
   {
     e.create("mm:alloy_klin/redstone_alloy")
       .structureId("mm:alloy_klin_structure")
-      .ticks(600)
+      .ticks(1200)
       .input({
         type: "mm:input/consume",
         ingredient: {
@@ -20,12 +20,20 @@ MMEvents.createProcesses((e) => {
           count: 1,
         },
       })
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:item",
+          tag: "minecraft:coals",
+          count: 2,
+        },
+      })
       .output({
         type: "mm:output/simple",
         ingredient: {
           type: "mm:item",
           item: "kubejs:red_alloy_ingot",
-          count: 2,
+          count: 1,
         },
       });
   }
@@ -33,7 +41,7 @@ MMEvents.createProcesses((e) => {
   {
     e.create("mm:alloy_klin/bronze_alloy")
       .structureId("mm:alloy_klin_structure")
-      .ticks(300)
+      .ticks(1200)
       .input({
         type: "mm:input/consume",
         ingredient: {
@@ -50,12 +58,20 @@ MMEvents.createProcesses((e) => {
           count: 3,
         },
       })
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:item",
+          tag: "minecraft:coals",
+          count: 2,
+        },
+      })
       .output({
         type: "mm:output/simple",
         ingredient: {
           type: "mm:item",
           item: "thermal:bronze_ingot",
-          count: 4,
+          count: 2,
         },
       });
   }
@@ -63,7 +79,7 @@ MMEvents.createProcesses((e) => {
   {
     e.create("mm:alloy_klin/brass_alloy")
       .structureId("mm:alloy_klin_structure")
-      .ticks(300)
+      .ticks(1200)
       .input({
         type: "mm:input/consume",
         ingredient: {
@@ -80,12 +96,20 @@ MMEvents.createProcesses((e) => {
           count: 2,
         },
       })
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:item",
+          tag: "minecraft:coals",
+          count: 2,
+        },
+      })
       .output({
         type: "mm:output/simple",
         ingredient: {
           type: "mm:item",
           item: "create:brass_ingot",
-          count: 4,
+          count: 2,
         },
       });
   }

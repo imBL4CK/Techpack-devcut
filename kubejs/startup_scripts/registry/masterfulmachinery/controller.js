@@ -11,11 +11,11 @@ MMEvents.registerControllers((e) => {
 
   //Steam Macerator
   e.create("steam_macerator_controller")
-    .name("Steam Macerator")
+    .name("Steam Macerator Controller")
     .type("mm:machine");
 
   //Freezer
   e.create("freezer_controller")
-    .name("Freezer Macerator")
+    .name("Freezer Controller ")
     .type("mm:machine");
 });

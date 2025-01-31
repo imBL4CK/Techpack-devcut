@@ -201,7 +201,7 @@ ServerEvents.recipes((e) => {
       key: {
         E: "create:electron_tube",
         G: "#forge:plates/gold",
-        R: "#forge:dusts/redstone",
+        R: "#forge:ingots/red_alloy",
       },
       id: recipeId + "rf_coil",
     },
@@ -454,7 +454,7 @@ ServerEvents.recipes((e) => {
       },
       id: recipeId + "industrial_revival/generator",
     },
-    //Stirling Generator
+    //Stirling Dynamo
     {
       result: "thermal:dynamo_stirling",
       pattern: [" C ", "SGS", "RBR"],
@@ -600,19 +600,543 @@ ServerEvents.recipes((e) => {
         "custommachinery:custom_machine_item",
         '{machine:"custommachinery:industrialrevival/metal_former"}'
       ),
-      pattern: ["PCP", "RMR", "OBO"],
+      pattern: ["PMP", "RCR", "OBO"],
       key: {
         P: "minecraft:piston",
-        C: "kubejs:basic_circuit",
-        R: "thermal:rf_coil",
         M: "create:mechanical_press",
+        R: "thermal:rf_coil",
+        C: "kubejs:basic_circuit",
         O: "actuallyadditions:basic_coil",
         B: "kubejs:basic_machine_casing",
       },
       id: recipeId + "industrial_revival/metal_former",
+    },
+    //Magic Workbench
+    {
+      result: "eidolon:worktable",
+      pattern: [" D ", "CCC", "PPP"],
+      key: {
+        D: "#forge:gems/diamond",
+        C: "minecraft:purple_carpet",
+        P: "malum:runewood_planks",
+      },
+      id: recipeId + "magic_workbench",
+    },
+    //Item Conduit
+    {
+      result: Item.of("enderio:item_conduit", 8),
+      pattern: ["BNB", "BNB", "DLD"],
+      key: {
+        B: "enderio:conduit_binder",
+        N: "#forge:nuggets/pulsating_alloy",
+        D: "#forge:ingots/dark_steel",
+        L: "prettypipes:pipe",
+      },
+      id: recipeId + "item_conduit",
+    },
+    //Oil Generator
+    {
+      result: "actuallyadditions:oil_generator",
+      pattern: ["PBP", "PCP", "PIP"],
+      key: {
+        P: "kubejs:energized_steel_plate",
+        B: "actuallyadditions:basic_coil",
+        C: "actuallyadditions:canola",
+        I: "actuallyadditions:iron_casing",
+      },
+      id: recipeId + "oil_generator",
+    },
+    //Piston
+    {
+      result: "minecraft:piston",
+      pattern: ["PPP", "CRC", "CIC"],
+      key: {
+        P: "#minecraft:planks",
+        C: "#forge:cobblestone",
+        R: "#forge:rods/copper",
+        I: "#forge:plates/iron",
+      },
+      id: recipeId + "piston",
+    },
+    //Pity Machine Frame
+    {
+      result: "industrialforegoing:machine_frame_pity",
+      pattern: ["PIP", "ICI", "PIP"],
+      key: {
+        P: "#minecraft:planks",
+        C: "kubejs:basic_machine_casing",
+        I: "#forge:plates/iron",
+      },
+      id: recipeId + "pity_machine_frame",
+    },
+    //Fluid Extractor
+    {
+      result: "industrialforegoing:fluid_extractor",
+      pattern: ["HAH", "HCH", "HPH"],
+      key: {
+        H: "kubejs:hdpe_sheet",
+        A: "thermal:device_tree_extractor",
+        C: "kubejs:basic_circuit",
+        P: "industrialforegoing:machine_frame_pity",
+      },
+      id: recipeId + "fluid_extractor",
+    },
+    //Latex Processing Unit
+    {
+      result: "industrialforegoing:latex_processing_unit",
+      pattern: ["HFH", "TCT", "HPH"],
+      key: {
+        H: "kubejs:hdpe_sheet",
+        F: "minecraft:furnace",
+        T: "create:fluid_tank",
+        C: "kubejs:basic_circuit",
+        P: "industrialforegoing:machine_frame_pity",
+      },
+      id: recipeId + "latex_processing_unit",
+    },
+    //Tinker Bench
+    {
+      result: "thermal:tinker_bench",
+      pattern: ["III", "HCH", "PPP"],
+      key: {
+        I: "#forge:plates/iron",
+        H: "#thermal:glass/hardened",
+        C: "kubejs:basic_circuit",
+        P: "#minecraft:planks",
+      },
+      id: recipeId + "tinker_bench",
+    },
+    //Energetic Infuser
+    {
+      result: "thermal:charge_bench",
+      pattern: ["EEE", "ACA", "EBE"],
+      key: {
+        E: "#forge:plates/electrum",
+        A: "tfmg:capacitor",
+        C: "thermal:energy_cell_frame",
+        B: "kubejs:basic_circuit",
+      },
+      id: recipeId + "energetic_infuser",
+    },
+    //Thermal Redstone Furnace
+    {
+      result: "thermal:machine_furnace",
+      pattern: ["IFI", "RCR", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        F: "minecraft:furnace",
+        R: "thermal:rf_coil",
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/bronze",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/redstone_furnace",
+    },
+    //Thermal Sawmill
+    {
+      result: "thermal:machine_sawmill",
+      pattern: ["ISI", "RCR", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        S: "thermal:saw_blade",
+        R: "thermal:rf_coil",
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/bronze",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/sawmill",
+    },
+    //Thermal Pulverizer
+    {
+      result: "thermal:machine_pulverizer",
+      pattern: ["IDI", "WCW", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        D: "thermal:drill_head",
+        W: "create:crushing_wheel",
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/bronze",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/pulverizer",
+    },
+    //Thermal Induction Smelter
+    {
+      result: "thermal:machine_smelter",
+      pattern: ["BIB", "RCR", "GAG"],
+      key: {
+        B: "minecraft:blast_furnace",
+        I: "#forge:plates/invar",
+        R: "thermal:rf_coil",
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/invar",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/induction_smelter",
+    },
+    //Thermal Centrifugal Separator
+    {
+      result: "thermal:machine_centrifuge",
+      pattern: ["IPI", "RCR", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        P: "minecraft:compass",
+        R: "thermal:rf_coil",
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/constantan",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/centrifuge",
+    },
+    //Thermal Multiservo Press
+    {
+      result: "thermal:machine_press",
+      pattern: ["IPI", "RCR", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        P: "create:mechanical_press",
+        R: "thermal:rf_coil",
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/constantan",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/multiservo_press",
+    },
+    //Thermal Magma Crucible
+    {
+      result: "thermal:machine_crucible",
+      pattern: ["IHI", "NCN", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        H: "#thermal:glass/hardened",
+        N: "minecraft:nether_bricks",
+        C: "kubejs:advanced_circuit",
+        G: "#forge:gears/invar",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/magma_crucible",
+    },
+    //Thermal Blast Chiller
+    {
+      result: "thermal:machine_chiller",
+      pattern: ["IHI", "BCB", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        H: "#thermal:glass/hardened",
+        B: "thermal:blizz_rod",
+        C: "kubejs:advanced_circuit",
+        G: "#forge:gears/invar",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/blast_chiller",
+    },
+    //Thermal Fractionating Still
+    {
+      result: "thermal:machine_refinery",
+      pattern: ["IHI", "OCT", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        H: "#thermal:glass/hardened",
+        O: "tfmg:steel_distillation_output",
+        T: "tfmg:steel_distillation_controller",
+        C: "kubejs:advanced_circuit",
+        G: "#forge:gears/invar",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/fractionating_still",
+    },
+    //Thermal Pyrolyzer
+    {
+      result: "thermal:machine_pyrolyzer",
+      pattern: ["IBI", "NCN", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        B: "create:blaze_cake",
+        N: "minecraft:nether_bricks",
+        C: "kubejs:advanced_circuit",
+        G: "#forge:gears/constantan",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/pyrolyzer",
+    },
+    //Thermal Fluid Encapsulator
+    {
+      result: "thermal:machine_bottler",
+      pattern: ["ISI", "HCH", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        S: "create:spout",
+        H: "#thermal:glass/hardened",
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/bronze",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/fluid_encapsulator",
+    },
+    //Thermal Alchemical Imbuer
+    {
+      result: "thermal:machine_brewer",
+      pattern: ["IBI", "HCH", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        B: "minecraft:brewing_stand",
+        H: "#thermal:glass/hardened",
+        C: "kubejs:advanced_circuit",
+        G: "#forge:gears/constantan",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/alchemical_imbuer",
+    },
+    //Thermal Sequential Fabricator
+    {
+      result: Item.of("thermal:machine_crafter", 2),
+      pattern: ["IRI", "TCT", "GAG"],
+      key: {
+        I: "#forge:plates/invar",
+        R: "thermal:rf_coil",
+        T: "minecraft:crafting_table",
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/bronze",
+        A: "thermal:machine_frame",
+      },
+      id: recipeId + "thermal/sequential_fabricator",
+    },
+    //Compression Dynamo
+    {
+      result: "thermal:dynamo_compression",
+      pattern: [" C ", "TGT", "PBP"],
+      key: {
+        C: "thermal:rf_coil",
+        T: "create:fluid_tank",
+        G: "#forge:gears/bronze",
+        P: "#forge:plates/bronze",
+        B: "kubejs:basic_machine_casing",
+      },
+      id: recipeId + "compression_dynamo",
+    },
+    //Magmatic Dynamo
+    {
+      result: "thermal:dynamo_magmatic",
+      pattern: [" C ", "TGT", "PSP"],
+      key: {
+        C: "thermal:rf_coil",
+        T: "tfmg:steel_fluid_tank",
+        G: "#forge:gears/invar",
+        P: "#forge:plates/invar",
+        S: "thermal:dynamo_stirling",
+      },
+      id: recipeId + "magmatic_dynamo",
+    },
+    //Disenchantment Dynamo
+    {
+      result: "thermal:dynamo_disenchantment",
+      pattern: [" C ", "PTP", "EBE"],
+      key: {
+        C: "thermal:rf_coil",
+        P: "#forge:plates/iron",
+        T: "minecraft:enchanting_table",
+        E: "minecraft:experience_bottle",
+        B: "kubejs:basic_machine_casing",
+      },
+      id: recipeId + "disenchantment_dynamo",
+    },
+    //Gourmand Dynamo
+    {
+      result: "thermal:dynamo_gourmand",
+      pattern: [" C ", "AGA", "PBP"],
+      key: {
+        C: "thermal:rf_coil",
+        A: "kubejs:advanced_circuit",
+        G: "#forge:gears/copper",
+        P: "#forge:plates/tin",
+        B: "kubejs:basic_machine_casing",
+      },
+      id: recipeId + "gourmand_dynamo",
+    },
+    //Energy Cell Frame
+    {
+      result: "thermal:energy_cell_frame",
+      pattern: ["PHP", "HCH", "PHP"],
+      key: {
+        P: "#forge:plates/lead",
+        H: "#thermal:glass/hardened",
+        C: "tfmg:capacitor",
+      },
+      id: recipeId + "energy_cell_frame",
+    },
+    //Energy Cell
+    {
+      result: "thermal:energy_cell",
+      pattern: ["PAP", "RCR", "PAP"],
+      key: {
+        P: "#forge:plastic",
+        A: "#forge:ingots/red_alloy",
+        R: "thermal:rf_coil",
+        C: "thermal:energy_cell_frame",
+      },
+      id: recipeId + "energy_cell",
+    },
+    //Fluid Cell Frame
+    {
+      result: "thermal:fluid_cell_frame",
+      pattern: ["PHP", "HCH", "PHP"],
+      key: {
+        P: "#forge:plates/bronze",
+        H: "#thermal:glass/hardened",
+        C: "create:fluid_tank",
+      },
+      id: recipeId + "fluid_cell_frame",
+    },
+    //Fluid Cell
+    {
+      result: "thermal:fluid_cell",
+      pattern: ["BGB", "RCR", "BGB"],
+      key: {
+        B: "thermal:cured_rubber",
+        G: "#forge:gears/iron",
+        R: "thermal:redstone_servo",
+        C: "thermal:fluid_cell_frame",
+      },
+      id: recipeId + "fluid_cell",
+    },
+    //Energy Duct
+    {
+      result: Item.of("thermal:energy_duct", 6),
+      pattern: ["PPP", "RHR", "PPP"],
+      key: {
+        P: "#forge:plates/lead",
+        R: "#forge:ingots/red_alloy",
+        H: "#thermal:glass/hardened",
+      },
+      id: recipeId + "energy_duct",
+    },
+    //Aqueos Accumulator
+    {
+      result: "thermal:device_water_gen",
+      pattern: ["PRP", "HBH", "PCP"],
+      key: {
+        P: "#forge:plates/copper",
+        R: "thermal:redstone_servo",
+        B: "minecraft:bucket",
+        H: "#thermal:glass/hardened",
+        C: "thermal:machine_frame"
+      },
+      id: recipeId + "aqueous_accumulator",
+    },
+    //Igeneous Extruder
+    {
+      result: "thermal:device_rock_gen",
+      pattern: ["PGP", "HBH", "PCP"],
+      key: {
+        P: "#forge:plates/invar",
+        G: "#forge:gears/constantan",
+        B: "minecraft:bucket",
+        H: "#thermal:glass/hardened",
+        C: "thermal:machine_frame"
+      },
+      id: recipeId + "igneous_extruder",
+    },
+    //Vaccumulator
+    {
+      result: "thermal:device_collector",
+      pattern: ["PEP", "HOH", "PCP"],
+      key: {
+        P: "#forge:plates/tin",
+        E: "minecraft:ender_pearl",
+        O: "minecraft:hopper",
+        H: "#thermal:glass/hardened",
+        C: "thermal:machine_frame"
+      },
+      id: recipeId + "vaccumulator",
+    },
+    //Insighful Condenser
+    {
+      result: "thermal:device_xp_condenser",
+      pattern: ["PGP", "HIH", "PCP"],
+      key: {
+        P: "#forge:plates/silver",
+        G: "#forge:gears/lapis",
+        I: "thermal:xp_crystal",
+        H: "#thermal:glass/hardened",
+        C: "thermal:machine_frame"
+      },
+      id: recipeId + "insighful_condenser",
+    },
+    //Nullifier
+    {
+      result: "thermal:device_nullifier",
+      pattern: ["PRP", "HLH", "PSP"],
+      key: {
+        P: "#forge:plates/tin",
+        R: "#forge:ingots/red_alloy",
+        L: "minecraft:lava_bucket",
+        H: "#thermal:glass/hardened",
+        S: "thermal:redstone_servo"
+      },
+      id: recipeId + "nullifier",
+    },
+    //Decoctive Diffuser
+    {
+      result: "thermal:device_potion_diffuser",
+      pattern: ["PGP", "HBH", "PSP"],
+      key: {
+        P: "#forge:plates/silver",
+        G: "#forge:gears/constantan",
+        B: "minecraft:glass_bottle",
+        H: "#thermal:glass/hardened",
+        S: "thermal:redstone_servo"
+      },
+      id: recipeId + "decoctive_diffuser",
+    },
+    //Dieser Generator
+    {
+      result: "createdieselgenerators:diesel_engine",
+      pattern: [" D ", "PTP", "BCB"],
+      key: {
+        D: "thermal:dynamo_compression",
+        P: "createdieselgenerators:engine_piston",
+        T: "create:fluid_tank",
+        B: "#forge:plates/brass",
+        C: "kubejs:basic_machine_casing"
+      },
+      id: recipeId + "createdieselgenerators/diesel_engine",
+    },
+    //Modular Dieser Generator
+    {
+      result: "createdieselgenerators:large_diesel_engine",
+      pattern: ["   ", "TET", "BDB"],
+      key: {
+        T: "create:fluid_tank",
+        E: "createdieselgenerators:diesel_engine",
+        B: "#forge:plates/brass",
+        D: "thermal:dynamo_compression",
+      },
+      id: recipeId + "createdieselgenerators/modular_diesel_engine",
+    },
+    //Energy Laser Relay
+    {
+      result: Item.of("actuallyadditions:laser_relay", 4),
+      pattern: [" C ", "RAR", " O "],
+      key: {
+        C: "tfmg:copper_cable",
+        R: "actuallyadditions:restonia_crystal",
+        A: "actuallyadditions:advanced_coil",
+        O: "minecraft:obsidian"
+      },
+      id: recipeId + "laser_relay",
     },
   ];
   recipes.forEach((recipe) => {
     e.shaped(recipe.result, recipe.pattern, recipe.key).id(recipe.id);
   });
 });
+
+    /*
+    {
+      result: "thermal:device_potion_diffuser",
+      pattern: ["P", "", ""],
+      key: {
+        P: "#forge:plates/silver",
+      },
+      id: recipeId + "decoctive_diffuser",
+    },*/

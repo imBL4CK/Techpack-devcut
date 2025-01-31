@@ -5,7 +5,7 @@
 	group: "027DF5719475D040"
 	icon: "malum:encyclopedia_arcana"
 	id: "524194A25C5A1528"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

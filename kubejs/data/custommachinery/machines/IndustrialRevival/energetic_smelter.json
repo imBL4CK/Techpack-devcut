@@ -14,10 +14,16 @@
   },
   "gui": [
     {
-      "texture": "kubejs:textures/gui/simple_gui_background.png",
-      "x": 38,
-      "y": 20,
+      "texture": "kubejs:textures/gui/base_gui.png",
+      "x": 40,
+      "y": 10,
       "type": "custommachinery:texture"
+    },
+    {
+      "text": "Energetic Smelter",
+      "x": 50,
+      "y": 16,
+      "type": "custommachinery:text"
     },
     {
       "x": 47,
@@ -26,49 +32,59 @@
     },
     {
       "id": "input_slot",
-      "x": 89,
-      "y": 38,
-      "type": "custommachinery:slot"
+      "x": 92,
+      "y": 28,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
     },
     {
       "id": "input_slot2",
-      "x": 89,
-      "y": 73,
-      "type": "custommachinery:slot"
+      "x": 92,
+      "y": 63,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/energy_input_slot.png"
     },
     {
       "id": "output_slot",
       "x": 149,
-      "y": 54,
+      "y": 28,
       "width": 20,
       "height": 20,
-      "type": "custommachinery:slot"
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
     },
     {
-      "x": 115,
-      "y": 56,
-      "type": "custommachinery:progress"
+      "type": "custommachinery:progress",
+      "x": 120,
+      "y": 30,
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_progress_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_progress_bar.png"
     },
     {
-      "x": 90,
-      "y": 57,
+      "x": 92,
+      "y": 47,
       "type": "custommachinery:energy",
-      "texture_empty": "kubejs:textures/gui/ic2_energy_bar.png",
-      "texture_filled": "kubejs:textures/gui/ic2_fillerd_energy_bar.png",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_energy_bar.png",
       "highlight": false
     },
     {
       "id": "upgrade_slot",
-      "x": 48,
-      "y": 73,
+      "x": 213,
+      "y": 19,
       "type": "custommachinery:slot",
-      "texture": "kubejs:textures/gui/upgrade_slot.png"
+      "texture": "kubejs:textures/gui/industrialrevival/upgrade_slot.png"
     },
     {
       "type": "custommachinery:config",
-      "x": 220,
-      "y": 40
-    }, 
+      "tooltips": "I/O Side Configuration",
+      "width": 18,
+      "height": 18,
+      "x": 213,
+      "y": 39,
+      "texture": "kubejs:textures/gui/industrialrevival/side_config_slot.png",
+      "texture_hovered": "kubejs:textures/gui/industrialrevival/hovered_side_config_slot.png"
+    },
     {
       "texture": "kubejs:textures/gui/industrialrevival/gui_energetic_smelter.png",
       "x": 63,
@@ -76,15 +92,12 @@
       "type": "custommachinery:texture"
     },
     {
-      "type": "custommachinery:text",
-      "text": "Inventory",
-      "x": 47,
-      "y": 93
-    },
-    {
+      "type": "custommachinery:status",
       "x": 196,
-      "y": 25,
-      "type": "custommachinery:status"
+      "y": 15,
+      "texture_idle": "kubejs:textures/gui/industrialrevival/status_idle.png",
+      "texture_running": "kubejs:textures/gui/industrialrevival/status_running.png",
+      "texture_errored": "kubejs:textures/gui/industrialrevival/status_errored.png"
     }
   ],
   "components": [
@@ -96,14 +109,15 @@
       "capacity": 1
     },
     {
-      "mode": "input",
       "id": "input_slot",
+      "mode": "input",
       "type": "custommachinery:item"
     },
     {
-      "mode": "input",
       "id": "input_slot2",
+      "mode": "input",
       "type": "custommachinery:item",
+      "variant": "custommachinery:energy",
       "capacity": 1
     },
     {
@@ -112,12 +126,59 @@
       "type": "custommachinery:item"
     },
     {
-      "capacity": 1024,
       "type": "custommachinery:energy",
+      "capacity": 4096,
       "maxInput": 32,
       "config": {
         "default": "input"
       }
+    }
+  ],
+  "jei": [
+    {
+      "texture": "kubejs:textures/gui/jei/jei_base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture",
+      "jei": true
+    },
+    {
+      "id": "input_slot",
+      "x": 92,
+      "y": 28,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "input_slot2",
+      "x": 92,
+      "y": 63,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/energy_input_slot.png"
+    },
+    {
+      "id": "output_slot",
+      "x": 149,
+      "y": 28,
+      "width": 20,
+      "height": 20,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 120,
+      "y": 30,
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_progress_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_progress_bar.png"
+    },
+    {
+      "x": 92,
+      "y": 47,
+      "type": "custommachinery:energy",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_energy_bar.png",
+      "highlight": false
     }
   ]
 }

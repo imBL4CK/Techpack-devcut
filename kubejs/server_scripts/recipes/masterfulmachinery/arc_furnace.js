@@ -62,7 +62,7 @@ MMEvents.createProcesses((e) => {
         ingredient: {
           type: "mm:item",
           tag: "forge:rods/steel",
-          count: 2,
+          count: 3,
         },
       })
       .input({
@@ -454,6 +454,43 @@ MMEvents.createProcesses((e) => {
         ingredient: {
           type: "mm:item",
           item: "thermal:steel_ingot",
+          count: 1,
+        },
+      });
+  };
+  //Industrial Leather
+  {
+    e.create("mm:arc_furnace/industrial_leather")
+      .structureId("mm:arc_furnace_structure")
+      .ticks(100)
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:item",
+          tag: "forge:string",
+          count: 1,
+        },
+      })
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:item",
+          tag: "forge:leather",
+          count: 1,
+        },
+      })
+      .input({
+        type: "mm:input/consume",
+        ingredient: {
+          type: "mm:energy",
+          amount: 1024,
+        },
+      })
+      .output({
+        type: "mm:output/simple",
+        ingredient: {
+          type: "mm:item",
+          item: "kubejs:industrial_leather",
           count: 1,
         },
       });

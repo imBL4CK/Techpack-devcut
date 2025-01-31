@@ -1,261 +1,422 @@
 ServerEvents.recipes((e) => {
   let recipeId = "malum:spirit_infusion/";
 
-  //Empty Blaze Burner
-  e.custom({
-    type: "malum:spirit_infusion",
-    extra_items: [
-      {
-        count: 4,
-        tag: "forge:plates/iron",
-      },
-    ],
-    input: {
-      count: 1,
-      tag: "forge:netherrack",
-    },
-    output: {
-      item: "create:empty_blaze_burner",
-    },
-    spirits: [
-      {
-        type: "infernal",
-        count: 2,
-      },
-      {
-        type: "arcane",
-        count: 4,
-      },
-    ],
-  }).id(recipeId + "empty_blaze_burner");
-
-  //Crafting Terminal
-  e.custom({
-    type: "malum:spirit_infusion",
-    extra_items: [
-      {
-        count: 4,
-        item: "create:electron_tube",
-      },
-      {
+  const recipes = [
+    //Empty Blaze Burner
+    {
+      extra_items: [
+        {
+          count: 4,
+          tag: "forge:plates/iron",
+        },
+      ],
+      input: {
         count: 1,
-        item: "create:mechanical_crafter",
+        tag: "forge:netherrack",
       },
-      {
-        count: 2,
-        item: "malum:spectral_optic",
+      output: {
+        item: "create:empty_blaze_burner",
       },
-      {
+      spirits: [
+        {
+          type: "infernal",
+          count: 2,
+        },
+        {
+          type: "arcane",
+          count: 4,
+        },
+      ],
+      id: recipeId + "empty_blaze_burner",
+    },
+    //Crafting Terminal
+    {
+      extra_items: [
+        {
+          count: 4,
+          item: "create:electron_tube",
+        },
+        {
+          count: 1,
+          item: "create:mechanical_crafter",
+        },
+        {
+          count: 2,
+          item: "malum:spectral_optic",
+        },
+        {
+          count: 1,
+          item: "kubejs:basic_circuit",
+        },
+      ],
+      input: {
         count: 1,
-        item: "kubejs:basic_circuit",
+        item: "prettypipes:item_terminal",
       },
-    ],
-    input: {
-      count: 1,
-      item: "prettypipes:item_terminal",
+      output: {
+        item: "prettypipes:crafting_terminal",
+      },
+      spirits: [
+        {
+          type: "sacred",
+          count: 4,
+        },
+        {
+          type: "wicked",
+          count: 4,
+        },
+        {
+          type: "arcane",
+          count: 4,
+        },
+        {
+          type: "eldritch",
+          count: 4,
+        },
+        {
+          type: "aerial",
+          count: 4,
+        },
+        {
+          type: "aqueous",
+          count: 4,
+        },
+        {
+          type: "earthen",
+          count: 4,
+        },
+        {
+          type: "infernal",
+          count: 4,
+        },
+      ],
+      id: recipeId + "crafting_terminal",
     },
-    output: {
-      item: "prettypipes:crafting_terminal",
-    },
-    spirits: [
-      {
-        type: "sacred",
-        count: 4,
-      },
-      {
-        type: "wicked",
-        count: 4,
-      },
-      {
-        type: "arcane",
-        count: 4,
-      },
-      {
-        type: "eldritch",
-        count: 4,
-      },
-      {
-        type: "aerial",
-        count: 4,
-      },
-      {
-        type: "aqueous",
-        count: 4,
-      },
-      {
-        type: "earthen",
-        count: 4,
-      },
-      {
-        type: "infernal",
-        count: 4,
-      },
-    ],
-  }).id(recipeId + "item_terminal");
-
-  //Runewood Sapling
-  e.custom({
-    type: "malum:spirit_infusion",
-    extra_items: [
-      {
+    //Runewood Sapling
+    {
+      extra_items: [
+        {
+          count: 1,
+          item: "malum:runic_sapball",
+        },
+        {
+          count: 1,
+          item: "malum:hex_ash",
+        },
+      ],
+      input: {
         count: 1,
-        item: "malum:runic_sapball",
+        tag: "minecraft:saplings",
       },
-      {
+      output: {
+        item: "malum:runewood_sapling",
+      },
+      spirits: [
+        {
+          type: "arcane",
+          count: 2,
+        },
+        {
+          type: "earthen",
+          count: 1,
+        },
+      ],
+      id: recipeId + "runewood_sapling",
+    },
+    //Azure Runewood Sapling
+    {
+      extra_items: [
+        {
+          count: 1,
+          item: "malum:runic_sapball",
+        },
+        {
+          count: 1,
+          item: "malum:hex_ash",
+        },
+      ],
+      input: {
         count: 1,
-        item: "malum:hex_ash",
+        tag: "minecraft:saplings",
       },
-    ],
-    input: {
-      count: 1,
-      tag: "minecraft:saplings",
-    },
-    output: {
-      item: "malum:runewood_sapling",
-    },
-    spirits: [
-      {
-        type: "arcane",
-        count: 2,
+      output: {
+        item: "malum:azure_runewood_sapling",
       },
-      {
-        type: "earthen",
+      spirits: [
+        {
+          type: "arcane",
+          count: 2,
+        },
+        {
+          type: "aqueous",
+          count: 1,
+        },
+      ],
+      id: recipeId + "azure_runewood_sapling",
+    },
+    //Mixing Cauldron
+    {
+      extra_items: [
+        {
+          count: 2,
+          item: "malum:tainted_rock",
+        },
+        {
+          count: 2,
+          item: "malum:twisted_rock",
+        },
+        {
+          count: 1,
+          item: "malum:chunk_of_brilliance",
+        },
+        {
+          count: 1,
+          item: "malum:arcane_charcoal",
+        },
+      ],
+      input: {
         count: 1,
+        item: "minecraft:cauldron",
       },
-    ],
-  }).id(recipeId + "runewood_sapling");
-
-  //Azure Runewood Sapling
-  e.custom({
-    type: "malum:spirit_infusion",
-    extra_items: [
-      {
+      output: {
+        item: "hexerei:mixing_cauldron",
+      },
+      spirits: [
+        {
+          type: "arcane",
+          count: 2,
+        },
+        {
+          type: "aerial",
+          count: 2,
+        },
+      ],
+      id: recipeId + "mixing_cauldron",
+    },
+    //Pewter Inlay
+    {
+      extra_items: [
+        {
+          count: 4,
+          item: "eidolon:pewter_ingot",
+        },
+      ],
+      input: {
         count: 1,
-        item: "malum:runic_sapball",
+        item: "malum:processed_soulstone",
       },
-      {
+      output: {
+        count: 2,
+        item: "eidolon:pewter_inlay",
+      },
+      spirits: [
+        {
+          type: "arcane",
+          count: 2,
+        },
+      ],
+      id: recipeId + "pewter_inlay",
+    },
+    //Chromatic Compound
+    {
+      extra_items: [
+        {
+          count: 4,
+          item: "create:polished_rose_quartz",
+        },
+        {
+          count: 4,
+          item: "create:powdered_obsidian",
+        },
+        {
+          count: 4,
+          item: "minecraft:glowstone_dust",
+        },
+      ],
+      input: {
         count: 1,
-        item: "malum:hex_ash",
+        item: "malum:ether",
       },
-    ],
-    input: {
-      count: 1,
-      tag: "minecraft:saplings",
-    },
-    output: {
-      item: "malum:azure_runewood_sapling",
-    },
-    spirits: [
-      {
-        type: "arcane",
-        count: 2,
-      },
-      {
-        type: "aqueous",
+      output: {
         count: 1,
+        item: "create:chromatic_compound",
       },
-    ],
-  }).id(recipeId + "azure_runewood_sapling");
-
-  //Mixing Cauldron
-  e.custom({
-    type: "malum:spirit_infusion",
-    extra_items: [
-      {
-        count: 2,
-        item: "malum:tainted_rock",
-      },
-      {
-        count: 2,
-        item: "malum:twisted_rock",
-      },
-      {
+      spirits: [
+        {
+          type: "arcane",
+          count: 2,
+        },
+        {
+          type: "sacred",
+          count: 2,
+        },
+      ],
+      id: recipeId + "chromatic_compound",
+    },
+    //Spirit Jar
+    {
+      extra_items: [
+        {
+          count: 1,
+          item: "malum:hallowed_gold_ingot",
+        },
+        {
+          count: 1,
+          item: "malum:processed_soulstone",
+        },
+      ],
+      input: {
         count: 1,
-        item: "malum:chunk_of_brilliance",
+        item: "supplementaries:jar",
       },
-      {
+      output: {
         count: 1,
-        item: "malum:arcane_charcoal",
+        item: "malum:spirit_jar",
       },
-    ],
-    input: {
-      count: 1,
-      item: "minecraft:cauldron",
+      spirits: [
+        {
+          type: "arcane",
+          count: 2,
+        },
+      ],
+      id: recipeId + "spirit_jar",
     },
-    output: {
-      item: "hexerei:mixing_cauldron",
+    //Clibano Core
+    {
+      extra_items: [
+        {
+          count: 8,
+          item: "forbidden_arcanus:polished_darkstone",
+        },
+      ],
+      input: {
+        count: 1,
+        item: "minecraft:blast_furnace",
+      },
+      output: {
+        count: 1,
+        item: "forbidden_arcanus:clibano_core",
+      },
+      spirits: [
+        {
+          type: "arcane",
+          count: 2,
+        },
+        {
+          type: "earthen",
+          count: 1,
+        },
+      ],
+      id: recipeId + "clibano_core",
     },
-    spirits: [
-      {
-        type: "arcane",
-        count: 2,
+    //Thermal Machine Frame
+    {
+      extra_items: [
+        {
+          count: 1,
+          item: "actuallyadditions:iron_casing",
+        },
+        {
+          count: 1,
+          item: "kubejs:basic_machine_casing",
+        },
+        {
+          count: 1,
+          item: "industrialforegoing:machine_frame_pity",
+        },
+        {
+          count: 1,
+          item: "create:refined_radiance",
+        },
+      ],
+      input: {
+        count: 1,
+        tag: "thermal:glass/hardened",
       },
-      {
-        type: "aerial",
-        count: 2,
+      output: {
+        count: 1,
+        item: "thermal:machine_frame",
       },
-    ],
-  }).id(recipeId + "mixing_cauldron");
-
-  //Pewter Inlay
-  e.custom({
-    type: "malum:spirit_infusion",
-    extra_items: [
-      {
-        count: 4,
-        item: "eidolon:pewter_ingot",
-      },
-    ],
-    input: {
-      count: 1,
-      item: "malum:processed_soulstone",
+      spirits: [
+        {
+          type: "arcane",
+          count: 4,
+        }
+      ],
+      id: recipeId + "thermal_machine_frame",
     },
-    output: {
-      count: 2,
-      item: "eidolon:pewter_inlay",
+    //EnderIO Void Chasis
+    {
+      extra_items: [
+        {
+          count: 1,
+          item: "create:shadow_steel",
+        },
+        {
+          count: 4,
+          item: "enderio:infinity_rod",
+        },
+        {
+          count: 1,
+          item: "actuallyadditions:black_quartz",
+        },
+        {
+          count: 1,
+          item: "enderio:dark_steel_ingot",
+        },
+      ],
+      input: {
+        count: 1,
+        item: 'enderio:grains_of_infinity',
+      },
+      output: {
+        count: 1,
+        item: "enderio:void_chassis",
+      },
+      spirits: [
+        {
+          type: "wicked",
+          count: 4,
+        }
+      ],
+      id: recipeId + "enderio_void_chassis",
     },
-    spirits: [
-      {
-        type: "arcane",
-        count: 2,
+    //Insighful Crystal
+    {
+      extra_items: [
+        {
+          count: 2,
+          tag: "forge:gems/lapis",
+        },
+        {
+          count: 2,
+          item: "minecraft:experience_bottle"
+        }
+      ],
+      input: {
+        count: 1,
+        tag: "forge:gems/emerald",
       },
-    ],
-  }).id(recipeId + "pewter_inlay");
-
-  //Chromatic Compound
-  e.custom({
-    type: "malum:spirit_infusion",
-    extra_items: [
-      {
-        count: 4,
-        item: "create:polished_rose_quartz",
+      output: {
+        count: 1,
+        item: 'thermal:xp_crystal',
       },
-      {
-        count: 4,
-        item: "create:powdered_obsidian",
-      },
-      {
-        count: 4,
-        item: "minecraft:glowstone_dust",
-      },
-    ],
-    input: {
-      count: 1,
-      item: "malum:ether",
+      spirits: [
+        {
+          type: "arcane",
+          count: 1,
+        }
+      ],
+      id: recipeId + "insighful_crystal",
     },
-    output: {
-      count: 1,
-      item: "create:chromatic_compound",
-    },
-    spirits: [
-      {
-        type: "arcane",
-        count: 2,
-      },
-      {
-        type: "sacred",
-        count: 2,
-      },
-    ],
-  }).id(recipeId + "chrmomatic_compound");
+  ];
+  recipes.forEach((recipe) => {
+    e.custom({
+      type: "malum:spirit_infusion",
+      extra_items: recipe.extra_items,
+      input: recipe.input,
+      output: recipe.output,
+      spirits: recipe.spirits,
+    }).id(recipe.id);
+  });
 });

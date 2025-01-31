@@ -14,10 +14,16 @@
   },
   "gui": [
     {
-      "texture": "kubejs:textures/gui/simple_gui_background.png",
-      "x": 38,
-      "y": 20,
+      "texture": "kubejs:textures/gui/base_gui.png",
+      "x": 40,
+      "y": 10,
       "type": "custommachinery:texture"
+    },
+    {
+      "text": "Generator",
+      "x": 50,
+      "y": 16,
+      "type": "custommachinery:text"
     },
     {
       "x": 47,
@@ -26,46 +32,48 @@
     },
     {
       "id": "input_slot",
-      "x": 90,
-      "y": 48,
-      "type": "custommachinery:slot"
+      "x": 118,
+      "y": 40,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
     },
     {
-      "x": 115,
-      "y": 56,
-      "type": "custommachinery:progress"
+      "x": 120,
+      "y": 60,
+      "type": "custommachinery:progress",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_fuel_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_fuel_bar.png"
     },
     {
-      "x": 149,
-      "y": 54,
+      "x": 50,
+      "y": 32,
       "type": "custommachinery:energy",
-      "texture_empty": "kubejs:textures/gui/ic2_energy_bar.png",
-      "texture_filled": "kubejs:textures/gui/ic2_fillerd_energy_bar.png",
+      "texture_empty": "kubejs:textures/gui/energy_bar_empty.png",
+      "texture_filled": "kubejs:textures/gui/energy_bar_filled.png",
       "highlight": false
     },
     {
       "id": "upgrade_slot",
-      "x": 90,
-      "y": 66,
+      "x": 213,
+      "y": 19,
       "type": "custommachinery:slot",
-      "texture": "kubejs:textures/gui/upgrade_slot.png"
+      "texture": "kubejs:textures/gui/industrialrevival/upgrade_slot.png"
     },
     {
       "type": "custommachinery:config",
-      "x": 220,
-      "y": 40
+      "tooltips": "I/O Side Configuration",
+      "width": 18,
+      "height": 18,
+      "x": 213,
+      "y": 39,
+      "texture": "kubejs:textures/gui/industrialrevival/side_config_slot.png",
+      "texture_hovered": "kubejs:textures/gui/industrialrevival/hovered_side_config_slot.png"
     },
     {
       "texture": "kubejs:textures/gui/industrialrevival/gui_generator.png",
       "x": 63,
       "y": 6,
       "type": "custommachinery:texture"
-    },
-    {
-      "type": "custommachinery:text",
-      "text": "Inventory",
-      "x": 47,
-      "y": 93
     },
     {
       "x": 196,
@@ -88,13 +96,44 @@
       "variant": "custommachinery:fuel"
     },
     {
-      "capacity": 4096,
       "type": "custommachinery:energy",
       "maxInput": 0,
-      "maxOutput": 16,
+      "capacity": 4096,
+      "maxOutput": 32,
       "config": {
         "default": "output"
       }
+    }
+  ],
+  "jei": [
+    {
+      "texture": "kubejs:textures/gui/jei/jei_base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture",
+      "jei": true
+    },
+    {
+      "id": "input_slot",
+      "x": 118,
+      "y": 40,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "x": 120,
+      "y": 60,
+      "type": "custommachinery:progress",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_fuel_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_fuel_bar.png"
+    },
+    {
+      "x": 50,
+      "y": 32,
+      "type": "custommachinery:energy",
+      "texture_empty": "kubejs:textures/gui/energy_bar_empty.png",
+      "texture_filled": "kubejs:textures/gui/energy_bar_filled.png",
+      "highlight": false
     }
   ]
 }

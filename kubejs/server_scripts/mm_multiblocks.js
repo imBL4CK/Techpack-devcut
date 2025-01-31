@@ -34,11 +34,15 @@ MMEvents.createStructures((e) => {
       .layout((l) => {
         l.layer(["BBB", "BBB"])
           .layer(["BBB", "ICI"])
+          .layer(["MMM", "MMM"])
           .key("B", {
             block: "kubejs:klin_bricks",
           })
           .key("I", {
             portType: "mm:item",
+          })
+          .key("M", {
+            block: "minecraft:magma_block",
           });
       });
   }

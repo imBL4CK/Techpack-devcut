@@ -17,6 +17,7 @@ let Materials = [
   "silver",
   "nickel",
   "zinc",
+  "alchemical_brass"
 ];
 let Raw_materials = [
     "aluminum", 

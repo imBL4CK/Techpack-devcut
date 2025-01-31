@@ -1,5 +1,6 @@
 ServerEvents.recipes((e) => {
   let recipeId = ["hexerei:mixing_cauldron/"];
+
   const Hrecipes = [
     //Zombie Heart Doubling
     {
@@ -177,6 +178,169 @@ ServerEvents.recipes((e) => {
       fluidConsumed: 100,
       heated: "heated",
       id: recipeId + "shadow_gem",
+    },
+    //Shadow Gem
+    {
+      liquid: {
+        fluid: "minecraft:water",
+      },
+      ingredients: [
+        {
+          item: "eidolon:crimson_essence",
+        },
+        {
+          item: "eidolon:ender_calx",
+        },
+        {
+          item: "eidolon:soul_shard",
+        },
+        {
+          item: "forbidden_arcanus:arcane_crystal_dust",
+        },
+        {
+          item: "minecraft:phantom_membrane",
+        },
+        {
+          item: "minecraft:blaze_powder",
+        },
+      ],
+      output: {
+        item: "forbidden_arcanus:mundabitur_dust",
+        count: 1,
+      },
+      liquidOutput: {
+        fluid: "minecraft:water",
+      },
+      fluidConsumed: 100,
+      heated: "heated",
+      id: recipeId + "mundabitur_dust",
+    },
+    //Alchemical Brass from Iron
+    {
+      liquid: {
+        fluid: "minecraft:water",
+      },
+      ingredients: [
+        {
+          item: "minecraft:iron_ingot",
+        },
+        {
+          item: "eidolon:crimson_essence",
+        },
+        {
+          item: "eidolon:ender_calx",
+        },
+      ],
+      output: {
+        item: "kubejs:alchemical_brass_ingot",
+        count: 1,
+      },
+      liquidOutput: { fluid: "minecraft:water" },
+      fluidConsumed: 1000,
+      heated: "heated",
+      id: recipeId + "alchemical_brass/from_iron",
+    },
+    //Alchemical Brass from Copper
+    {
+      liquid: {
+        fluid: "minecraft:water",
+      },
+      ingredients: [
+        {
+          item: "minecraft:copper_ingot",
+        },
+        {
+          item: "eidolon:crimson_essence",
+        },
+        {
+          item: "eidolon:ender_calx",
+        },
+      ],
+      output: {
+        item: "kubejs:alchemical_brass_ingot",
+        count: 1,
+      },
+      liquidOutput: { fluid: "minecraft:water" },
+      fluidConsumed: 1000,
+      heated: "heated",
+      id: recipeId + "alchemical_brass/from_copper",
+    },
+    //Runewood Log
+    {
+      liquid: {
+        fluid: "minecraft:water",
+      },
+      ingredients: [
+        {
+          tag: "minecraft:logs",
+        },
+        {
+          item: "eidolon:ender_calx",
+        },
+        {
+          item: "eidolon:ender_calx",
+        },
+        {
+          item: "eidolon:enchanted_ash",
+        },
+        {
+          item: "malum:earthen_spirit",
+        },
+        {
+          item: "malum:arcane_spirit",
+        },
+        {
+          item: "malum:arcane_spirit",
+        },
+        {
+          item: "forbidden_arcanus:mundabitur_dust",
+        },
+      ],
+      output: {
+        item: "malum:runewood_log",
+        count: 1,
+      },
+      liquidOutput: { fluid: "minecraft:water" },
+      fluidConsumed: 1000,
+      heated: "heated",
+      id: recipeId + "runewood",
+    },
+    //Deorum Ingot
+    {
+      liquid: {
+        fluid: "minecraft:water",
+      },
+      ingredients: [
+        {
+          tag: "forge:ingots/gold",
+        },
+        {
+          tag: "minecraft:coals",
+        },
+        {
+          tag: "minecraft:coals",
+        },
+        {
+          item: "forbidden_arcanus:mundabitur_dust",
+        },
+        {
+          item: "forbidden_arcanus:mundabitur_dust",
+        },
+        {
+          item: "forbidden_arcanus:arcane_crystal_dust",
+        },
+        {
+          item: "forbidden_arcanus:arcane_crystal_dust",
+        },
+      ],
+      output: {
+        item: "forbidden_arcanus:deorum_ingot",
+        count: 1,
+      },
+      liquidOutput: { fluid: "minecraft:water" },
+      fluidConsumed: 1000,
+      heated: "heated",
+      id: recipeId + "deorum_ingot",
     },
   ];
   const recipes = [

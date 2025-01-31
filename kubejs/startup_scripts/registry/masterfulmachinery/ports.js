@@ -32,7 +32,7 @@ MMEvents.registerPorts((e) => {
       .name("Klin Item Port")
       .controllerId("mm:alloy_klin_controller")
       .config("mm:item", (c) => {
-        c.rows(1).columns(2);
+        c.rows(1).columns(3);
       });
   }
 });

@@ -7,23 +7,113 @@
 	id: "592957165FFD5FF3"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		icon: "tfmg:cable_connector"
-		id: "340AA62D840E57FF"
-		tasks: [
-			{
-				id: "525D425C2C1EFF55"
-				item: "tfmg:cable_connector"
+	quests: [
+		{
+			icon: "tfmg:cable_connector"
+			id: "340AA62D840E57FF"
+			tasks: [
+				{
+					id: "525D425C2C1EFF55"
+					item: "tfmg:cable_connector"
+					type: "item"
+				}
+				{
+					id: "4A4E885E46CA64C0"
+					item: "tfmg:copper_cable"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["340AA62D840E57FF"]
+			id: "597370B8D8639497"
+			tasks: [{
+				id: "107D70975A164F7C"
+				item: "thermal:energy_duct"
 				type: "item"
-			}
-			{
-				id: "4A4E885E46CA64C0"
-				item: "tfmg:copper_cable"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["340AA62D840E57FF"]
+			id: "6D5F70CF5D757E25"
+			tasks: [{
+				id: "55504F945B06F860"
+				item: "ad_astra:steel_cable"
 				type: "item"
-			}
-		]
-		x: -0.5d
-		y: 0.0d
-	}]
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["340AA62D840E57FF"]
+			id: "58385E316067067C"
+			tasks: [{
+				id: "2F0C1BCE1E480FD5"
+				item: "actuallyadditions:laser_relay"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58385E316067067C"]
+			id: "525DC961796770EA"
+			tasks: [{
+				id: "6F30B7B654ACD4BD"
+				item: "actuallyadditions:laser_relay_advanced"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["525DC961796770EA"]
+			id: "04F492357077C58B"
+			tasks: [{
+				id: "779935FF1CD4D371"
+				item: "actuallyadditions:laser_relay_extreme"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["340AA62D840E57FF"]
+			id: "52BAAAC037964B45"
+			tasks: [{
+				id: "360221CA18EC5695"
+				item: "enderio:basic_energy_conduit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52BAAAC037964B45"]
+			id: "29C5DA9031074E4B"
+			tasks: [{
+				id: "1BEA4630400FF3E7"
+				item: "enderio:enhanced_energy_conduit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29C5DA9031074E4B"]
+			id: "59C6771914F89226"
+			tasks: [{
+				id: "169E1751265A8597"
+				item: "enderio:ender_energy_conduit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
 	title: "Energy Transport"
 }

@@ -1,10 +1,10 @@
 {
   "block.mm.alloy_klin_controller": "Alloy Klin Controller",
   "block.mm.arc_furnace_controller": "Arc Furnace Controller",
-  "block.mm.freezer_controller": "Freezer Macerator",
+  "block.mm.freezer_controller": "Freezer Controller ",
   "block.mm.klin_item_port_input": "Klin Item Port Input",
   "block.mm.klin_item_port_output": "Klin Item Port Output",
-  "block.mm.steam_macerator_controller": "Steam Macerator",
+  "block.mm.steam_macerator_controller": "Steam Macerator Controller",
   "block.mm.steel_energy_port_input": "Steel Energy Port Input",
   "block.mm.steel_energy_port_output": "Steel Energy Port Output",
   "block.mm.steel_fluid_port_input": "Steel Fluid Port Input",

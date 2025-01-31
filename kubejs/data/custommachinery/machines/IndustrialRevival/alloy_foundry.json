@@ -20,6 +20,12 @@
       "type": "custommachinery:texture"
     },
     {
+      "text": "Alloy Foundry",
+      "x": 50,
+      "y": 6,
+      "type": "custommachinery:text"
+    },
+    {
       "x": 47,
       "y": 91,
       "type": "custommachinery:player_inventory"
@@ -162,7 +168,82 @@
     {
       "type": "custommachinery:energy",
       "capacity": 4096,
-      "maxInput": 32
+      "maxInput": 32,
+      "config": {
+        "default": "input"
+      }
+    }
+  ],
+  "jei": [
+    {
+      "texture": "kubejs:textures/gui/jei/jei_alloy_foundry_gui.png",
+      "x": 40,
+      "y": 0,
+      "type": "custommachinery:texture",
+      "jei": true
+    },
+    {
+      "id": "input_slot",
+      "x": 83,
+      "y": 17,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "input_slot2",
+      "x": 101,
+      "y": 17,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "input_slot3",
+      "x": 92,
+      "y": 53,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/energy_input_slot.png"
+    },
+    {
+      "id": "output_slot",
+      "x": 154,
+      "y": 17,
+      "width": 18,
+      "height": 18,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "output_slot2",
+      "x": 154,
+      "y": 35,
+      "width": 18,
+      "height": 18,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "output_slot3",
+      "x": 154,
+      "y": 53,
+      "width": 18,
+      "height": 18,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "x": 128,
+      "y": 19,
+      "type": "custommachinery:progress",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_progress_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_progress_bar.png"
+    },
+    {
+      "x": 93,
+      "y": 35,
+      "type": "custommachinery:energy",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_energy_bar.png",
+      "highlight": false
     }
   ]
 }

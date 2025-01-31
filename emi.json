@@ -1,599 +1,602 @@
 {
   "favorites": [
     {
-      "stack": "item:quark:feeding_trough",
-      "recipe": "quark:automation/crafting/feeding_trough"
+      "stack": "item:tconstruct:seared_melter"
     },
     {
-      "stack": "item:actuallyadditions:ring_of_magnetizing",
-      "recipe": "actuallyadditions:ring_of_magnetizing"
+      "stack": "item:tconstruct:smeltery_controller"
     },
     {
-      "stack": "item:malum:soul_stained_steel_scythe{Damage:0,Enchantments:[{id:\"malum:haunted\",lvl:2s},{id:\"malum:rebound\",lvl:2s},{id:\"minecraft:sweeping\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s},{id:\"malum:spirit_plunder\",lvl:1s}],RepairCost:127}"
+      "stack": "item:actuallyadditions:single_battery{Charged:1b,Energy:200000.0d}"
     },
     {
-      "stack": "item:tfmg:synthetic_leather",
-      "recipe": "jei:/tfmg/pressing/synthetic_leather"
+      "stack": "item:actuallyadditions:double_battery{Charged:1b,Energy:350000.0d}"
     },
     {
-      "stack": "item:create:chromatic_compound"
+      "stack": "item:actuallyadditions:triple_battery{Charged:1b,Energy:600000.0d}"
     },
     {
-      "stack": "item:createdieselgenerators:large_diesel_engine"
+      "stack": "item:actuallyadditions:quadruple_battery{Charged:1b,Energy:1000000.0d}"
     },
     {
-      "stack": "item:enderstorage:ender_chest"
+      "stack": "item:actuallyadditions:quintuple_battery{Charged:1b,Energy:2000000.0d}"
     },
     {
-      "stack": "item:enderstorage:ender_tank"
+      "stack": "item:thermal:machine_crystallizer"
     },
     {
-      "stack": "item:akashictome:tome"
+      "stack": "item:thermal:machine_insolator"
     },
     {
-      "stack": "item:create:portable_fluid_interface",
-      "recipe": "create:crafting/kinetics/portable_fluid_interface"
+      "stack": "item:thermal:upgrade_augment_2"
     },
     {
-      "stack": "item:create:steam_whistle",
-      "recipe": "create:crafting/kinetics/steam_whistle"
+      "stack": "item:thermal:upgrade_augment_3"
     },
     {
-      "stack": "item:sophisticatedbackpacks:copper_backpack",
-      "recipe": "sophisticatedbackpacks:copper_backpack"
+      "stack": "item:industrialforegoing:sewer"
+    },
+    {
+      "stack": "item:industrialforegoing:sewage_composter"
+    },
+    {
+      "stack": "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/hydro_engine\"}"
+    },
+    {
+      "stack": "item:thermal:satchel{}"
+    },
+    {
+      "stack": "item:thermal:detonator{}"
+    },
+    {
+      "stack": "item:thermal:flux_drill{}"
+    },
+    {
+      "stack": "item:thermal:flux_saw{}"
+    },
+    {
+      "stack": "item:thermal:flux_capacitor{}"
+    },
+    {
+      "stack": "item:thermal:flux_magnet{}"
+    },
+    {
+      "stack": "item:thermal:potion_infuser{}"
+    },
+    {
+      "stack": "item:thermal:potion_quiver{}"
+    },
+    {
+      "stack": "item:thermal:watering_can{}"
+    },
+    {
+      "stack": "item:systeams:steam_dynamo"
+    },
+    {
+      "stack": "item:thermal_extra:dynamo_frost"
     },
     {
       "stack": {
         "type": "fluid",
-        "id": "thermal_extra:polyolefin",
+        "id": "createdieselgenerators:plant_oil",
         "amount": 0
       }
     },
     {
-      "stack": "item:enderio:basic_energy_conduit"
+      "stack": "item:moreminecarts:maglev_rail"
     },
     {
-      "stack": "item:enderio:enhanced_energy_conduit"
+      "stack": "item:ad_astra:steel_cable"
     },
     {
-      "stack": "item:enderio:ender_energy_conduit"
+      "stack": "item:actuallyadditions:laser_relay"
     },
     {
-      "stack": "item:createaddition:electric_motor"
+      "stack": "item:actuallyadditions:laser_relay_advanced"
     },
     {
-      "stack": "item:eidolon:raven_cloak"
+      "stack": "item:actuallyadditions:laser_relay_extreme"
     },
     {
-      "stack": "item:eidolon:terminus_mirror"
+      "stack": "item:enderio:primitive_alloy_smelter"
+    },
+    {
+      "stack": "item:enderio:conduit_probe{}"
+    },
+    {
+      "stack": "item:thermal:compost"
+    },
+    {
+      "stack": "item:minecraft:powered_rail"
+    },
+    {
+      "stack": "item:caverns_and_chasms:spiked_rail"
+    },
+    {
+      "stack": "item:minecraft:detector_rail"
+    },
+    {
+      "stack": "item:minecraft:activator_rail"
+    },
+    {
+      "stack": "item:minecraft:chest_minecart"
+    },
+    {
+      "stack": "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/energetic_smelter\"}"
     },
     {
       "stack": {
         "type": "fluid",
-        "id": "enderio:nutrient_distillation",
-        "amount": 1000
-      },
-      "recipe": "jei:/create/empty_enderio_nutrient_distillation_bucket_of_enderio_nutrient_distillation"
-    },
-    {
-      "stack": {
-        "type": "fluid",
-        "id": "enderio:fire_water",
-        "amount": 1000
-      },
-      "recipe": "jei:/create/empty_enderio_fire_water_bucket_of_enderio_fire_water"
-    },
-    {
-      "stack": "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/fishing_basin\"}"
-    },
-    {
-      "stack": {
-        "type": "fluid",
-        "id": "ad_astra:hydrogen",
-        "amount": 1000
-      },
-      "recipe": "jei:/create/empty_ad_astra_hydrogen_bucket_of_ad_astra_hydrogen"
-    },
-    {
-      "stack": "item:sophisticatedbackpacks:iron_backpack"
-    },
-    {
-      "stack": "item:actuallyadditions:oil_generator"
-    },
-    {
-      "stack": "item:minecraft:diamond"
-    },
-    {
-      "stack": "item:actuallyadditions:crusher_double"
-    },
-    {
-      "stack": "item:actuallyadditions:advanced_coil"
-    },
-    {
-      "stack": "item:enderio:redstone_alloy_ingot",
-      "recipe": "jei:/enderio/alloy_smelting/redstone_alloy_ingot"
-    },
-    {
-      "stack": "item:hexerei:small_satchel"
-    },
-    {
-      "stack": "item:kubejs:calcium_dust"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "tfmg:electric_diode",
-        "amount": 2
-      },
-      "recipe": "tfmg:crafting/diode"
-    },
-    {
-      "stack": "item:tfmg:copper_wire"
-    },
-    {
-      "stack": "item:thermal_extra:nitratic_igniter"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "ad_astra:steel_rod",
-        "amount": 4
-      },
-      "recipe": "ad_astra:steel_rod"
-    },
-    {
-      "stack": "item:kubejs:primitive_fishing_net{Damage:157}",
-      "recipe": "emi:/crafting/repairing/kubejs/primitive_fishing_net"
-    },
-    {
-      "stack": "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/metal_former\"}"
-    },
-    {
-      "stack": "item:industrialforegoing:latex_processing_unit",
-      "recipe": "industrialforegoing:latex_processing_unit"
-    },
-    {
-      "stack": "item:malum:ether"
-    },
-    {
-      "stack": "item:thermal:tin_ingot"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "minecraft:copper_ingot",
-        "amount": 3
+        "id": "kubejs:molten_red_alloy",
+        "amount": 0
       }
     },
     {
-      "stack": "item:kubejs:chromium_dust"
+      "stack": "item:actuallyadditions:ender_casing",
+      "recipe": "actuallyadditions:ender_casing"
     },
     {
-      "stack": "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"farmersdelight:backstabbing\",lvl:1s}]}"
+      "stack": "item:actuallyadditions:quintuple_battery",
+      "recipe": "actuallyadditions:quintuple_battery"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "actuallyadditions:lava_factory_casing",
+        "amount": 4
+      },
+      "recipe": "actuallyadditions:lava_factory_casing"
+    },
+    {
+      "stack": "item:thermal:dynamo_numismatic"
+    },
+    {
+      "stack": "item:thermal:dynamo_lapidary"
+    },
+    {
+      "stack": "item:thermal:fluid_reservoir{}"
+    },
+    {
+      "stack": "item:custommachinery:configuration_card"
+    },
+    {
+      "stack": "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/macerator\"}"
+    },
+    {
+      "stack": "item:actuallyadditions:crusher"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "createdieselgenerators:wood_chip",
+        "amount": 5
+      },
+      "recipe": "jei:/createdieselgenerators/crushing/wood_chip_stairs"
+    },
+    {
+      "stack": "item:minecraft:gilded_blackstone"
+    },
+    {
+      "stack": "#item:minecraft:wool"
+    },
+    {
+      "stack": "item:minecraft:shulker_shell"
+    },
+    {
+      "stack": "item:tfmg:limesand",
+      "recipe": "jei:/tfmg/crushing/limesand"
+    },
+    {
+      "stack": "item:minecraft:coal",
+      "recipe": "jei:/tfmg/crushing/lignite"
+    },
+    {
+      "stack": "item:tfmg:nitrate_dust",
+      "recipe": "jei:/tfmg/crushing/saltpeter"
+    },
+    {
+      "stack": "item:minecraft:prismarine_shard"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:bone_meal",
+        "amount": 6
+      },
+      "recipe": "jei:/kubejs/custom_machine/custommachinery/industrialrevival/macerator/53"
     }
   ],
   "lookup_history": [
-    "item:hexerei:dried_sage_bundle{Damage:0}",
-    "item:unusualprehistory:tar_bucket",
+    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/macerator\"}",
+    "item:pneumaticcraft:etching_acid_bucket",
     {
       "type": "item",
-      "id": "unusualprehistory:tar_fossil_item",
-      "amount": 4
-    },
-    {
-      "type": "item",
-      "id": "grounded:sandy_dirt",
+      "id": "moreminecarts:arithmetic_rail",
       "amount": 2
     },
-    "item:bloomingnature:marsh_block",
-    "item:moreminecarts:transport_tank",
-    "item:kubejs:stainless_steel_ingot",
-    "item:mm:arc_furnace_controller",
-    "item:kubejs:shadow_bronze_ingot",
+    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/rail_attacher\"}",
+    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/assembler\"}",
+    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/metal_former\"}",
+    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/alloy_foundry\"}",
+    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/compressor\"}",
+    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/energetic_smelter\"}",
+    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/generator\"}",
+    "item:kubejs:boots_of_the_traveller{Damage:0}",
     {
       "type": "item",
-      "id": "malum:arcane_spirit",
-      "amount": 14
-    },
-    "item:mm:freezer_controller",
-    "item:kubejs:chromium_dust",
-    {
-      "type": "item",
-      "id": "kubejs:manganese_ingot",
+      "id": "tfmg:coal_coke_dust",
       "amount": 2
     },
-    "item:thermal:iron_dust",
-    "item:thermal:tin_dust",
-    "item:enderio:powdered_iron",
-    "#item:forge:dusts/iron",
-    "item:kubejs:manganese_dust",
+    "item:minecraft:prismarine_shard",
     {
       "type": "item",
-      "id": "kubejs:hot_stainless_steel_ingot",
-      "amount": 4
+      "id": "quark:moss_paste",
+      "amount": 3
     },
-    "item:thermal:machine_centrifuge",
-    "item:thermal:ruby",
-    "item:thermal:ruby_dust",
+    "item:create:crushing_wheel",
+    "item:industrialforegoing:mob_crusher",
+    "item:minecraft:light_gray_dye",
+    "item:minecraft:lily_of_the_valley",
+    "item:minecraft:white_dye",
+    {
+      "type": "item",
+      "id": "actuallyadditions:black_quartz",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "minecraft:sugar",
+      "amount": 2
+    },
+    "item:actuallyadditions:rice",
+    "item:actuallyadditions:rice_seeds",
+    "item:minecraft:diamond_horse_armor",
+    {
+      "type": "item",
+      "id": "minecraft:diamond",
+      "amount": 3
+    },
+    "item:thermal:copper_nugget",
+    "item:minecraft:quartz",
+    "item:minecraft:red_sandstone",
+    {
+      "type": "item",
+      "id": "minecraft:red_sand",
+      "amount": 2
+    },
+    "item:thermal_extra:zinc_dust",
+    "item:tfmg:zinc_sulfate",
+    {
+      "type": "item",
+      "id": "thermal:gold_dust",
+      "amount": 2
+    },
+    "item:thermal:machine_pulverizer",
+    "#item:minecraft:gold_ores",
+    {
+      "type": "item",
+      "id": "minecraft:cobblestone",
+      "amount": 2
+    },
+    "item:minecraft:sandstone",
+    "item:hexerei:mixing_cauldron",
+    "item:forbidden_arcanus:mundabitur_dust",
+    "item:enderio:enchanter",
+    "item:mm:steam_macerator_controller",
+    "item:custommachinery:configuration_card",
+    "item:pneumaticcraft:printed_circuit_board",
+    "item:thermal:fluid_reservoir{Active:0b,Fluid:{Amount:1000,FluidName:\"pneumaticcraft:etching_acid\"},Mode:0}",
+    "item:pneumaticcraft:unassembled_pcb",
+    {
+      "type": "fluid",
+      "id": "pneumaticcraft:etching_acid",
+      "amount": 1000
+    },
+    "item:pneumaticcraft:empty_pcb",
+    {
+      "type": "fluid",
+      "id": "pneumaticcraft:memory_essence",
+      "amount": 0
+    },
+    "item:thermal:redstone_servo",
+    "item:thermal:lumium_glass",
+    "item:thermal:signalum_glass",
+    "item:thermal:obsidian_glass",
+    "item:thermal:syrup_bottle",
+    "item:thermal:device_potion_diffuser",
+    "item:thermal:fluid_duct_windowed",
+    "item:thermal:fluid_duct",
+    "item:thermal:energy_cell{BlockEntityTag:{Energy:0,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000}}",
+    "item:thermal:fluid_cell{BlockEntityTag:{TankInv:[{Amount:0,Capacity:32000,FluidName:\"minecraft:empty\",Tank:0b}]}}",
+    "item:thermal:dynamo_gourmand",
+    "item:thermal:dynamo_disenchantment",
+    "item:thermal:dynamo_lapidary",
+    "item:thermal:dynamo_numismatic",
+    "item:thermal:dynamo_magmatic",
+    "item:thermal:dynamo_compression",
+    "item:thermal:dynamo_stirling",
     {
       "type": "item",
       "id": "thermal:bronze_ingot",
       "amount": 4
     },
-    {
-      "type": "item",
-      "id": "minecraft:iron_ingot",
-      "amount": 2
-    },
-    "item:mm:alloy_klin_controller",
-    "item:kubejs:energized_steel_ingot",
-    "item:supplementaries:faucet",
-    "item:enderio:dark_steel_ingot",
-    "item:eidolon:unholy_symbol",
-    "item:kubejs:bio_plastic_mesh",
-    "item:upgrade_aquatic:chrome_coral_block",
-    "item:create:chromatic_compound{}",
-    "item:kubejs:bio_plastic",
-    "item:forbidden_arcanus:aurum_button",
-    "item:eidolon:pewter_ingot",
-    "item:eidolon:pewter_blend",
-    "item:eidolon:pewter_nugget",
-    "item:hexerei:mahogany_broom",
-    "item:hexerei:pestle_and_mortar",
-    "item:malum:grim_talc",
-    "item:malum:block_of_grim_talc",
     "item:malum:spirit_altar",
-    "item:eidolon:soul_shard",
-    "item:eidolon:brazier",
-    "item:eidolon:worktable",
-    "item:camera:camera",
-    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/macerator\"}",
-    "item:kubejs:basic_machine_casing",
-    "item:prettypipes:crafting_terminal",
-    "item:thermal:rf_coil",
-    "item:tfmg:steel_mechanism",
-    "item:kubejs:makeshift_mechanism",
-    "item:kubejs:advanced_alloy_dust",
-    "item:kubejs:advanced_alloy_ingot",
-    "item:kubejs:logistic_machine",
-    "item:kubejs:klin_bricks",
-    "item:kubejs:steel_casing",
-    "item:kubejs:basic_circuit",
-    "item:pneumaticcraft:transistor",
-    "item:pneumaticcraft:plastic",
-    "fluid:createdieselgenerators:biodiesel",
-    "#fluid:forge:biodiesel",
-    "item:malum:spirit_crucible",
-    {
-      "type": "fluid",
-      "id": "tfmg:propylene",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "tfmg:liquid_plastic",
-      "amount": 200
-    },
-    "item:malum:repair_pylon",
-    "item:malum:spirit_catalyzer",
-    "item:minecraft:glowstone_dust",
+    "item:actuallyadditions:feeder",
+    "item:actuallyadditions:lava_factory_casing",
+    "item:moreminecarts:chunkrodite_block",
     {
       "type": "item",
-      "id": "create:polished_rose_quartz",
-      "amount": 4
+      "id": "moreminecarts:chunkrodite",
+      "amount": 9
     },
-    "item:eidolon:pewter_inlay",
-    "item:enderio:clayed_glowstone",
-    "item:enderio:powdered_obsidian",
-    "item:malum:blazing_quartz",
-    "item:malum:ether",
-    "item:malum:living_flesh",
-    "item:malum:alchemical_calx",
-    "item:industrialforegoing:plant_gatherer",
-    "item:industrialforegoing:latex_processing_unit",
-    "item:industrialforegoing:dryrubber",
-    "item:kubejs:mixed_metal_ingot",
-    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/compressor\"}",
-    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/alloy_foundry\"}",
-    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/metal_former\"}",
-    "item:pneumaticcraft:advanced_air_compressor",
-    "item:pneumaticcraft:advanced_liquid_compressor",
-    "item:pneumaticcraft:air_compressor",
-    "item:ad_astra:compressor",
-    "item:create:mechanical_piston",
-    "item:moreminecarts:sticky_piston_pushcart",
-    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/generator\"}",
-    "item:tfmg:steel_pickaxe{Damage:32}",
-    "item:thermal:steel_ingot",
-    "item:dustrial_decor:cast_iron_billet",
-    "item:thermal:silver_plate",
-    "item:enderio:alloy_smelter",
-    "item:actuallyadditions:powered_furnace",
-    "item:minecraft:furnace",
-    "item:thermal:machine_furnace",
-    "item:thermal:steel_plate",
-    "item:kubejs:primitive_fishing_net{Damage:46}",
-    "item:moreminecarts:silica_steel",
-    "item:moreminecarts:silica_steel_mix",
-    "item:moreminecarts:silica_steel_block",
-    "item:minecraft:flint_and_steel{Damage:0}",
-    "item:tfmg:steel_scaffolding",
-    "item:tfmg:steel_frame",
-    "item:tfmg:steel_truss",
-    "item:tfmg:steel_helmet{Damage:0}",
-    "item:ad_astra:gas_tank",
-    "item:ad_astra:steel_tank",
-    "item:ad_astra:engine_frame",
-    "item:ad_astra:fan",
-    "item:ad_astra:steel_engine",
-    "item:thermal:steel_gear",
-    "item:ad_astra:steel_rod",
-    "item:minecraft:ender_pearl",
-    "item:quark:crafter",
-    "item:create_dd:rubber",
+    "item:actuallyadditions:empowered_diamatine_crystal",
+    "item:actuallyadditions:quintuple_battery{Charged:1b,Energy:2000000.0d}",
+    "item:actuallyadditions:single_battery{Charged:1b,Energy:200000.0d}",
+    "item:actuallyadditions:quadruple_battery{Charged:1b,Energy:1000000.0d}",
+    "item:actuallyadditions:double_battery{Charged:1b,Energy:350000.0d}",
+    "item:actuallyadditions:drill_light_blue",
+    "#item:actuallyadditions:drills",
+    "item:actuallyadditions:drill_core",
+    "item:actuallyadditions:wings_of_the_bats",
+    "item:actuallyadditions:lens_of_the_miner",
+    "item:actuallyadditions:lens_of_color",
+    "item:actuallyadditions:lens_of_detonation",
+    "item:actuallyadditions:lens_of_certain_death",
+    "item:thermal:watering_can{}",
+    "item:ad_astra:steel_cable",
+    "item:actuallyadditions:ender_casing",
+    "item:actuallyadditions:iron_casing",
+    "item:actuallyadditions:wood_casing",
+    "item:actuallyadditions:display_stand",
+    "item:thermal:machine_frame",
+    "item:thermal:energy_cell_frame",
+    "item:thermal:device_nullifier",
+    "item:thermal:device_xp_condenser",
+    "item:thermal:device_collector",
+    "item:thermal:device_rock_gen",
+    "item:thermal:device_water_gen",
+    "item:thermal:device_soil_infuser",
+    "item:thermal:device_composter",
+    "item:thermal:device_fisher",
+    "item:thermal:device_tree_extractor",
+    "item:thermal:device_hive_extractor",
+    "item:thermal:machine_bottler",
+    "item:thermal:charge_bench",
+    "item:thermal:tinker_bench",
+    "item:thermalendergy:vibrating_core",
+    "fluid:tconstruct:molten_steel",
     {
-      "type": "fluid",
-      "id": "systeams:steam",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "ad_astra:hydrogen",
-      "amount": 0
-    },
-    "item:ad_astra:cryo_freezer",
-    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/fishing_basin\"}",
-    "item:tfmg:synthetic_string",
-    "item:kubejs:reinforced_armor_boots{Damage:0}",
-    "item:kubejs:reinforced_armor_leggings{Damage:0}",
-    "item:kubejs:reinforced_armor_chestplate{Damage:0}",
-    "item:kubejs:reinforced_armor_helmet{Damage:0}",
-    "item:systeams:boiler_pipe",
-    "item:createdieselgenerators:basin_lid",
-    "item:create:brass_hand",
-    "item:kubejs:golden_hand",
-    {
-      "type": "item",
-      "id": "tfmg:capacitor_",
-      "amount": 2
-    },
-    {
-      "type": "item",
-      "id": "tfmg:copper_cable",
-      "amount": 4
-    },
-    "item:create:brass_ingot",
-    "item:create:brass_sheet",
-    "item:enderio:fused_quartz",
-    "item:enderio:fused_quartz_p",
-    "item:enderio:clear_glass",
-    "item:create:black_valve_handle",
-    "item:create_dd:raw_rubber",
-    "item:create_dd:kinetic_mechanism",
-    "item:tfmg:cast_iron_ingot",
-    "item:createaddition:spool",
-    "item:ae2:charger",
-    "item:ae2:inscriber",
-    {
-      "type": "fluid",
-      "id": "thermal_extra:raw_iron",
+      "type": "tag",
+      "registry": "minecraft:fluid",
+      "id": "forge:molten_steel",
       "amount": 90
     },
-    "item:thermal_extra:iron_ore_chunk",
-    "item:thermal_extra:nitratic_igniter",
-    "item:thermal_extra:polyolefin_plate",
+    "item:thermal:steel_ingot",
+    "fluid:tfmg:molten_steel",
+    "item:minecraft:raw_iron",
+    "item:enderio:conduit_probe{}",
+    "item:thermal:machine_sawmill",
+    "item:kubejs:crushed_raw_calorite",
     {
       "type": "fluid",
-      "id": "thermal_extra:polyolefin",
+      "id": "kubejs:molten_red_alloy",
       "amount": 0
     },
-    "item:tfmg:copper_wire",
-    "#item:forge:wires/copper",
-    "item:createaddition:copper_spool",
+    "item:draconicevolution:draconium_dust",
+    "item:thermal:silver_dust",
+    "item:thermal:apatite_dust",
+    "item:kubejs:alchemical_brass_ingot",
+    "item:thermal:iron_plate",
+    "item:ad_astra:compressor",
+    "item:minecraft:iron_ingot",
+    "item:minecraft:furnace",
+    "item:botania:manasteel_ingot",
+    "item:tconstruct:seared_cracked_bricks",
+    "item:minecraft:oak_log",
+    "item:minecraft:spruce_log",
+    "item:thermal:machine_furnace",
+    "item:thermal:machine_pyrolyzer",
+    "item:thermal:blizz_powder",
+    "item:thermal:basalz_rod",
+    "item:thermal:blizz_rod",
+    "item:thermal:blitz_rod",
+    "item:thermal:machine_chiller",
+    "item:minecraft:stone",
+    "item:minecraft:diorite",
+    "item:botania:quartz_elven",
+    "item:botania:quartz_red",
+    "item:botania:quartz_lavender",
+    "item:botania:blaze_quartz",
+    "item:botania:quartz_blaze",
+    "item:botania:quartz_mana",
+    "item:botania:dragonstone_block",
+    "item:botania:elementium_block",
+    "item:botania:spawner_claw",
+    "item:botania:lens_mine",
+    "item:botania:cosmetic_botanist_emblem",
+    "item:botania:cosmetic_ancient_mask",
+    "item:botania:cosmetic_eerie_mask",
+    "item:botania:cosmetic_thinking_hand",
+    "item:arts_and_crafts:stripped_cork_wood",
+    "item:moreminecarts:high_speed_upgrade",
+    "item:moreminecarts:coupler",
+    "item:moreminecarts:battery_cart",
+    "item:moreminecarts:tank_cart",
+    "item:moreminecarts:sticky_piston_pushcart",
+    "item:moreminecarts:transport_tank",
+    "item:moreminecarts:hard_light_lens",
+    "item:moreminecarts:holo_scaffold_generator",
+    "item:thermal:energy_minecart{Energy:0,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000}",
+    "item:thermal:fluid_cell_frame",
+    "item:thermal:fluid_minecart{Amount:0,Capacity:32000,FluidName:\"minecraft:empty\"}",
+    "item:thermal:underwater_minecart",
+    "item:moreminecarts:minecart_with_chunk_loader",
+    "item:thermal:lightning_tnt_minecart",
+    "item:minecraft:chest_minecart",
+    "item:minecraft:hopper_minecart",
+    "item:railways:jukeboxcart",
+    "item:railways:benchcart",
+    "item:moreminecarts:flag_cart",
+    "item:moreminecarts:pearl_stasis_minecart",
+    "item:moreminecarts:minecart_with_net",
+    "item:thermal:phyto_tnt_minecart",
+    "item:thermal:earth_tnt_minecart",
+    "item:thermal:ice_tnt_minecart",
+    "item:thermal:fire_tnt_minecart",
+    "item:thermal:slime_tnt_minecart",
+    "item:thermal:redstone_tnt_minecart",
+    "item:thermal:glowstone_tnt_minecart",
+    "item:thermal:ender_tnt_minecart",
+    "item:moreminecarts:piston_pushcart",
+    "item:moreminecarts:glass_cactus",
+    "item:moreminecarts:soulfire_cart",
+    "item:moreminecarts:campfire_cart",
+    "item:moreminecarts:rail_signal_white",
+    "item:moreminecarts:organic_glass",
+    "item:moreminecarts:iron_pushcart",
+    "item:moreminecarts:wooden_pushcart",
+    "item:moreminecarts:silica_steel",
+    "item:moreminecarts:silica_steel_mix",
+    "item:moreminecarts:levitation_powder",
+    "item:moreminecarts:pearl_stasis_chamber",
+    "item:moreminecarts:filter_unloader",
+    "item:moreminecarts:minecart_unloader",
+    "item:moreminecarts:minecart_loader",
+    "item:moreminecarts:chunk_loader",
+    "item:create:controller_rail",
+    "item:moreminecarts:color_detector_rail_white",
+    "item:moreminecarts:piston_lifter_rail",
+    "item:moreminecarts:powered_locking_rail",
+    "item:railways:track_monorail",
+    "item:moreminecarts:color_detector_rail_black",
+    "item:moreminecarts:color_detector_rail_gray",
+    "item:moreminecarts:color_detector_rail_light_gray",
+    "item:moreminecarts:locking_rail",
+    "item:moreminecarts:lightspeed_powered_rail",
+    "item:moreminecarts:lightspeed_cross_rail",
+    "item:moreminecarts:lightspeed_rail",
+    "item:moreminecarts:maglev_powered_rail",
+    "item:moreminecarts:maglev_projector_rail",
+    "item:moreminecarts:maglev_cross_rail",
+    "item:moreminecarts:bioluminescent_rail",
+    "item:thermal:prismarine_activator_rail",
     {
       "type": "item",
-      "id": "create:controller_rail",
-      "amount": 6
+      "id": "moreminecarts:maglev_rail",
+      "amount": 16
     },
-    "item:actuallyadditions:basic_coil",
-    "item:actuallyadditions:restonia_crystal",
-    "item:tfmg:electric_casing",
-    "item:createaddition:capacitor",
-    "item:tfmg:electric_motor",
-    "item:tfmg:resistor",
-    "item:createaddition:electric_motor",
+    "item:moreminecarts:maglev_parallel_rail",
+    "item:moreminecarts:maglev_rail_turn",
+    "item:moreminecarts:wooden_projector_rail",
+    "item:moreminecarts:wooden_cross_rail",
+    "item:moreminecarts:wooden_parallel_rail",
+    "item:moreminecarts:wooden_rail_turn",
+    "item:moreminecarts:wooden_rail",
+    "item:moreminecarts:projector_rail",
+    "item:moreminecarts:cross_rail",
+    "#item:minecraft:stone_crafting_materials",
+    "item:moreminecarts:parallel_rail",
+    "item:moreminecarts:rail_turn",
+    "item:minecraft:stone_pressure_plate",
+    "item:minecraft:detector_rail",
+    "item:thermal:prismarine_detector_rail",
+    "item:thermal:prismarine_powered_rail",
+    "item:thermal:prismarine_crossover_rail",
+    "item:thermal:prismarine_rail",
+    "item:thermal:crossover_rail",
+    "item:minecraft:activator_rail",
+    "item:caverns_and_chasms:spiked_rail",
+    "item:minecraft:powered_rail",
+    "item:minecraft:rail",
+    "item:minecraft:stick",
+    "item:minecraft:slime_ball",
+    "item:minecraft:name_tag",
+    "item:minecraft:sand",
+    "#item:forge:slimeballs",
+    "item:minecraft:lead",
+    "item:kubejs:industrial_leather",
     "item:sophisticatedbackpacks:backpack",
     "item:sophisticatedbackpacks:copper_backpack",
     "item:sophisticatedbackpacks:iron_backpack",
-    "item:hexerei:mixing_cauldron",
-    "item:eidolon:shadow_gem",
-    "item:eidolon:lesser_soul_gem",
     "item:minecraft:string",
-    "item:kubejs:calcium_dust",
-    "item:enderio:wood_gear",
+    "item:minecraft:leather",
+    "item:tconstruct:war_pick{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:manyullyn\",\"tconstruct:manyullyn\",\"tconstruct:string\"],tic_modifiers:[{level:2,name:\"tconstruct:insatiable\"},{level:1,name:\"tconstruct:stringy\"}],tic_persistent:{},tic_stats:{\"tconstruct:accuracy\":0.6f,\"tconstruct:attack_damage\":3.5f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:draw_speed\":0.65f,\"tconstruct:durability\":2500.0f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":6.5f,\"tconstruct:velocity\":1.25f},tic_volatile_data:{abilities:1,upgrades:3}}",
+    "item:forbidden_arcanus:rotten_leather",
+    "item:thermal:satchel{}",
     {
       "type": "item",
-      "id": "eidolon:polished_planks",
-      "amount": 32
-    },
-    "item:hexerei:small_satchel",
-    "item:quark:backpack",
-    "item:supplementaries:quiver",
-    "item:create:portable_fluid_interface",
-    {
-      "type": "fluid",
-      "id": "tfmg:heavy_oil",
-      "amount": 40
-    },
-    "item:actuallyadditions:crafter_on_a_stick",
-    "item:kubejs:primitive_hammer{Damage:0}",
-    "item:kubejs:primitive_saw{Damage:0}",
-    "#item:forge:tools/hammer",
-    "item:createdieselgenerators:large_diesel_engine",
-    {
-      "type": "item",
-      "id": "thermal:fluid_duct",
-      "amount": 4
-    },
-    "item:malum:hex_ash",
-    "item:moreminecarts:coupler",
-    "item:actuallyadditions:ring_of_magnetizing",
-    "item:kubejs:wooden_gear",
-    "#item:forge:gears/wood",
-    "item:kubejs:red_alloy_gear",
-    "item:minecraft:smithing_table",
-    "item:actuallyadditions:crusher_double",
-    "item:actuallyadditions:crusher",
-    "item:actuallyadditions:iron_casing",
-    "item:actuallyadditions:coal_generator",
-    "item:actuallyadditions:atomic_reconstructor",
-    "item:actuallyadditions:advanced_coil",
-    "item:enlightened_end:nuclear_furnace",
-    "item:enderio:sag_mill",
-    "item:thermal:machine_pulverizer",
-    "item:create:crushing_wheel",
-    "item:thermal:coal_coke_block",
-    "item:minecraft:diamond",
-    "item:actuallyadditions:lava_factory_casing",
-    "item:industrialforegoing:dissolution_chamber",
-    "item:industrialforegoing:fluid_extractor",
-    "item:industrialforegoing:sewer",
-    "item:industrialforegoing:sewage_composter",
-    {
-      "type": "fluid",
-      "id": "tfmg:crude_oil",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "pneumaticcraft:oil",
-      "amount": 0
-    },
-    "item:tfmg:copper_coil",
-    "item:tfmg:rotor",
-    "item:custommachinery:custom_machine_item{machine:\"custommachinery:industrialrevival/hydro_engine\"}",
-    "item:ad_astra:hydrogen_bucket",
-    "item:mm:steam_macerator_controller",
-    "item:systeams:steam_bucket",
-    "item:systeams:stirling_boiler",
-    "item:systeams:frost_boiler",
-    "item:systeams:pneumatic_boiler",
-    "item:systeams:disenchantment_boiler",
-    "item:systeams:numismatic_boiler",
-    "item:systeams:magmatic_boiler",
-    "item:systeams:lapidary_boiler",
-    "item:systeams:gourmand_boiler",
-    "item:systeams:compression_boiler",
-    "item:systeams:steam_dynamo",
-    "item:thermal:slag",
-    "item:create:andesite_alloy",
-    "item:minecraft:clay_ball",
-    "item:eidolon:codex{}",
-    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"ensorcellation:angler\",lvl:2s}]}",
-    "item:minecraft:bone",
-    "item:minecraft:cod",
-    "item:minecraft:fishing_rod{Damage:0}",
-    "item:unusualfishmod:raw_hatchetfish",
-    {
-      "type": "item",
-      "id": "minecraft:echo_shard",
+      "id": "thermal:upgrade_augment_1",
       "amount": 2
     },
-    "item:minecraft:enchanted_golden_apple",
-    "item:minecraft:sculk_catalyst",
-    "item:enderio:soul_binder",
-    "item:minecraft:dark_oak_wood",
-    "item:minecraft:clay",
-    "item:thermal:device_fisher",
-    "item:bloomingnature:laterit",
-    "item:minecraft:spruce_pressure_plate",
-    "item:create_dd:gabbro",
-    "item:create:limestone",
-    "item:create:cut_dripstone",
-    "item:arts_and_crafts:gypsum",
-    "item:upgrade_aquatic:scute_block",
-    "item:minecraft:tuff",
-    "item:minecraft:dripstone_block",
-    "item:minecraft:calcite",
-    "item:quark:myalite",
-    "item:quark:limestone",
-    "item:quark:jasper",
-    "item:quark:shale",
-    "item:create_dd:gilded_rose_pickaxe{Damage:6}",
-    "item:enderio:grains_of_infinity",
-    {
-      "type": "item",
-      "id": "kubejs:advanced_alloy_plate",
-      "amount": 2
-    },
-    "item:minecraft:beacon",
-    "#item:techpack:malum/1sacred1arcane_spirit",
-    "item:custommachinery:custom_machine_item{machine:\"custommachinery:malum/spirit_crystallizer\"}",
-    "item:thermal:tin_plate",
-    "item:minecraft:bucket",
-    "item:minecraft:dirt",
-    "item:enderio:empty_soul_vial",
-    "item:enderio:filled_soul_vial{BlockEntityTag:{EntityStorage:{Entity:{AbsorptionAmount:0.0f,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.0d,Name:\"malum:soul_ward_capacity\"},{Base:0.0d,Name:\"malum:malignant_conversion\"},{Base:0.0d,Name:\"forge:step_height_addition\"},{Base:0.08d,Name:\"forge:entity_gravity\"},{Base:0.07298092488377361d,Name:\"minecraft:zombie.spawn_reinforcements\"},{Base:35.0d,Modifiers:[{Amount:0.0257239960881836d,Name:\"Random spawn bonus\",Operation:1,UUID:[I;1674040783,1116489564,-1557536294,-17112468]}],Name:\"minecraft:generic.follow_range\"},{Base:0.23000000417232513d,Name:\"minecraft:generic.movement_speed\"},{Base:1.0d,Name:\"malum:soul_ward_recovery_rate\"},{Base:0.0d,Modifiers:[{Amount:0.011340937982638766d,Name:\"Random spawn bonus\",Operation:0,UUID:[I;206520362,197018741,-2015743482,-1697345872]}],Name:\"minecraft:generic.knockback_resistance\"},{Base:1.0d,Name:\"lodestone:magic_proficiency\"}],BalmData:{},Brain:{memories:{}},CanBreakDoors:0b,CanPickUpLoot:0b,CanUpdate:1b,CitadelData:{},DeathTime:0s,DrownedConversionTime:-1,FallDistance:0.0f,FallFlying:0b,Fire:-1s,ForgeCaps:{\"curios:inventory\":{Curios:[]},\"lodestone:entity_data\":{},\"malum:living_data\":{darknessAfflictionData:{afflictionDuration:0,currentAffliction:0.0f,expectedAffliction:0,isNearWeepingWell:0b,progressToRejection:0,rejection:0,weepingWellInfluence:0},soulData:{soulless:0b,spawnerSpawned:0b}},\"pneumaticcraft:hacking\":{}},ForgeData:{},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:20.0f,HurtByTimestamp:0,HurtTime:0s,InWaterTime:-1,Invulnerable:0b,IsBaby:0b,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[544.5d,-56.0d,194.5d],Rotation:[9.441612f,0.0f],UUID:[I;-573587790,-472300572,-1706188424,1460825121],\"forge:spawn_type\":\"SPAWN_EGG\",id:\"minecraft:husk\"},MaxHealth:20.0f}}}",
+    "item:thermal:compost",
     {
       "type": "fluid",
-      "id": "enderio:fire_water",
-      "amount": 0
+      "id": "thermal_extra:crystallized_sunflower_oil",
+      "amount": 200
     },
-    "item:enderio:staff_of_levity{Energy:{EnergyStored:0,MaxEnergyStored:1000,MaxEnergyUse:1000}}",
-    "item:architects_palette:acacia_totem_wing",
-    "item:enderio:broken_spawner{BlockEntityTag:{EntityStorage:{Entity:{id:\"alexsmobs:comb_jelly\"}}}}"
+    "item:thermal:fluid_filter_augment",
+    "item:thermal:item_filter_augment",
+    "item:thermal:upgrade_augment_2",
+    "item:thermal:upgrade_augment_3"
   ],
-  "craft_history": [
-    "minecraft:shaped/industrial_revival/metal_former"
-  ],
+  "craft_history": [],
   "recipe_defaults": {
     "added": [
-      "jei:/kubejs/custom_machine/custommachinery/industrialrevival/compressor/0",
-      "jei:/pneumaticcraft/explosion_crafting/compressed_iron_ingot",
-      "jei:/eidolon/bonelord_chestplate",
-      "create:crafting/materials/electron_tube",
-      "jei:/createaddition/rolling/copper_plate",
-      "jei:/enderio/alloy_smelting/vibrant_alloy_ingot",
-      "jei:/enderio/alloy_smelting/copper_alloy_ingot",
-      "jei:/create/mixing/klin_bricks",
-      "jei:/tfmg/pressing/synthetic_leather",
-      "jei:/hexerei/small_satchel_from_mixing_cauldron",
-      "jei:/actuallyadditions/laser/crystalize_enori_crystal",
-      "jei:/create/sandpaper_polishing/rose_quartz",
-      "jei:/ae2/charger/energized_steel_ingot",
-      "pneumaticcraft:compressed_iron_gear",
-      "tfmg:crafting/casting_basin",
-      "jei:/tfmg/industrial_blasting/steel",
+      "jei:/kubejs/custom_machine/custommachinery/industrialrevival/assembler/4",
+      "thermal:smelting/slag_from_smelting",
       "jei:/ae2/inscriber/vaccum_tube",
-      "jei:/enderio/alloy_smelting/pulsating_alloy_ingot",
+      "jei:/tfmg/industrial_blasting/steel",
+      "jei:/enderio/alloy_smelting/end_steel_ingot",
+      "create:crafting/kinetics/super_glue",
       "create:crafting/kinetics/brass_hand",
-      "jei:/malum/spirit_infusion/ether",
-      "quark:tools/smithing/flamerang_smithing",
-      "jei:/enderio/alloy_smelting/conductive_alloy_ingot",
+      "jei:/pneumaticcraft/pressure_chamber/capacitor",
+      "jei:/enderio/alloy_smelting/pulsating_alloy_ingot",
+      "jei:/tfmg/casting/amogus",
       "thermal:smelting/cured_rubber_from_smelting",
-      "pneumaticcraft:omnidirectional_hopper",
-      "jei:/tfmg/item_application/heavy_machinery_casing_using_deployer",
-      "thermal:smelting/invar_ingot_from_dust_smelting",
-      "jei:/tfmg/compacting/plastic_molding",
-      "jei:/enderio/alloy_smelting/dark_steel_ingot",
+      "create:crafting/materials/electron_tube",
+      "tfmg:crafting/casting_basin",
+      "jei:/tfmg/pressing/synthetic_leather",
       "jei:/enderio/alloy_smelting/energetic_alloy_ingot",
       "jei:/create/pressing/steel_ingot",
-      "jei:/create/conversion_0",
-      "tfmg:crafting/air_intake",
-      "jei:/malum/spirit_infusion/soul_stained_steel_ingot",
-      "pneumaticcraft:reinforced_stone",
-      "tfmg:crafting/fireproof_brick_reinforcement",
-      "jei:/tfmg/casting/amogus",
-      "thermal:smelting/slag_from_smelting",
-      "jei:/eidolon/offering_incense",
+      "jei:/kubejs/custom_machine/custommachinery/industrialrevival/assembler/5",
+      "jei:/malum/spirit_infusion/ether",
+      "jei:/enderio/alloy_smelting/copper_alloy_ingot",
       "jei:/enderio/alloy_smelting/redstone_alloy_ingot",
-      "moreminecarts:silica_steel_smelting",
-      "create:crafting/kinetics/super_glue",
-      "tfmg:crafting/hubs/heavy",
-      "jei:/enderio/alloy_smelting/end_steel_ingot",
+      "jei:/kubejs/custom_machine/custommachinery/industrialrevival/assembler/3",
+      "jei:/actuallyadditions/laser/crystalize_enori_crystal",
+      "jei:/kubejs/custom_machine/custommachinery/industrialrevival/assembler/2",
+      "pneumaticcraft:omnidirectional_hopper",
+      "jei:/pneumaticcraft/explosion_crafting/compressed_iron_ingot",
+      "jei:/ae2/charger/energized_steel_ingot",
+      "jei:/malum/spirit_infusion/runewood_obelisk",
+      "jei:/actuallysubstractions/empowering/knowledge_concentrator",
       "jei:/enderio/alloy_smelting/soularium_ingot",
+      "jei:/eidolon/offering_incense",
+      "pneumaticcraft:compressed_iron_gear",
+      "jei:/create/sandpaper_polishing/rose_quartz",
+      "jei:/tfmg/compacting/plastic_molding",
       "tfmg:crafting/pumpjack_hammer",
-      "jei:/malum/spirit_infusion/hallowed_gold_ingot"
+      "quark:tools/smithing/flamerang_smithing",
+      "moreminecarts:silica_steel_smelting",
+      "jei:/malum/spirit_infusion/soul_stained_steel_scythe",
+      "jei:/enderio/alloy_smelting/dark_steel_ingot",
+      "jei:/createaddition/rolling/copper_plate",
+      "jei:/malum/spirit_infusion/hallowed_gold_ingot",
+      "pneumaticcraft:reinforced_stone",
+      "jei:/malum/spirit_infusion/soul_stained_steel_ingot",
+      "jei:/ae2/inscriber/black_quartzite_ingot",
+      "jei:/create/mixing/klin_bricks",
+      "tfmg:crafting/hubs/heavy",
+      "jei:/hexerei/small_satchel_from_mixing_cauldron",
+      "jei:/eidolon/bonelord_chestplate",
+      "tfmg:crafting/air_intake",
+      "jei:/create/conversion_0",
+      "tfmg:crafting/fireproof_brick_reinforcement",
+      "thermal:smelting/invar_ingot_from_dust_smelting",
+      "jei:/kubejs/custom_machine/custommachinery/industrialrevival/assembler/7",
+      "jei:/enderio/alloy_smelting/vibrant_alloy_ingot",
+      "jei:/enderio/alloy_smelting/conductive_alloy_ingot",
+      "jei:/tfmg/item_application/heavy_machinery_casing_using_deployer"
     ],
     "tags": {},
     "resolutions": {
@@ -4413,6 +4416,360 @@
     "item:quark:seed_pouch{itemCount:640,storedItem:{Count:1b,id:\"minecraft:sugar_cane\"}}",
     "item:quark:seed_pouch{itemCount:640,storedItem:{Count:1b,id:\"minecraft:nether_wart\"}}",
     "item:quark:seed_pouch{itemCount:640,storedItem:{Count:1b,id:\"minecraft:cocoa_beans\"}}",
-    "item:quark:seed_pouch{itemCount:640,storedItem:{Count:1b,id:\"minecraft:bone_meal\"}}"
+    "item:quark:seed_pouch{itemCount:640,storedItem:{Count:1b,id:\"minecraft:bone_meal\"}}",
+    "item:ae2:facade{item:\"wetland_whimsy:bald_cypress_log\"}",
+    "item:ae2:facade{item:\"wetland_whimsy:bald_cypress_wood\"}",
+    "item:ae2:facade{item:\"wetland_whimsy:stripped_bald_cypress_log\"}",
+    "item:ae2:facade{item:\"wetland_whimsy:stripped_bald_cypress_wood\"}",
+    "item:ae2:facade{item:\"wetland_whimsy:bald_cypress_planks\"}",
+    "item:ae2:facade{item:\"atmospheric:rosewood_log\"}",
+    "item:ae2:facade{item:\"atmospheric:rosewood\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_rosewood_log\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_rosewood\"}",
+    "item:ae2:facade{item:\"atmospheric:rosewood_planks\"}",
+    "item:ae2:facade{item:\"atmospheric:rosewood_boards\"}",
+    "item:ae2:facade{item:\"atmospheric:morado_log\"}",
+    "item:ae2:facade{item:\"atmospheric:morado_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_morado_log\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_morado_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:morado_planks\"}",
+    "item:ae2:facade{item:\"atmospheric:morado_boards\"}",
+    "item:ae2:facade{item:\"atmospheric:yucca_log\"}",
+    "item:ae2:facade{item:\"atmospheric:yucca_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_yucca_log\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_yucca_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:yucca_planks\"}",
+    "item:ae2:facade{item:\"atmospheric:yucca_boards\"}",
+    "item:ae2:facade{item:\"atmospheric:laurel_log\"}",
+    "item:ae2:facade{item:\"atmospheric:laurel_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_laurel_log\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_laurel_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:laurel_planks\"}",
+    "item:ae2:facade{item:\"atmospheric:laurel_boards\"}",
+    "item:ae2:facade{item:\"atmospheric:aspen_log\"}",
+    "item:ae2:facade{item:\"atmospheric:aspen_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:watchful_aspen_log\"}",
+    "item:ae2:facade{item:\"atmospheric:watchful_aspen_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:crustose_log\"}",
+    "item:ae2:facade{item:\"atmospheric:crustose_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_aspen_log\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_aspen_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:aspen_planks\"}",
+    "item:ae2:facade{item:\"atmospheric:aspen_boards\"}",
+    "item:ae2:facade{item:\"atmospheric:kousa_log\"}",
+    "item:ae2:facade{item:\"atmospheric:kousa_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_kousa_log\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_kousa_wood\"}",
+    "item:ae2:facade{item:\"atmospheric:kousa_planks\"}",
+    "item:ae2:facade{item:\"atmospheric:kousa_boards\"}",
+    "item:ae2:facade{item:\"atmospheric:grimwood_log\"}",
+    "item:ae2:facade{item:\"atmospheric:grimwood\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_grimwood_log\"}",
+    "item:ae2:facade{item:\"atmospheric:stripped_grimwood\"}",
+    "item:ae2:facade{item:\"atmospheric:grimwood_planks\"}",
+    "item:ae2:facade{item:\"atmospheric:grimwood_boards\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:azalea_log\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:azalea_wood\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:stripped_azalea_log\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:stripped_azalea_wood\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:azalea_planks\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:azalea_boards\"}",
+    "item:ae2:facade{item:\"environmental:willow_log\"}",
+    "item:ae2:facade{item:\"environmental:willow_wood\"}",
+    "item:ae2:facade{item:\"environmental:stripped_willow_log\"}",
+    "item:ae2:facade{item:\"environmental:stripped_willow_wood\"}",
+    "item:ae2:facade{item:\"environmental:willow_planks\"}",
+    "item:ae2:facade{item:\"environmental:willow_boards\"}",
+    "item:ae2:facade{item:\"environmental:pine_log\"}",
+    "item:ae2:facade{item:\"environmental:pine_wood\"}",
+    "item:ae2:facade{item:\"environmental:stripped_pine_log\"}",
+    "item:ae2:facade{item:\"environmental:stripped_pine_wood\"}",
+    "item:ae2:facade{item:\"environmental:pine_planks\"}",
+    "item:ae2:facade{item:\"environmental:pine_boards\"}",
+    "item:ae2:facade{item:\"environmental:plum_log\"}",
+    "item:ae2:facade{item:\"environmental:plum_wood\"}",
+    "item:ae2:facade{item:\"environmental:stripped_plum_log\"}",
+    "item:ae2:facade{item:\"environmental:stripped_plum_wood\"}",
+    "item:ae2:facade{item:\"environmental:plum_planks\"}",
+    "item:ae2:facade{item:\"environmental:plum_boards\"}",
+    "item:ae2:facade{item:\"environmental:wisteria_log\"}",
+    "item:ae2:facade{item:\"environmental:wisteria_wood\"}",
+    "item:ae2:facade{item:\"environmental:stripped_wisteria_log\"}",
+    "item:ae2:facade{item:\"environmental:stripped_wisteria_wood\"}",
+    "item:ae2:facade{item:\"environmental:wisteria_planks\"}",
+    "item:ae2:facade{item:\"environmental:wisteria_boards\"}",
+    "item:ae2:facade{item:\"endergetic:poise_stem\"}",
+    "item:ae2:facade{item:\"endergetic:poise_wood\"}",
+    "item:ae2:facade{item:\"endergetic:glowing_poise_stem\"}",
+    "item:ae2:facade{item:\"endergetic:glowing_poise_wood\"}",
+    "item:ae2:facade{item:\"endergetic:stripped_poise_stem\"}",
+    "item:ae2:facade{item:\"endergetic:stripped_poise_wood\"}",
+    "item:ae2:facade{item:\"endergetic:poise_planks\"}",
+    "item:ae2:facade{item:\"endergetic:poise_boards\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:cobblestone_bricks\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:cobblestone_tiles\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:mossy_cobblestone_bricks\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:mossy_cobblestone_tiles\"}",
+    "item:ae2:facade{item:\"upgrade_aquatic:kelpy_cobblestone_tiles\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:polished_calcite\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:polished_tuff\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:dripstone_shingles\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:flooded_dripstone_shingles\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:chiseled_dripstone_shingles\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:sugilite\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:polished_sugilite\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:cobbled_deepslate_bricks\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:cobbled_deepslate_tiles\"}",
+    "item:ae2:facade{item:\"atmospheric:ivory_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:chiseled_ivory_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:cut_ivory_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:peach_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:chiseled_peach_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:cut_peach_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:persimmon_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:chiseled_persimmon_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:cut_persimmon_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:saffron_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:chiseled_saffron_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:cut_saffron_travertine\"}",
+    "item:ae2:facade{item:\"atmospheric:dolerite\"}",
+    "item:ae2:facade{item:\"atmospheric:polished_dolerite\"}",
+    "item:ae2:facade{item:\"environmental:dirt_bricks\"}",
+    "item:ae2:facade{item:\"environmental:dirt_tiles\"}",
+    "item:ae2:facade{item:\"environmental:smooth_mud\"}",
+    "item:ae2:facade{item:\"environmental:chiseled_mud_bricks\"}",
+    "item:ae2:facade{item:\"environmental:grass_thatch\"}",
+    "item:ae2:facade{item:\"environmental:cattail_thatch\"}",
+    "item:ae2:facade{item:\"environmental:duckweed_thatch\"}",
+    "item:ae2:facade{item:\"wetland_whimsy:limestone\"}",
+    "item:ae2:facade{item:\"wetland_whimsy:polished_limestone\"}",
+    "item:ae2:facade{item:\"wetland_whimsy:limestone_bricks\"}",
+    "item:ae2:facade{item:\"wetland_whimsy:limestone_pillar\"}",
+    "item:ae2:facade{item:\"atmospheric:arid_sandstone\"}",
+    "item:ae2:facade{item:\"atmospheric:chiseled_arid_sandstone\"}",
+    "item:ae2:facade{item:\"atmospheric:smooth_arid_sandstone\"}",
+    "item:ae2:facade{item:\"atmospheric:cut_arid_sandstone\"}",
+    "item:ae2:facade{item:\"atmospheric:red_arid_sandstone\"}",
+    "item:ae2:facade{item:\"atmospheric:chiseled_red_arid_sandstone\"}",
+    "item:ae2:facade{item:\"atmospheric:smooth_red_arid_sandstone\"}",
+    "item:ae2:facade{item:\"atmospheric:cut_red_arid_sandstone\"}",
+    "item:ae2:facade{item:\"atmospheric:carmine_block\"}",
+    "item:ae2:facade{item:\"atmospheric:carmine_shingles\"}",
+    "item:ae2:facade{item:\"atmospheric:chiseled_carmine_shingles\"}",
+    "item:ae2:facade{item:\"atmospheric:carmine_pavement\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:sanguine_block\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:sanguine_tiles\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:fortified_sanguine_tiles\"}",
+    "item:ae2:facade{item:\"endergetic:cracked_end_stone_bricks\"}",
+    "item:ae2:facade{item:\"endergetic:chiseled_end_stone_bricks\"}",
+    "item:ae2:facade{item:\"endergetic:cracked_purpur_block\"}",
+    "item:ae2:facade{item:\"endergetic:eumus\"}",
+    "item:ae2:facade{item:\"endergetic:eumus_bricks\"}",
+    "item:ae2:facade{item:\"endergetic:cracked_eumus_bricks\"}",
+    "item:ae2:facade{item:\"endergetic:chiseled_eumus_bricks\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:silver_block\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:lapis_bricks\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:lapis_pillar\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:lapis_lamp\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:spinel_block\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:spinel_bricks\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:spinel_pillar\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:spinel_lamp\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:necromium_block\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:amethyst_block\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:cut_amethyst\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:cut_amethyst_bricks\"}",
+    "item:ae2:facade{item:\"dustrial_decor:wrapped_ice_chains\"}",
+    "item:ae2:facade{item:\"dustrial_decor:large_ender_lantern\"}",
+    "item:ae2:facade{item:\"dustrial_decor:large_cursed_lantern\"}",
+    "item:ae2:facade{item:\"grounded:loam\"}",
+    "item:ae2:facade{item:\"atmospheric:crustose\"}",
+    "item:ae2:facade{item:\"grounded:coarse_earthen_clay\"}",
+    "item:ae2:facade{item:\"grounded:coarse_sandy_dirt\"}",
+    "item:ae2:facade{item:\"grounded:coarse_silt\"}",
+    "item:ae2:facade{item:\"grounded:coarse_permafrost\"}",
+    "item:ae2:facade{item:\"grounded:earthen_clay\"}",
+    "item:ae2:facade{item:\"grounded:sandy_dirt\"}",
+    "item:ae2:facade{item:\"grounded:silt\"}",
+    "item:ae2:facade{item:\"grounded:permafrost\"}",
+    "item:ae2:facade{item:\"grounded:grassy_earthen_clay\"}",
+    "item:ae2:facade{item:\"grounded:grassy_sandy_dirt\"}",
+    "item:ae2:facade{item:\"grounded:grassy_silt\"}",
+    "item:ae2:facade{item:\"grounded:grassy_permafrost\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:rocky_dirt\"}",
+    "item:ae2:facade{item:\"environmental:buried_truffle\"}",
+    "item:ae2:facade{item:\"grounded:mulch_block\"}",
+    "item:ae2:facade{item:\"grounded:nulch_block\"}",
+    "item:ae2:facade{item:\"atmospheric:arid_sand\"}",
+    "item:ae2:facade{item:\"atmospheric:red_arid_sand\"}",
+    "item:ae2:facade{item:\"endergetic:poismoss\"}",
+    "item:ae2:facade{item:\"endergetic:eumus_poismoss\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:silver_ore\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:deepslate_silver_ore\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:spinel_ore\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:deepslate_spinel_ore\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:soul_silver_ore\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:raw_silver_block\"}",
+    "item:ae2:facade{item:\"atmospheric:currant_stalk_bundle\"}",
+    "item:ae2:facade{item:\"wetland_whimsy:bald_cypress_leaves\"}",
+    "item:ae2:facade{item:\"wetland_whimsy:aria_mushroom_block\"}",
+    "item:ae2:facade{item:\"endergetic:poise_cluster\"}",
+    "item:ae2:facade{item:\"environmental:pinecone\"}",
+    "item:ae2:facade{item:\"environmental:waxed_pinecone\"}",
+    "item:ae2:facade{item:\"environmental:duck_egg_crate\"}",
+    "item:ae2:facade{item:\"environmental:cattail_fluff_block\"}",
+    "item:ae2:facade{item:\"environmental:yak_hair_block\"}",
+    "item:ae2:facade{item:\"endergetic:bolloom_crate\"}",
+    "item:ae2:facade{item:\"atmospheric:passion_vine_bundle\"}",
+    "item:ae2:facade{item:\"atmospheric:yucca_bundle\"}",
+    "item:ae2:facade{item:\"atmospheric:roasted_yucca_bundle\"}",
+    "item:ae2:facade{item:\"atmospheric:aloe_bundle\"}",
+    "item:ae2:facade{item:\"atmospheric:barrel_cactus_batch\"}",
+    "item:ae2:facade{item:\"atmospheric:passion_fruit_crate\"}",
+    "item:ae2:facade{item:\"atmospheric:shimmering_passion_fruit_crate\"}",
+    "item:ae2:facade{item:\"atmospheric:orange_crate\"}",
+    "item:ae2:facade{item:\"atmospheric:blood_orange_crate\"}",
+    "item:ae2:facade{item:\"atmospheric:dragon_fruit_crate\"}",
+    "item:ae2:facade{item:\"atmospheric:golden_dragon_fruit_crate\"}",
+    "item:ae2:facade{item:\"atmospheric:yucca_cask\"}",
+    "item:ae2:facade{item:\"atmospheric:roasted_yucca_cask\"}",
+    "item:ae2:facade{item:\"atmospheric:currant_crate\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:echo_block\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:rotten_flesh_block\"}",
+    "item:ae2:facade{item:\"endergetic:mystical_obsidian\"}",
+    "item:ae2:facade{item:\"endergetic:crystal_holder\"}",
+    "item:ae2:facade{item:\"endergetic:mystical_obsidian_activation_rune\"}",
+    "item:ae2:facade{item:\"endergetic:activated_mystical_obsidian_activation_rune\"}",
+    "item:ae2:facade{item:\"endergetic:mystical_obsidian_rune\"}",
+    "item:ae2:facade{item:\"atmospheric:rosewood_bookshelf\"}",
+    "item:ae2:facade{item:\"atmospheric:morado_bookshelf\"}",
+    "item:ae2:facade{item:\"atmospheric:yucca_bookshelf\"}",
+    "item:ae2:facade{item:\"atmospheric:laurel_bookshelf\"}",
+    "item:ae2:facade{item:\"atmospheric:aspen_bookshelf\"}",
+    "item:ae2:facade{item:\"atmospheric:kousa_bookshelf\"}",
+    "item:ae2:facade{item:\"atmospheric:grimwood_bookshelf\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:azalea_bookshelf\"}",
+    "item:ae2:facade{item:\"environmental:willow_bookshelf\"}",
+    "item:ae2:facade{item:\"environmental:pine_bookshelf\"}",
+    "item:ae2:facade{item:\"environmental:plum_bookshelf\"}",
+    "item:ae2:facade{item:\"environmental:wisteria_bookshelf\"}",
+    "item:ae2:facade{item:\"endergetic:poise_bookshelf\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:fragile_stone\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:fragile_deepslate\"}",
+    "item:ae2:facade{item:\"caverns_and_chasms:tmt\"}",
+    "item:ae2:facade{item:\"kubejs:frostproof_casing\"}",
+    "item:ae2:facade{item:\"kubejs:bronze_casing\"}",
+    "item:ae2:facade{item:\"kubejs:shadow_bronze_coil\"}",
+    "item:ae2:facade{item:\"tconstruct:cheese_block\"}",
+    "item:ae2:facade{item:\"tconstruct:clear_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:white_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:orange_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:magenta_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:light_blue_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:yellow_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:lime_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:pink_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:gray_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:light_gray_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:cyan_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:purple_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:blue_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:brown_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:green_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:red_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:black_clear_stained_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:clear_tinted_glass\"}",
+    "item:ae2:facade{item:\"tconstruct:blazewood\"}",
+    "item:ae2:facade{item:\"tconstruct:nahuatl\"}",
+    "item:ae2:facade{item:\"tconstruct:cobalt_block\"}",
+    "item:ae2:facade{item:\"tconstruct:slimesteel_block\"}",
+    "item:ae2:facade{item:\"tconstruct:amethyst_bronze_block\"}",
+    "item:ae2:facade{item:\"tconstruct:rose_gold_block\"}",
+    "item:ae2:facade{item:\"tconstruct:pig_iron_block\"}",
+    "item:ae2:facade{item:\"tconstruct:queens_slime_block\"}",
+    "item:ae2:facade{item:\"tconstruct:manyullyn_block\"}",
+    "item:ae2:facade{item:\"tconstruct:hepatizon_block\"}",
+    "item:ae2:facade{item:\"tconstruct:cobalt_ore\"}",
+    "item:ae2:facade{item:\"tconstruct:raw_cobalt_block\"}",
+    "item:ae2:facade{item:\"tconstruct:sky_slime\"}",
+    "item:ae2:facade{item:\"tconstruct:ichor_slime\"}",
+    "item:ae2:facade{item:\"tconstruct:ender_slime\"}",
+    "item:ae2:facade{item:\"tconstruct:greenheart_planks\"}",
+    "item:ae2:facade{item:\"tconstruct:greenheart_log\"}",
+    "item:ae2:facade{item:\"tconstruct:stripped_greenheart_log\"}",
+    "item:ae2:facade{item:\"tconstruct:greenheart_wood\"}",
+    "item:ae2:facade{item:\"tconstruct:stripped_greenheart_wood\"}",
+    "item:ae2:facade{item:\"tconstruct:skyroot_planks\"}",
+    "item:ae2:facade{item:\"tconstruct:skyroot_log\"}",
+    "item:ae2:facade{item:\"tconstruct:stripped_skyroot_log\"}",
+    "item:ae2:facade{item:\"tconstruct:skyroot_wood\"}",
+    "item:ae2:facade{item:\"tconstruct:stripped_skyroot_wood\"}",
+    "item:ae2:facade{item:\"tconstruct:bloodshroom_planks\"}",
+    "item:ae2:facade{item:\"tconstruct:bloodshroom_log\"}",
+    "item:ae2:facade{item:\"tconstruct:stripped_bloodshroom_log\"}",
+    "item:ae2:facade{item:\"tconstruct:bloodshroom_wood\"}",
+    "item:ae2:facade{item:\"tconstruct:stripped_bloodshroom_wood\"}",
+    "item:ae2:facade{item:\"tconstruct:blood_slime_leaves\"}",
+    "item:ae2:facade{item:\"tconstruct:enderbark_planks\"}",
+    "item:ae2:facade{item:\"tconstruct:enderbark_log\"}",
+    "item:ae2:facade{item:\"tconstruct:stripped_enderbark_log\"}",
+    "item:ae2:facade{item:\"tconstruct:enderbark_wood\"}",
+    "item:ae2:facade{item:\"tconstruct:stripped_enderbark_wood\"}",
+    "item:ae2:facade{item:\"tconstruct:enderbark_roots\"}",
+    "item:ae2:facade{item:\"tconstruct:earth_enderbark_roots\"}",
+    "item:ae2:facade{item:\"tconstruct:sky_enderbark_roots\"}",
+    "item:ae2:facade{item:\"tconstruct:ichor_enderbark_roots\"}",
+    "item:ae2:facade{item:\"tconstruct:ender_enderbark_roots\"}",
+    "item:ae2:facade{item:\"tconstruct:earth_slime_dirt\"}",
+    "item:ae2:facade{item:\"tconstruct:sky_slime_dirt\"}",
+    "item:ae2:facade{item:\"tconstruct:ichor_slime_dirt\"}",
+    "item:ae2:facade{item:\"tconstruct:ender_slime_dirt\"}",
+    "item:ae2:facade{item:\"tconstruct:earth_vanilla_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:earth_earth_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:earth_sky_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:earth_ichor_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:earth_ender_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:sky_vanilla_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:sky_earth_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:sky_sky_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:sky_ichor_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:sky_ender_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:blood_vanilla_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:blood_earth_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:blood_sky_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:blood_ichor_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:blood_ender_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:ender_vanilla_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:ender_earth_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:ender_sky_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:ender_ichor_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:ender_ender_slime_grass\"}",
+    "item:ae2:facade{item:\"tconstruct:earth_slime_crystal_block\"}",
+    "item:ae2:facade{item:\"tconstruct:budding_earth_slime_crystal\"}",
+    "item:ae2:facade{item:\"tconstruct:sky_slime_crystal_block\"}",
+    "item:ae2:facade{item:\"tconstruct:budding_sky_slime_crystal\"}",
+    "item:ae2:facade{item:\"tconstruct:ichor_slime_crystal_block\"}",
+    "item:ae2:facade{item:\"tconstruct:budding_ichor_slime_crystal\"}",
+    "item:ae2:facade{item:\"tconstruct:ender_slime_crystal_block\"}",
+    "item:ae2:facade{item:\"tconstruct:budding_ender_slime_crystal\"}",
+    "item:ae2:facade{item:\"tconstruct:grout\"}",
+    "item:ae2:facade{item:\"tconstruct:nether_grout\"}",
+    "item:ae2:facade{item:\"verdant:cave_mushroom_stem\"}",
+    "item:ae2:facade{item:\"verdant:phosphor_shroomlight\"}",
+    "item:ae2:facade{item:\"verdant:portabella_block\"}",
+    "item:ae2:facade{item:\"verdant:conk_fungus_block\"}",
+    "item:ae2:facade{item:\"verdant:stinkhorn_mushroom_block\"}",
+    "item:ae2:facade{item:\"verdant:white_stinkhorn_mushroom_block\"}",
+    "item:ae2:facade{item:\"verdant:mushgloom_block\"}",
+    "item:ae2:facade{item:\"verdant:milly_bubcap_block\"}",
+    "item:ae2:facade{item:\"expatternprovider:silicon_block\"}",
+    "item:ae2:facade{item:\"advanced_ae:quantum_alloy_block\"}",
+    "item:ae2:facade{item:\"malum:block_of_null_slate\"}",
+    "item:ae2:facade{item:\"malum:block_of_void_salts\"}",
+    "item:ae2:facade{item:\"malum:block_of_mnemonic_fragment\"}",
+    "item:ae2:facade{item:\"malum:block_of_malignant_lead\"}",
+    "item:ae2:facade{item:\"malum:block_of_malignant_pewter\"}",
+    "item:custommachinery:box_creator_item",
+    "item:custommachinery:structure_creator{custommachinery:{}}"
   ]
 }

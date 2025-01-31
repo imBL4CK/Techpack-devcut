@@ -106,22 +106,9 @@ ServerEvents.recipes((e) => {
     .damageIngredient("#forge:tools/hammer", "2")
     .id(recipeId + "smithing_table");
 
-  //Spirit Altar
-  e.shaped("malum:spirit_altar", ["HOS", "GWG", "WMW"], {
-    H: "#forge:tools/hammer",
-    O: "malum:processed_soulstone",
-    S: "#forge:tools/saw",
-    G: "#forge:plates/gold",
-    W: "malum:runewood_planks",
-    M: "kubejs:makeshift_mechanism",
-  })
-    .damageIngredient("#forge:tools/saw", "2")
-    .damageIngredient("#forge:tools/hammer", "2")
-    .id(recipeId + "spirit_altar");
-
   //Arboreal Extractor
   e.shaped("thermal:device_tree_extractor", ["WLW", "HBS", "WGW"], {
-    W: "#forge:plates/wooden",
+    W: "kubejs:wooden_board",
     L: "#forge:glass",
     H: "#forge:tools/hammer",
     B: "minecraft:bucket",
@@ -279,11 +266,11 @@ ServerEvents.recipes((e) => {
     .id(recipeId + "spout");
 
   //Steam Engine
-  e.shaped("create:steam_engine", ["BSB", "MCM", "WTH"], {
+  e.shaped("create:steam_engine", ["BSB", "MEM", "WTH"], {
     B: "#forge:plates/brass",
     S: "create:shaft",
     M: "tfmg:steel_mechanism",
-    C: "ae2:charged_certus_quartz_crystal",
+    E: "kubejs:energized_steel_ingot",
     W: "#forge:tools/saw",
     T: "create:fluid_tank",
     H: "#forge:tools/hammer",
@@ -376,4 +363,67 @@ ServerEvents.recipes((e) => {
     .damageIngredient("#forge:tools/hammer", "1")
     .damageIngredient("#forge:tools/saw", "1")
     .id(recipeId + "basin_lid");
+
+  //Hive Hopper
+  e.shaped("thermal:device_hive_extractor", ["WNW", "HES", "WGW"], {
+    W: "kubejs:wooden_board",
+    N: "minecraft:honeycomb",
+    H: "#forge:tools/hammer",
+    E: "#forge:tools/shear",
+    S: "#forge:tools/saw",
+    G: "#forge:gears/iron",
+  })
+    .damageIngredient("#forge:tools/saw", "2")
+    .damageIngredient("#forge:tools/hammer", "2")
+    .id(recipeId + "hive_hopper");
+
+  //Aquatic Entangler
+  e.shaped("thermal:device_fisher", ["WRW", "HES", "WGW"], {
+    W: "kubejs:wooden_board",
+    R: "thermal:redstone_servo",
+    H: "#forge:tools/hammer",
+    E: "#forge:fishing_rods",
+    S: "#forge:tools/saw",
+    G: "#forge:gears/copper",
+  })
+    .damageIngredient("#forge:tools/saw", "2")
+    .damageIngredient("#forge:tools/hammer", "2")
+    .id(recipeId + "aquatic_entangler");
+
+  //Batch Composter
+  e.shaped("thermal:device_composter", ["WRW", "HCS", "WGW"], {
+    W: "kubejs:wooden_board",
+    R: "thermal:redstone_servo",
+    H: "#forge:tools/hammer",
+    C: "minecraft:composter",
+    S: "#forge:tools/saw",
+    G: "#forge:gears/iron",
+  })
+    .damageIngredient("#forge:tools/saw", "2")
+    .damageIngredient("#forge:tools/hammer", "2")
+    .id(recipeId + "batch_composter");
+
+  //Phyto-Soil Infuser
+  e.shaped("thermal:device_soil_infuser", ["WRW", "HPS", "WGW"], {
+    W: "kubejs:wooden_board",
+    R: "thermal:rf_coil",
+    H: "#forge:tools/hammer",
+    P: "thermal:phytogro",
+    S: "#forge:tools/saw",
+    G: "#forge:gears/lumium",
+  })
+    .damageIngredient("#forge:tools/saw", "2")
+    .damageIngredient("#forge:tools/hammer", "2")
+    .id(recipeId + "phyto_soil_infuser");
+
+  //Phyto-Soil Infuser
+  e.shaped("kubejs:industrial_leather", ["SLW", "TLT", " L "], {
+    S: "#forge:tools/saw",
+    L: "#forge:leather",
+    W: "#forge:tools/wirecutter",
+    T: "#forge:string",
+  })
+    .damageIngredient("#forge:tools/saw", "1")
+    .damageIngredient("#forge:tools/wirecutter", "1")
+    .id(recipeId + "industrial_leather");
 });

@@ -22,6 +22,11 @@
 	index-source: creative;
 
 	/**
+	 * Which sidebar should be searched using the search bar.
+	 */
+	search-sidebar: right;
+
+	/**
 	 * Whether normal search queries should include the tooltip.
 	 */
 	search-tooltip-by-default: true;
@@ -151,7 +156,7 @@
 	/**
 	 * Whether recipes should have a button to take a screenshot of the recipe.
 	 */
-	recipe-screenshot-button: false;
+	recipe-screenshot-button: true;
 
 	/**
 	 * The GUI scale at which recipe screenshots are saved. Use 0 to use the current
@@ -167,12 +172,12 @@
 	/**
 	 * The subpanels in the left sidebar
 	 */
-	left-sidebar-subpanels: none;
+	left-sidebar-subpanels: lookup-history 4;
 
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 12, 100;
+	left-sidebar-size: 15, 100;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -202,7 +207,7 @@
 	/**
 	 * The subpanels in the right sidebar
 	 */
-	right-sidebar-subpanels: lookup-history 2;
+	right-sidebar-subpanels: none;
 
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
@@ -227,7 +232,7 @@
 	/**
 	 * Which theme to use for the right sidebar
 	 */
-	right-sidebar-theme: modern;
+	right-sidebar-theme: transparent;
 
 	/**
 	 * The pages in the top sidebar

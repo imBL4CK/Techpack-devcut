@@ -78,4 +78,5 @@ StartupEvents.registry("item", (e) => {
   e.create("reinforced_armor_chestplate", "chestplate").tier("reinforced_armor");
   e.create("reinforced_armor_leggings", "leggings").tier("reinforced_armor");
   e.create("reinforced_armor_boots", "boots").tier("reinforced_armor");
+  e.create("boots_of_the_traveller", "boots").tier("boots_of_the_traveller");
 });
