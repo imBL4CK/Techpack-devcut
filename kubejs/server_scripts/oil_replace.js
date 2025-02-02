@@ -1,12 +1,14 @@
 ServerEvents.recipes((e) => {
-  let recipeId = ["minecraft:smelting/"];
-
   const recipes = [
-    //Advanced Alloy
+    //Crude Oil
     {
       Replace: "#forge:crude_oil",
       Into: "tfmg:crude_oil",
-      id: recipeId + "advanced_alloy_ingot",
+    },
+    //Creosote
+    {
+      Replace: "tfmg:creosote",
+      Into: "thermal:creosote",
     },
   ];
   recipes.forEach((recipe) => {

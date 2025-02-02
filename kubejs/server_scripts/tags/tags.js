@@ -198,6 +198,11 @@ ServerEvents.tags("item", (e) => {
       tag: "forge:gears/brass",
       item: "kubejs:alchemical_brass_gear",
     },
+    //Magnetic Ingot
+    {
+      tag: "forge:ingots/energized_steel",
+      item: "tfmg:magnetic_ingot",
+    },
   ];
   customtag.forEach((custom) => {
     e.add(custom.tag, custom.item);

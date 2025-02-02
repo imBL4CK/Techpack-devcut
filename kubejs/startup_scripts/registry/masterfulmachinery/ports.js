@@ -23,7 +23,7 @@ MMEvents.registerPorts((e) => {
       .name("Steel Fluid Port")
       .controllerId("mm:steam_macerator_controller")
       .config("mm:fluid", (c) => {
-        c.rows(1).columns(1).slotCapacity(1000);
+        c.rows(1).columns(1).slotCapacity(8000);
       });
   }
   //Klin Item Port

@@ -396,7 +396,7 @@ ServerEvents.recipes((e) => {
       .custom_machine("custommachinery:industrialrevival/rail_attacher", 300)
       .requireItem("minecraft:minecart")
       .requireItem("thermal:fluid_cell")
-      .produceItem("thermal:energy_minecart")
+      .produceItem("thermal:fluid_minecart")
       .requireEnergy(256);
   }
   //Aerodynamic Minecart Upgrade Kit

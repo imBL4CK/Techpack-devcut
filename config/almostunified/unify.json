@@ -2,6 +2,7 @@
   "modPriorities": [
     "minecraft",
     "crafttweaker",
+    "tconstruct",
     "thermal",
     "create",
     "enderio",
@@ -24,6 +25,7 @@
     "forge:{material}",
     "forge:nuggets/{material}",
     "forge:dusts/{material}",
+    "forge:dusts/ender_pearl",
     "forge:gears/{material}",
     "forge:gems/{material}",
     "forge:ingots/{material}",
@@ -75,6 +77,7 @@
     "plastic",
     "platinum",
     "potassium_nitrate",
+    "rose_gold",
     "ruby",
     "sapphire",
     "signalum",

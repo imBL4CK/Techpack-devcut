@@ -18,4 +18,9 @@ MMEvents.registerControllers((e) => {
   e.create("freezer_controller")
     .name("Freezer Controller ")
     .type("mm:machine");
+
+  //Pyrolyse Oven
+  e.create("pyrolyse_oven_controller")
+    .name("Pyrolyse Oven Controller ")
+    .type("mm:machine");
 });

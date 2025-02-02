@@ -24,7 +24,7 @@ ServerEvents.recipes((e) => {
     type: "ae2:inscriber",
     ingredients: {
       bottom: {
-        item: "tfmg:magnetic_ingot",
+        tag: "forge:ingots/energized_steel",
       },
       middle: {
         item: "actuallyadditions:black_quartz",

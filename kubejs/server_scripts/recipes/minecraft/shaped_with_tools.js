@@ -369,7 +369,7 @@ ServerEvents.recipes((e) => {
     W: "kubejs:wooden_board",
     N: "minecraft:honeycomb",
     H: "#forge:tools/hammer",
-    E: "#forge:tools/shear",
+    E: "minecraft:shears",
     S: "#forge:tools/saw",
     G: "#forge:gears/iron",
   })

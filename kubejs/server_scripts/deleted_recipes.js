@@ -254,7 +254,17 @@ ServerEvents.recipes((event) => {
     "actuallyadditions:laser_relay",
     "thermal:augments/upgrade_augment_1",
     "thermal:energy_minecart",
-    "thermal:fluid_minecart"
+    "thermal:fluid_minecart",
+    "minecraft:shaped/laser_relay",
+    "actuallyadditions:laser_relay_advanced",
+    "actuallyadditions:laser_relay_extreme",
+    "thermal:augments/upgrade_augment_2",
+    "thermal:augments/upgrade_augment_3",
+    "thermal:tools/satchel",
+    "thermal:machine_insolator",
+    "industrialforegoing:sewer",
+    "industrialforegoing:sewage_composter",
+    "ad_astra:steel_cable",
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });

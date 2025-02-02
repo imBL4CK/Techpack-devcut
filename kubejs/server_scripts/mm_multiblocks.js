@@ -119,4 +119,31 @@ MMEvents.createStructures((e) => {
           });
       });
   }
+  //Pyrolyse Oven
+  {
+    e.create("mm:pyrolyse_oven_structure")
+      .controllerId("mm:pyrolyse_oven_controller")
+      .name("Pyrolyse Oven")
+      .layout((l) => {
+        l.layer(["SSS", "OOO", "SSS"])
+          .layer(["SSS", "O O", "SCS"])
+          .layer(["FEF", "OOO", "ISI"])
+          .key("I", {
+            portType: "mm:item",
+          })
+          .key("F", {
+            portType: "mm:fluid",
+          })
+          .key("S", {
+            block: "kubejs:steel_casing",
+          })
+          .key("O", {
+            block: "kubejs:constantan_coil",
+          })
+          .key("E", {
+            portType: "mm:energy",
+            input: true,
+          });
+      });
+  }
 });

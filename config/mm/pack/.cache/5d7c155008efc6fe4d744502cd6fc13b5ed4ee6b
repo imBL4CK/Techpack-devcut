@@ -1,9 +1,10 @@
-// 1.20.1	2024-12-20T11:18:47.5181481	Item Models: mm
+// 1.20.1	2025-02-01T09:00:22.8610833	Item Models: mm
 3035c3e04be105a78147420c53fd624f86bbb0df assets/mm/models/item/alloy_klin_controller.json
 68fae7ebc5f3ee3b80893fe0a894563187fca9b1 assets/mm/models/item/arc_furnace_controller.json
 06ab2fc4d7872f600aaa52de8da386e1e3c883ee assets/mm/models/item/freezer_controller.json
 cee8a8ba0e25ac85bd87caab00fb0d5c2b918a4d assets/mm/models/item/klin_item_port_input.json
 5017d6ec053c86105bd464d08660dae31fc7dfcd assets/mm/models/item/klin_item_port_output.json
+9918ac97cc2d11ba6794ec2371a679b28f617c42 assets/mm/models/item/pyrolyse_oven_controller.json
 36520b8f75e1681a644a5ac296c9b4afdde64e34 assets/mm/models/item/steam_macerator_controller.json
 bf0ccd9b77e5b62b40dc6bef0980ba2a288aa074 assets/mm/models/item/steel_energy_port_input.json
 ea478bdf9d0f94a792b06355fca11f92eb53bdc7 assets/mm/models/item/steel_energy_port_output.json

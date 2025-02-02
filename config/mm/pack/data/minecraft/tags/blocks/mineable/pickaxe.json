@@ -4,6 +4,7 @@
     "mm:alloy_klin_controller",
     "mm:steam_macerator_controller",
     "mm:freezer_controller",
+    "mm:pyrolyse_oven_controller",
     "mm:steel_energy_port_input",
     "mm:steel_energy_port_output",
     "mm:steel_item_port_input",

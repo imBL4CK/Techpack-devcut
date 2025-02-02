@@ -467,18 +467,18 @@ ServerEvents.recipes((e) => {
       },
       id: recipeId + "stirling_dynamo",
     },
-    //Alloy Foundry
+    //iR Alloy Foundry
     {
       result: Item.of(
         "custommachinery:custom_machine_item",
         '{machine:"custommachinery:industrialrevival/alloy_foundry"}'
       ),
-      pattern: ["ACA", "PIB", "RMR"],
+      pattern: ["AIA", "PCB", "RMR"],
       key: {
         A: "kubejs:advanced_alloy_plate",
-        C: "kubejs:basic_circuit",
-        P: "actuallyadditions:powered_furnace",
         I: "tfmg:capacitor_",
+        P: "actuallyadditions:powered_furnace",
+        C: "kubejs:basic_circuit",
         B: "minecraft:blast_furnace",
         R: "thermal:rf_coil",
         M: "kubejs:basic_machine_casing",
@@ -1019,7 +1019,7 @@ ServerEvents.recipes((e) => {
         R: "thermal:redstone_servo",
         B: "minecraft:bucket",
         H: "#thermal:glass/hardened",
-        C: "thermal:machine_frame"
+        C: "thermal:machine_frame",
       },
       id: recipeId + "aqueous_accumulator",
     },
@@ -1032,7 +1032,7 @@ ServerEvents.recipes((e) => {
         G: "#forge:gears/constantan",
         B: "minecraft:bucket",
         H: "#thermal:glass/hardened",
-        C: "thermal:machine_frame"
+        C: "thermal:machine_frame",
       },
       id: recipeId + "igneous_extruder",
     },
@@ -1045,7 +1045,7 @@ ServerEvents.recipes((e) => {
         E: "minecraft:ender_pearl",
         O: "minecraft:hopper",
         H: "#thermal:glass/hardened",
-        C: "thermal:machine_frame"
+        C: "thermal:machine_frame",
       },
       id: recipeId + "vaccumulator",
     },
@@ -1058,7 +1058,7 @@ ServerEvents.recipes((e) => {
         G: "#forge:gears/lapis",
         I: "thermal:xp_crystal",
         H: "#thermal:glass/hardened",
-        C: "thermal:machine_frame"
+        C: "thermal:machine_frame",
       },
       id: recipeId + "insighful_condenser",
     },
@@ -1071,7 +1071,7 @@ ServerEvents.recipes((e) => {
         R: "#forge:ingots/red_alloy",
         L: "minecraft:lava_bucket",
         H: "#thermal:glass/hardened",
-        S: "thermal:redstone_servo"
+        S: "thermal:redstone_servo",
       },
       id: recipeId + "nullifier",
     },
@@ -1084,7 +1084,7 @@ ServerEvents.recipes((e) => {
         G: "#forge:gears/constantan",
         B: "minecraft:glass_bottle",
         H: "#thermal:glass/hardened",
-        S: "thermal:redstone_servo"
+        S: "thermal:redstone_servo",
       },
       id: recipeId + "decoctive_diffuser",
     },
@@ -1097,7 +1097,7 @@ ServerEvents.recipes((e) => {
         P: "createdieselgenerators:engine_piston",
         T: "create:fluid_tank",
         B: "#forge:plates/brass",
-        C: "kubejs:basic_machine_casing"
+        C: "kubejs:basic_machine_casing",
       },
       id: recipeId + "createdieselgenerators/diesel_engine",
     },
@@ -1121,9 +1121,167 @@ ServerEvents.recipes((e) => {
         C: "tfmg:copper_cable",
         R: "actuallyadditions:restonia_crystal",
         A: "actuallyadditions:advanced_coil",
-        O: "minecraft:obsidian"
+        O: "minecraft:obsidian",
       },
       id: recipeId + "laser_relay",
+    },
+    //Satchel
+    {
+      result: "thermal:satchel",
+      pattern: ["STS", "IWI", "S S"],
+      key: {
+        S: "minecraft:string",
+        T: "#forge:ingots/tin",
+        I: "kubejs:industrial_leather",
+        W: "#minecraft:wool",
+      },
+      id: recipeId + "satchel",
+    },
+    //Steel Item Port Input
+    {
+      result: "mm:steel_item_port_input",
+      pattern: ["S S", " C ", "SHS"],
+      key: {
+        S: "#forge:plates/steel",
+        C: "minecraft:chest",
+        H: "minecraft:hopper",
+      },
+      id: recipeId + "steel_item_port_input",
+    },
+    //Steel Fluid Port Input
+    {
+      result: "mm:steel_fluid_port_input",
+      pattern: ["S S", " T ", "SHS"],
+      key: {
+        S: "#forge:plates/steel",
+        T: "create:fluid_tank",
+        H: "minecraft:hopper",
+      },
+      id: recipeId + "steel_fluid_port_input",
+    },
+    //Steel Energy Port Input
+    {
+      result: "mm:steel_energy_port_input",
+      pattern: ["S S", " A ", "SHS"],
+      key: {
+        S: "#forge:plates/steel",
+        A: "createaddition:modular_accumulator",
+        H: "minecraft:hopper",
+      },
+      id: recipeId + "steel_energy_port_input",
+    },
+    //iR Energetic Smelter
+    {
+      result: Item.of(
+        "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/energetic_smelter"}'
+      ),
+      pattern: [" F ", "RCR", "SMS"],
+      key: {
+        F: "minecraft:furnace",
+        C: "kubejs:basic_circuit",
+        R: "thermal:rf_coil",
+        S: "#forge:gears/steel",
+        M: "kubejs:basic_machine_casing",
+      },
+      id: recipeId + "industrial_revival/energetic_smelter",
+    },
+    //iR Assembler
+    {
+      result: Item.of(
+        "custommachinery:custom_machine_item",
+        '{machine:"custommachinery:industrialrevival/assembler"}'
+      ),
+      pattern: ["HIH", "RCR", "GMG"],
+      key: {
+        H: "kubejs:hdpe_sheet",
+        I: "tfmg:capacitor_",
+        R: "thermal:rf_coil",
+        C: "kubejs:basic_circuit",
+        G: "#forge:gears/energized_steel",
+        M: "kubejs:basic_machine_casing",
+      },
+      id: recipeId + "industrial_revival/assembler",
+    },
+    //Bronze Casing
+    {
+      result: Item.of("kubejs:bronze_casing", 4),
+      pattern: ["PPP", "PGP", "PPP"],
+      key: {
+        P: "#forge:plates/bronze",
+        G: "#forge:gears/bronze",
+      },
+      id: recipeId + "mm/bronze_casing",
+    },
+    //Steel Casing
+    {
+      result: Item.of("kubejs:steel_casing", 4),
+      pattern: ["PPP", "PGP", "PPP"],
+      key: {
+        P: "#forge:plates/steel",
+        G: "#forge:gears/steel",
+      },
+      id: recipeId + "mm/steel_casing",
+    },
+    //Heatproof Casing
+    {
+      result: Item.of("kubejs:heatproof_casing", 4),
+      pattern: ["PPP", "PGP", "PPP"],
+      key: {
+        P: "#forge:plates/invar",
+        G: "#forge:gears/invar",
+      },
+      id: recipeId + "mm/heatproof_casing",
+    },
+    //Arc Furnace Controller
+    {
+      result: "mm:arc_furnace_controller",
+      pattern: ["PMP", "CAC", "PCP"],
+      key: {
+        P: "#forge:plates/steel",
+        M: "kubejs:steel_casing",
+        C: "kubejs:basic_circuit",
+        A: Item.of(
+          "custommachinery:custom_machine_item",
+          '{machine:"custommachinery:industrialrevival/alloy_foundry"}'
+        ).strongNBT(),
+      },
+      id: recipeId + "arc_furnace_controller",
+    },
+    //Steam Macerator Controller
+    {
+      result: "mm:steam_macerator_controller",
+      pattern: ["WMW", "PAP", "WPW"],
+      key: {
+        W: "create:crushing_wheel",
+        P: "#forge:plates/bronze",
+        M: "kubejs:bronze_casing",
+        A: Item.of(
+          "custommachinery:custom_machine_item",
+          '{machine:"custommachinery:industrialrevival/macerator"}'
+        ).strongNBT(),
+      },
+      id: recipeId + "steam_macerator_controller",
+    },
+    //Constantan Coil
+    {
+      result: "kubejs:constantan_coil",
+      pattern: ["SSS", "CCC", "SSS"],
+      key: {
+        S: "#forge:plates/steel",
+        C: "#forge:plates/constantan",
+      },
+      id: recipeId + "constantan_coil",
+    },
+    //Shadow Bronze Coil
+    {
+      result: "kubejs:shadow_bronze_coil",
+      pattern: ["SSS", "CCC", "SSS"],
+      key: {
+        S: "#forge:plates/steel",
+        C: "kubejs:shadow_bronze_plate",
+      },
+      id: recipeId + "shadow_bronze_coil",
     },
   ];
   recipes.forEach((recipe) => {
@@ -1131,12 +1289,14 @@ ServerEvents.recipes((e) => {
   });
 });
 
-    /*
+/*
+    //
     {
-      result: "thermal:device_potion_diffuser",
+      result: "",
       pattern: ["P", "", ""],
       key: {
         P: "#forge:plates/silver",
       },
-      id: recipeId + "decoctive_diffuser",
-    },*/
+      id: recipeId + "",
+    },
+*/
