@@ -71,10 +71,10 @@
 	[server.netheriteBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 82
+		inventorySlotCount = 84
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 4
 
 	#Compacting Upgrade Settings
 	[server.compactingUpgrade]

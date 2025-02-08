@@ -13,5 +13,6 @@ ServerEvents.recipes((e) => {
   ];
   recipes.forEach((recipe) => {
     e.replaceInput({}, recipe.Replace, recipe.Into);
+    e.replaceOutput({}, recipe.Replace, recipe.Into);
   });
 });

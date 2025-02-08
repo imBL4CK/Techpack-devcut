@@ -265,6 +265,13 @@ ServerEvents.recipes((event) => {
     "industrialforegoing:sewer",
     "industrialforegoing:sewage_composter",
     "ad_astra:steel_cable",
+    "systeams:steam_dynamo",
+    "tfmg:coking/coal_coke",
+    "thermal:flux_drill",
+    "thermal:flux_saw",
+    "thermal:flux_magnet",
+    "thermal:flux_capacitor",
+    "actuallyadditions:ender_casing",
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });

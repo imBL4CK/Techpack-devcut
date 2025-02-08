@@ -1,5 +1,4 @@
 StartupEvents.registry("block", (e) => {
-    let block = [];
     let stones = [
       "klin_bricks"
     ];

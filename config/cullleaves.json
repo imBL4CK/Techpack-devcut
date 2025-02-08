@@ -1,4 +1,4 @@
 {
   "enabled": true,
-  "cullRoots": false
+  "cullRoots": true
 }

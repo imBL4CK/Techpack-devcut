@@ -258,6 +258,18 @@ MMEvents.createProcesses((e) => {
       output: { item: "kubejs:advanced_alloy_dust", count: 32 },
       steam: CommumVallues.steam.ingots,
     },
+    {
+      id: CommumVallues.id + "amethyst_dust_by_gem",
+      input: { item: "minecraft:amethyst_shard", count: 32 },
+      output: { item: "kubejs:amethyst_dust", count: 32 },
+      steam: CommumVallues.steam.ingots,
+    },
+    {
+      id: CommumVallues.id + "zinc_dust_by_gem",
+      input: { item: "create:zinc_ingot", count: 32 },
+      output: { item: "kubejs:zinc_dust", count: 32 },
+      steam: CommumVallues.steam.ingots,
+    },
   ];
 
   recipes.forEach((recipe) => {

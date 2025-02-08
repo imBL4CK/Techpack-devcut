@@ -98,10 +98,18 @@
     {
       "type": "custommachinery:energy",
       "maxInput": 0,
-      "capacity": 4096,
-      "maxOutput": 32,
+      "capacity": 3200,
+      "maxOutput": 1600,
       "config": {
-        "default": "output"
+        "default": "output",
+        "TOP": "output",
+        "BOTTOM": "output",
+        "FRONT": "output",
+        "RIGHT": "output",
+        "BACK": "output",
+        "LEFT": "output",
+        "input": false,
+        "output": true
       }
     }
   ],
@@ -115,13 +123,13 @@
     },
     {
       "id": "input_slot",
-      "x": 118,
+      "x": 119,
       "y": 40,
       "type": "custommachinery:slot",
       "texture": "kubejs:textures/gui/industrialrevival/slot.png"
     },
     {
-      "x": 120,
+      "x": 121,
       "y": 60,
       "type": "custommachinery:progress",
       "texture_empty": "kubejs:textures/gui/industrialrevival/empty_fuel_bar.png",

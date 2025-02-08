@@ -23,4 +23,12 @@ ItemEvents.toolTierRegistry((e) => {
     tier.enchantmentValue = 14;
     tier.repairIngredient = "#forge:ingots/bronze";
   });
+  e.add("wrench", (tier) => {
+    tier.uses = 1024;
+    tier.speed = 3.0;
+    tier.attackDamageBonus = 2.0;
+    tier.level = 1;
+    tier.enchantmentValue = 0;
+    tier.repairIngredient = "#forge:ingots/steel";
+  });
 });

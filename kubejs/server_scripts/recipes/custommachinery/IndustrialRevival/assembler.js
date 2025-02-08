@@ -357,6 +357,60 @@ ServerEvents.recipes((e) => {
       .jei()
       .priority(12);
   }
+  //Fluxbore
+  {
+    e.recipes.custommachinery
+      .custom_machine("custommachinery:industrialrevival/assembler", 300)
+      .requireItemTag("forge:ingots/steel", 2)
+      .requireItemTag("forge:gears/tin", 2)
+      .requireItemTag("forge:gears/gold")
+      .requireItem("thermal:rf_coil")
+      .requireItem("thermal:drill_head")
+      .produceItem("thermal:flux_drill")
+      .requireEnergy(4096)
+      .jei()
+      .priority(13);
+  }
+  //Fluxsaw
+  {
+    e.recipes.custommachinery
+      .custom_machine("custommachinery:industrialrevival/assembler", 300)
+      .requireItemTag("forge:ingots/steel", 2)
+      .requireItemTag("forge:gears/tin", 2)
+      .requireItemTag("forge:gears/gold")
+      .requireItem("thermal:rf_coil")
+      .requireItem("thermal:saw_blade")
+      .produceItem("thermal:flux_saw")
+      .requireEnergy(4096)
+      .jei()
+      .priority(13);
+  }
+  //FluxMagnet
+  {
+    e.recipes.custommachinery
+      .custom_machine("custommachinery:industrialrevival/assembler", 300)
+      .requireItemTag("forge:ingots/steel", 3)
+      .requireItemTag("forge:gears/lead", 2)
+      .requireItemTag("forge:gears/red_alloy")
+      .requireItem("thermal:rf_coil")
+      .produceItem("thermal:flux_magnet")
+      .requireEnergy(4096)
+      .jei()
+      .priority(14);
+  }
+  //FluxCapacitor
+  {
+    e.recipes.custommachinery
+      .custom_machine("custommachinery:industrialrevival/assembler", 300)
+      .requireItemTag("forge:ingots/lead", 2)
+      .requireItemTag("forge:gears/lead", 1)
+      .requireItemTag("forge:gears/red_alloy")
+      .requireItem("thermal:rf_coil")
+      .produceItem("thermal:flux_capacitor")
+      .requireEnergy(4096)
+      .jei()
+      .priority(14);
+  }
   /*
   //
   {

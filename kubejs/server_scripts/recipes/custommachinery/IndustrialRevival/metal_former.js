@@ -17,6 +17,7 @@ ServerEvents.recipes((e) => {
     "steel",
     "tin",
     "zinc",
+    "stainless_steel"
   ];
   materials.forEach((material) => {
     e.recipes.custommachinery.custom_machine("custommachinery:industrialrevival/metal_former", 200)

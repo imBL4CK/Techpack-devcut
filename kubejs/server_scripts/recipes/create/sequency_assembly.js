@@ -4,22 +4,22 @@ ServerEvents.recipes((e) => {
   //Makeshift Mechanism
   e.recipes.create.sequenced_assembly(
     [Item.of("kubejs:makeshift_mechanism")],
-    "#forge:plates/wooden",
+    "#forge:plates/wood",
     [
-      e.recipes.create.deploying("#forge:plates/wooden", [
-        "#forge:plates/wooden",
+      e.recipes.create.deploying("#forge:plates/wood", [
+        "#forge:plates/wood",
         "create:cogwheel",
       ]),
-      e.recipes.create.deploying("#forge:plates/wooden", [
-        "#forge:plates/wooden",
+      e.recipes.create.deploying("#forge:plates/wood", [
+        "#forge:plates/wood",
         "create:andesite_alloy",
       ]),
-      e.recipes.create.deploying("#forge:plates/wooden", [
-        "#forge:plates/wooden",
+      e.recipes.create.deploying("#forge:plates/wood", [
+        "#forge:plates/wood",
         "#forge:tools/saw",
       ]),
     ]
-  ).transitionalItem("#forge:plates/wooden")
+  ).transitionalItem("#forge:plates/wood")
     .loops(1)
     .id(recipeId + "makeshift_mechanism");
 

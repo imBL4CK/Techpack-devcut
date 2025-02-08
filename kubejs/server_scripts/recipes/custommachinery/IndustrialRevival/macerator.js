@@ -650,4 +650,20 @@ ServerEvents.recipes((e) => {
       .produceItem(Item.of("minecraft:amethyst_shard", 5))
       .produceItem(Item.of("minecraft:amethyst_shard")).chance(0.5);
   }
+  //Amethyst Dust by Shard
+  {
+    e.recipes.custommachinery
+      .custom_machine("custommachinery:industrialrevival/macerator", 300)
+      .requireEnergy(1024)
+      .requireItem("minecraft:amethyst_shard")
+      .produceItem(Item.of("kubejs:amethyst_dust"))
+  }
+  //Zinc Dust by Ingots
+  {
+    e.recipes.custommachinery
+      .custom_machine("custommachinery:industrialrevival/macerator", 300)
+      .requireEnergy(1024)
+      .requireItem("create:zinc_ingot")
+      .produceItem(Item.of("kubejs:zinc_dust"))
+  }
 });

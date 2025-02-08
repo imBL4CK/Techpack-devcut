@@ -203,6 +203,51 @@ ServerEvents.tags("item", (e) => {
       tag: "forge:ingots/energized_steel",
       item: "tfmg:magnetic_ingot",
     },
+    //Zinc Dust
+    {
+      tag: "forge:dusts/zinc",
+      item: "kubejs:zinc_dust",
+    },
+    //Amethyst Dust
+    {
+      tag: "forge:dusts/amethyst",
+      item: "kubejs:amethyst_dust",
+    },
+    //Forge Dusts
+    {
+      tag: "forge:dusts",
+      item: ["kubejs:amethyst_dust", "kubejs:zinc_dust"],
+    },
+    //Forge Plates
+    {
+      tag: "forge:plates",
+      item: ["kubejs:stainless_steel_plate"],
+    },
+    //Forge Gear
+    {
+      tag: "forge:plates",
+      item: ["kubejs:stainless_steel_gear"],
+    },
+    //Forge Tools/Wrench
+    {
+      tag: "forge:tools/wrench",
+      item: ["kubejs:wrench"],
+    },
+    //Stainless Steel Ingot
+    {
+      tag: "forge:ingots/stainless_steel",
+      item: ["kubejs:stainless_steel_ingot"],
+    },
+    //Stainless Steel Plates
+    {
+      tag: "forge:plates/stainless_steel",
+      item: ["kubejs:stainless_steel_plate"],
+    },
+    //Stainless Steel Gear
+    {
+      tag: "forge:gears/stainless_steel",
+      item: ["kubejs:stainless_steel_gear"],
+    },
   ];
   customtag.forEach((custom) => {
     e.add(custom.tag, custom.item);

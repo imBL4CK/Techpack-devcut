@@ -128,7 +128,7 @@
     {
       "type": "custommachinery:energy",
       "capacity": 4096,
-      "maxInput": 32,
+      "maxInput": 1024,
       "config": {
         "default": "input"
       }

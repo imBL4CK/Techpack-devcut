@@ -14,6 +14,12 @@ ServerEvents.recipes((e) => {
       input: ["#techpack:shells"],
       id: recipeId + "calcium_dust",
     },
+    //Crushed Raw Lithium by raw
+    {
+      output: ["create:crushed_raw_lithium"],
+      input: ["tfmg:raw_lithium"],
+      id: recipeId + "crushed_raw_lithium",
+    },
   ];
   recipes.forEach((recipe) => {
     e.recipes.create.milling(recipe.output, recipe.input).id(recipe.id);

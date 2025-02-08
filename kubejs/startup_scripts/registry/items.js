@@ -32,14 +32,28 @@ StartupEvents.registry("item", (e) => {
     "crushed_raw_calorite",
     "resistance_circuit",
     "black_quartzite_ingot",
-    "iron_shard",
-    "iron_clump",
-    "gold_shard",
-    "gold_clump",
-    "copper_shard",
-    "copper_clump",
+    "zinc_dust",
+    "amethyst_dust",
+  ];
+  let shardsandclumps = [
+    "iron",
+    "copper",
+    "gold",
+    "tin",
+    "lead",
+    "silver",
+    "nickel",
+    "zinc",
+    "lithium",
+    "cobalt",
   ];
   item.forEach((registry) => {
     e.create(registry);
   });
+  shardsandclumps.forEach((registry) => {
+    e.create(registry + "_shard");
+    e.create(registry + "_clump");
+  });
+  e.create("create:crushed_raw_cobalt").texture("kubejs:item/crushed_raw_cobalt");
+  e.create("create:crushed_raw_lithium").texture("kubejs:item/crushed_raw_lithium");
 });

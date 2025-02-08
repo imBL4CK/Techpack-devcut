@@ -63,6 +63,24 @@
       "texture": "kubejs:textures/gui/industrialrevival/slot.png"
     },
     {
+      "id": "output_slot3",
+      "x": 169,
+      "y": 28,
+      "width": 20,
+      "height": 20,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "output_slot4",
+      "x":169,
+      "y": 46,
+      "width": 20,
+      "height": 20,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
       "x": 120,
       "y": 30,
       "type": "custommachinery:progress",
@@ -140,9 +158,19 @@
       "type": "custommachinery:item"
     },
     {
+      "mode": "output",
+      "id": "output_slot3",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot4",
+      "type": "custommachinery:item"
+    },
+    {
       "type": "custommachinery:energy",
       "capacity": 4096,
-      "maxInput": 32,
+      "maxInput": 1024,
       "config": {
         "default": "input"
       }
@@ -182,6 +210,24 @@
     {
       "id": "output_slot2",
       "x": 149,
+      "y": 46,
+      "width": 20,
+      "height": 20,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "output_slot3",
+      "x": 167,
+      "y": 28,
+      "width": 20,
+      "height": 20,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "output_slot4",
+      "x":167,
       "y": 46,
       "width": 20,
       "height": 20,

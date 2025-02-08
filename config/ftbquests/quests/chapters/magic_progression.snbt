@@ -5,33 +5,9 @@
 	group: "4AD243FA5382E478"
 	icon: "eidolon:crucible"
 	id: "6F209FCB727F4A18"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
-		{
-			icon_scale: 0.8d
-			id: "2C82A646DD73D098"
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "1EB19F04F4C19D5A"
-				item: "eidolon:worktable"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["2C82A646DD73D098"]
-			id: "13A8204A678E8D08"
-			tasks: [{
-				id: "6FED9E75E9D6B46F"
-				item: "eidolon:brazier"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -0.5d
-		}
 		{
 			dependencies: ["2C82A646DD73D098"]
 			id: "7497B7C6DE49AA8D"
@@ -110,18 +86,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2C82A646DD73D098"]
-			id: "4B5DCE1829967837"
-			shape: "circle"
-			tasks: [{
-				id: "0E620C928ACA4D1E"
-				item: "eidolon:soul_enchanter"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.5d
-		}
-		{
 			dependencies: ["08B2817C064C702C"]
 			icon: {
 				Count: 1
@@ -179,6 +143,42 @@
 			}]
 			x: 6.0d
 			y: 2.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "2C82A646DD73D098"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1EB19F04F4C19D5A"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C82A646DD73D098"]
+			id: "13A8204A678E8D08"
+			tasks: [{
+				id: "6FED9E75E9D6B46F"
+				item: "eidolon:brazier"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C82A646DD73D098"]
+			id: "4B5DCE1829967837"
+			shape: "circle"
+			tasks: [{
+				id: "0E620C928ACA4D1E"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
 		}
 	]
 	title: "Magic Progression"

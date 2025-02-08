@@ -271,6 +271,54 @@ ServerEvents.recipes(e => {
             grindingTime: 200,
             id: recipeId + "pewter_blend",
         },
+        //Amethyst Blend
+        {
+            type: "hexerei:pestle_and_mortar",
+            ingredients: [
+            {
+                tag: "forge:dusts/amethyst",
+            },
+            {
+                tag: "forge:dusts/amethyst",
+            },
+            {
+                tag: "forge:dusts/amethyst",
+            },
+            {
+                tag: "techpack:catalysts",
+            },
+            ],
+            output: {
+            item: "kubejs:amethyst_dust",
+            count: 4,
+            },
+            grindingTime: 200,
+            id: recipeId + "amethyst_dust",
+        },
+        //Zinc Blend
+        {
+            type: "hexerei:pestle_and_mortar",
+            ingredients: [
+            {
+                tag: "forge:dusts/zinc",
+            },
+            {
+                tag: "forge:dusts/zinc",
+            },
+            {
+                tag: "forge:dusts/zinc",
+            },
+            {
+                tag: "techpack:catalysts",
+            },
+            ],
+            output: {
+            item: "kubejs:zinc_dust",
+            count: 4,
+            },
+            grindingTime: 200,
+            id: recipeId + "zinc_dust",
+        },
     ];
     recipes.forEach((recipe) => {
         e.custom({
