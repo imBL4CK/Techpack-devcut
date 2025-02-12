@@ -10,7 +10,10 @@
 	quests: [
 		{
 			icon: "tfmg:cable_connector"
+			icon_scale: 0.8d
 			id: "340AA62D840E57FF"
+			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
 					id: "525D425C2C1EFF55"
@@ -27,15 +30,15 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["340AA62D840E57FF"]
+			dependencies: ["6D5F70CF5D757E25"]
 			id: "597370B8D8639497"
 			tasks: [{
 				id: "107D70975A164F7C"
 				item: "thermal:energy_duct"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["340AA62D840E57FF"]
@@ -46,40 +49,43 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["340AA62D840E57FF"]
 			id: "58385E316067067C"
+			shape: "square"
 			tasks: [{
 				id: "2F0C1BCE1E480FD5"
 				item: "actuallyadditions:laser_relay"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["58385E316067067C"]
 			id: "525DC961796770EA"
+			shape: "square"
 			tasks: [{
 				id: "6F30B7B654ACD4BD"
 				item: "actuallyadditions:laser_relay_advanced"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["525DC961796770EA"]
 			id: "04F492357077C58B"
+			shape: "circle"
 			tasks: [{
 				id: "779935FF1CD4D371"
 				item: "actuallyadditions:laser_relay_extreme"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["340AA62D840E57FF"]
@@ -90,7 +96,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["52BAAAC037964B45"]
@@ -101,7 +107,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["29C5DA9031074E4B"]
@@ -112,7 +118,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: -1.5d
 		}
 	]
 	title: "Energy Transport"

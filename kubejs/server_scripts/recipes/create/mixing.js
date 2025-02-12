@@ -35,13 +35,7 @@ ServerEvents.recipes((e) => {
       output: ["4x moreminecarts:silica_steel_mix"],
       input: ["#forge:dusts/iron", "#forge:coal_coke", "3x #forge:gems/quartz"],
       id: recipeId + "silica_mix",
-    },
-    //Klin Bricks
-    {
-      output: ["kubejs:klin_bricks"],
-      input: ["2x minecraft:brick", "2x minecraft:mud_bricks"],
-      id: recipeId + "klin_bricks",
-    },
+    }
   ];
   recipes.forEach((recipe) => {
     e.recipes.create.mixing(recipe.output, recipe.input).id(recipe.id);

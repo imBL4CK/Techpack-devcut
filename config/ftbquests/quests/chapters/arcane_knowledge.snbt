@@ -172,14 +172,16 @@
 				"6AE21B1BBBA329F8"
 				"1EBC6B3E2D46C739"
 			]
+			icon_scale: 0.8d
 			id: "066BA0C840FC2DB5"
 			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "4A4B4D744E7C2985"
 				item: "malum:encyclopedia_arcana"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -2.0d
 		}
 		{
@@ -204,6 +206,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["5327812A0BCEAF64"]
 			id: "34C0DB6B54504221"
 			tasks: [{
 				id: "67A79B6BEDBDCC20"
@@ -214,6 +217,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["5327812A0BCEAF64"]
 			id: "2168F07CEF2A2E79"
 			tasks: [{
 				id: "0DA3FE8DAA562AA9"
@@ -232,7 +236,7 @@
 				item: "malum:spirit_jar"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -3.0d
 		}
 	]

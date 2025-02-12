@@ -272,6 +272,7 @@ ServerEvents.recipes((event) => {
     "thermal:flux_magnet",
     "thermal:flux_capacitor",
     "actuallyadditions:ender_casing",
+    "actuallyadditions:display_stand"
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });

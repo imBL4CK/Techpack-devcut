@@ -569,17 +569,6 @@ ServerEvents.recipes((e) => {
       },
       id: recipeId + "golden_hand",
     },
-    //Alloy Klin Controller
-    {
-      result: "mm:alloy_klin_controller",
-      pattern: ["AAA", "FBF", "AAA"],
-      key: {
-        A: "kubejs:klin_bricks",
-        F: "minecraft:furnace",
-        B: "create:blaze_burner",
-      },
-      id: recipeId + "alloy_klin_controller",
-    },
     //Fishing Basin
     {
       result: Item.of(

@@ -344,7 +344,7 @@ ServerEvents.recipes((e) => {
       .produceItem("thermal:energy_cell")
       .requireEnergy(512)
       .jei()
-      .priority(11)
+      .priority(11);
   }
   //Fluixduct
   {
@@ -410,6 +410,16 @@ ServerEvents.recipes((e) => {
       .requireEnergy(4096)
       .jei()
       .priority(14);
+  }
+  //Display Stand
+  {
+    e.recipes.custommachinery
+      .custom_machine("custommachinery:industrialrevival/assembler", 300)
+      .requireItem(Item.of("actuallyadditions:ethetic_green_block", 3))
+      .requireItem(Item.of("actuallyadditions:ethetic_white_block", 3))
+      .requireItem(Item.of("actuallyadditions:advanced_coil", 3))
+      .produceItem("actuallyadditions:display_stand")
+      .requireEnergy(1024)
   }
   /*
   //

@@ -130,7 +130,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["22BA5B550D28DD66"]
+			dependencies: ["41479CD49D92E98C"]
 			icon: {
 				Count: 1
 				id: "kubejs:rustic_hammer"
@@ -180,7 +180,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["22BA5B550D28DD66"]
+			dependencies: ["41479CD49D92E98C"]
 			icon: "tfmg:blast_furnace_output"
 			id: "449BBCE11138BB0E"
 			tasks: [
@@ -496,28 +496,22 @@
 		}
 		{
 			dependencies: ["7E023B9ECD1E2E3C"]
-			icon: "mm:alloy_klin_controller"
-			id: "22BA5B550D28DD66"
+			icon: "tconstruct:seared_melter"
+			id: "41479CD49D92E98C"
 			tasks: [
 				{
-					id: "4EFB58B9060C8EE9"
-					item: "mm:alloy_klin_controller"
+					id: "591B03BF5313C842"
+					item: "tconstruct:seared_melter"
 					type: "item"
 				}
 				{
-					count: 9L
-					id: "71129103463D4342"
-					item: { Count: 9, id: "kubejs:klin_bricks" }
+					id: "6DEF0C1687DF22FD"
+					item: "tconstruct:seared_heater"
 					type: "item"
 				}
 				{
-					id: "545F30350DF414C4"
-					item: "mm:klin_item_port_input"
-					type: "item"
-				}
-				{
-					id: "33350CE9AEEB1167"
-					item: "mm:klin_item_port_output"
+					id: "362108D01358D6E6"
+					item: "tconstruct:seared_faucet"
 					type: "item"
 				}
 			]
