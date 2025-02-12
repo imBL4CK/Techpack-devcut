@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "type": "forge:or",
+    "values": [
+      {
+        "type": "tconstruct:config",
+        "prop": "force_integration_materials"
+      },
+      {
+        "type": "mantle:tag_filled",
+        "tag": "forge:ingots/copper"
+      },
+      {
+        "type": "mantle:tag_filled",
+        "tag": "forge:ingots/manganese"
+      },
+      {
+        "type": "mantle:tag_filled",
+        "tag": "forge:ingots/gold"
+      },
+      {
+        "type": "mantle:tag_filled",
+        "tag": "forge:ingots/silver"
+      }
+    ]
+  },
+  "craftable": false,
+  "hidden": false,
+  "sortOrder": 7,
+  "tier": 3
+}
