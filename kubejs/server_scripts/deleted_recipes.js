@@ -272,7 +272,9 @@ ServerEvents.recipes((event) => {
     "thermal:flux_magnet",
     "thermal:flux_capacitor",
     "actuallyadditions:ender_casing",
-    "actuallyadditions:display_stand"
+    "actuallyadditions:display_stand",
+    "botania:elvin_gateway",
+    "botania:manapool"
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });

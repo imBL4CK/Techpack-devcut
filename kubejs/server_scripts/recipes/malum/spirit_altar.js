@@ -409,6 +409,58 @@ ServerEvents.recipes((e) => {
       ],
       id: recipeId + "insighful_crystal",
     },
+    //Elvin Gateway
+    {
+      extra_items: [
+        {
+          count: 2,
+          item: "malum:spectral_optic",
+        },
+        {
+          count: 4,
+          item: "botania:terrasteel_ingot"
+        },
+        {
+          count: 2,
+          item: "botania:manasteel_ingot"
+        },
+        {
+          count: 1,
+          item: "botaniana:natura_pylon"
+        },
+        {
+          count: 2,
+          item: "kubejs:ender_dew"
+        }
+      ],
+      input: {
+        count: 8,
+        item: "botania:livingwood_log"
+      },
+      output: {
+        count: 1,
+        item: 'botania:elvin_gateway',
+      },
+      spirits: [
+        {
+          type: "arcane",
+          count: 64,
+        },
+        {
+          type: "earthen",
+          count: 64,
+        },
+        {
+          type: "aqueous",
+          count: 64,
+        },
+        {
+          type: "sacred",
+          count: 64,
+        }
+      ],
+      id: recipeId + "elvin_gateway",
+    },
   ];
   recipes.forEach((recipe) => {
     e.custom({
