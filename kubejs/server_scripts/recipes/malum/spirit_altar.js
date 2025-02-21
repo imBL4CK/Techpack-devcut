@@ -437,6 +437,39 @@ ServerEvents.recipes((e) => {
         count: 1,
         item: "malum:spectral_lens",
       },
+    },
+    //Elvin Gateway
+    {
+      extra_items: [
+        {
+          count: 2,
+          item: "malum:spectral_optic",
+        },
+        {
+          count: 4,
+          item: "botania:terrasteel_ingot",
+        },
+        {
+          count: 2,
+          item: "botania:manasteel_ingot",
+        },
+        {
+          count: 1,
+          item: "botaniana:natura_pylon",
+        },
+        {
+          count: 2,
+          item: "kubejs:ender_dew",
+        },
+      ],
+      input: {
+        count: 8,
+        item: "botania:livingwood_log",
+      },
+      output: {
+        count: 1,
+        item: "botania:elvin_gateway",
+      },
       spirits: [
         {
           type: "arcane",
@@ -447,7 +480,6 @@ ServerEvents.recipes((e) => {
           count: 1,
         },
       ],
-      id: recipeId + "spectral_lens",
     },
   ];
   recipes.forEach((recipe) => {

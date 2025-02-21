@@ -309,6 +309,8 @@ ServerEvents.recipes((event) => {
     "pneumaticcraft:thermopneumatic_processing_plant",
     "pneumaticcraft:vortex_tube",
     "malum:spectral_lens",
+    "botania:elvin_gateway",
+    "botania:manapool"
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });

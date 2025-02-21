@@ -24,3 +24,5 @@
 - Maligant Pewter
 
 #Internal:
+- Shadow Bronze
+-
