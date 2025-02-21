@@ -419,7 +419,17 @@ ServerEvents.recipes((e) => {
       .requireItem(Item.of("actuallyadditions:ethetic_white_block", 3))
       .requireItem(Item.of("actuallyadditions:advanced_coil", 3))
       .produceItem("actuallyadditions:display_stand")
-      .requireEnergy(1024)
+      .requireEnergy(1024);
+  }
+  //Flux Compressor
+  {
+    e.recipes.custommachinery
+      .custom_machine("custommachinery:industrialrevival/assembler", 300)
+      .requireItem(Item.of("pneumaticcraft:advanced_air_compressor"))
+      .requireItem(Item.of("pneumaticcraft:turbine_rotor"))
+      .requireItem(Item.of("kubejs:basic_circuit"))
+      .produceItem("pneumaticcraft:flux_compressor")
+      .requireEnergy(1024);
   }
   /*
   //

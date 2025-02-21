@@ -6,6 +6,7 @@ CustomMachineryEvents.upgrades((e) => {
     "custommachinery:industrialrevival/metal_former",
     "custommachinery:industrialrevival/rail_attacher",
     "custommachinery:industrialrevival/compressor",
+    "custommachinery:industrialrevival/advanced_machines/advanced_energetic_smelter",
   ];
 
   machines.forEach((upgrades) => {

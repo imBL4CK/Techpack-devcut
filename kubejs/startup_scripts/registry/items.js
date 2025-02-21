@@ -34,6 +34,7 @@ StartupEvents.registry("item", (e) => {
     "black_quartzite_ingot",
     "zinc_dust",
     "amethyst_dust",
+    "advanced_thermal_alloy"
   ];
   let shardsandclumps = [
     "iron",

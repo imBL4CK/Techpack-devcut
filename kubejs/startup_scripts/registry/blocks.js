@@ -8,8 +8,10 @@ StartupEvents.registry("block", (e) => {
       "steel_casing",
       "bronze_casing",
       "basic_machine_casing",
+      "advanced_machine_casing",
       "constantan_coil",
-      "shadow_bronze_coil"
+      "shadow_bronze_coil",
+      "advanced_thermal_alloy_casing"
     ];
     casing.forEach((registry) => {
       e.create(registry)

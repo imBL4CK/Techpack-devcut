@@ -1,0 +1,33 @@
+{
+  "name": "Advanced Macerator",
+  "namespace": "advanced_macerator",
+  "appearance": {
+    "lightmode": "running",
+    "block": "kubejs:machine/industrial_revival/advanced_macerator",
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "light": 0
+  },
+  "parent": "custommachinery:industrialrevival/macerator",
+  "modifiers": [
+    {
+      "requirement": "custommachinery:speed",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 0.5
+    },
+    {
+      "requirement": "custommachinery:energy_per_tick",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 1.5
+    },
+    {
+      "requirement": "custommachinery:energy",
+      "mode": "amount",
+      "operation": "multiplication",
+      "modifier": 4
+    }
+  ]
+}

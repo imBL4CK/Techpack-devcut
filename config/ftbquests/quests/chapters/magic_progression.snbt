@@ -38,7 +38,7 @@
 				item: "malum:runewood_obelisk"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 2.5d
 		}
 		{
@@ -60,7 +60,7 @@
 				item: "malum:spirit_jar"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 2.5d
 		}
 		{
@@ -124,25 +124,27 @@
 		{
 			dependencies: ["4D243B47D943562B"]
 			id: "68E43B333193A3FC"
+			shape: "circle"
 			tasks: [{
 				id: "6DB4EBCD0C6076E2"
 				item: "malum:spirit_crucible"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4D243B47D943562B"]
 			icon_scale: 0.8d
 			id: "652F9843A9F3CF99"
+			shape: "circle"
 			tasks: [{
 				id: "2464C8873493C080"
 				item: "malum:repair_pylon"
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			icon_scale: 0.8d
@@ -179,6 +181,17 @@
 			}]
 			x: -1.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["4D243B47D943562B"]
+			id: "3E4ED31F1BC63DD0"
+			tasks: [{
+				id: "3D4033B399693257"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
 		}
 	]
 	title: "Magic Progression"

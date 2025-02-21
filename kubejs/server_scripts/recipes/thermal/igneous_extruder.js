@@ -14,8 +14,6 @@ ServerEvents.recipes((e) => {
     "quark:myalite",
     "quark:limestone",
     "quark:jasper",
-    "create_dd:gabbro",
-    "create_dd:dolomite",
   ];
   Cstones.forEach((stones) => {
     let StoneGen = {

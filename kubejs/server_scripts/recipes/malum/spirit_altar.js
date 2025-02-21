@@ -238,7 +238,7 @@ ServerEvents.recipes((e) => {
         item: "malum:ether",
       },
       output: {
-        count: 1,
+        count: 4,
         item: "create:chromatic_compound",
       },
       spirits: [
@@ -341,7 +341,7 @@ ServerEvents.recipes((e) => {
         {
           type: "arcane",
           count: 4,
-        }
+        },
       ],
       id: recipeId + "thermal_machine_frame",
     },
@@ -367,7 +367,7 @@ ServerEvents.recipes((e) => {
       ],
       input: {
         count: 1,
-        item: 'enderio:grains_of_infinity',
+        item: "enderio:grains_of_infinity",
       },
       output: {
         count: 1,
@@ -377,7 +377,7 @@ ServerEvents.recipes((e) => {
         {
           type: "wicked",
           count: 4,
-        }
+        },
       ],
       id: recipeId + "enderio_void_chassis",
     },
@@ -390,8 +390,8 @@ ServerEvents.recipes((e) => {
         },
         {
           count: 2,
-          item: "minecraft:experience_bottle"
-        }
+          item: "minecraft:experience_bottle",
+        },
       ],
       input: {
         count: 1,
@@ -399,15 +399,55 @@ ServerEvents.recipes((e) => {
       },
       output: {
         count: 1,
-        item: 'thermal:xp_crystal',
+        item: "thermal:xp_crystal",
       },
       spirits: [
         {
           type: "arcane",
           count: 1,
-        }
+        },
       ],
       id: recipeId + "insighful_crystal",
+    },
+    //Spectral Lens
+    {
+      extra_items: [
+        {
+          count: 1,
+          item: "forbidden_arcanus:mundabitur_dust",
+        },
+        {
+          count: 1,
+          item: "minecraft:amethyst_shard",
+        },
+        {
+          count: 1,
+          item: "malum:hex_ash",
+        },
+        {
+          count: 1,
+          item: "eidolon:pewter_inlay",
+        },
+      ],
+      input: {
+        count: 1,
+        tag: "forge:glass_panes",
+      },
+      output: {
+        count: 1,
+        item: "malum:spectral_lens",
+      },
+      spirits: [
+        {
+          type: "arcane",
+          count: 1,
+        },
+        {
+          type: "sacred",
+          count: 1,
+        },
+      ],
+      id: recipeId + "spectral_lens",
     },
   ];
   recipes.forEach((recipe) => {

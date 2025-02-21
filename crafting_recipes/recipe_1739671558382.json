@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:steel_plate"
+    },
+    "B": {
+      "item": "thermal:redstone_servo"
+    },
+    "C": {
+      "item": "thermal:steel_plate"
+    },
+    "D": {
+      "item": "thermal:rf_coil"
+    },
+    "E": {
+      "item": "thermal:dynamo_stirling"
+    },
+    "F": {
+      "item": "thermal:rf_coil"
+    },
+    "G": {
+      "item": "thermal:steel_plate"
+    },
+    "H": {
+      "item": "thermal:redstone_servo"
+    },
+    "I": {
+      "item": "thermal:steel_plate"
+    }
+  },
+  "result": {
+    "item": "ad_astra:coal_generator",
+    "count": 2
+  }
+}
