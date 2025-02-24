@@ -55,6 +55,23 @@ ServerEvents.recipes((e) => {
       result: { item: "malum:spirit_altar" },
       id: recipeId + "spirit_altar",
     },
+    //Pickaxe of Inversion
+    {
+      pattern: ["OCO", " S ", " I "],
+      reagents: "pmtw",
+      key: {
+        p: { item: "malum:soul_stained_steel_pickaxe" },
+        m: { item: "forbidden_arcanus:mundabitur_dust" },
+        t: { item: "malum:poppet" },
+        w: { item: "malum:warp_flux" },
+        O: { item: "forbidden_arcanus:obsidian_ingot" },
+        C: { item: "minecraft:crying_obsidian" },
+        S: { item: "malum:spectral_optic"},
+        I: { item: "eidolon:pewter_inlay" },
+      },
+      result: { item: "eidolon:reversal_pick" },
+      id: recipeId + "pickaxe_of_inversion",
+    },
   ];
   recipes.forEach((recipe) => {
     e.custom({

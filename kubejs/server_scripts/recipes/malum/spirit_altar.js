@@ -437,13 +437,14 @@ ServerEvents.recipes((e) => {
         count: 1,
         item: "malum:spectral_lens",
       },
+      id: recipeId + "spectral_lens",
     },
     //Elvin Gateway
     {
       extra_items: [
         {
           count: 2,
-          item: "malum:spectral_optic",
+          item: "malum:complete_design",
         },
         {
           count: 4,
@@ -451,15 +452,27 @@ ServerEvents.recipes((e) => {
         },
         {
           count: 2,
-          item: "botania:manasteel_ingot",
+          item: "malum:malignant_pewter_plating",
         },
         {
           count: 1,
-          item: "botaniana:natura_pylon",
+          item: "botania:natura_pylon",
         },
         {
           count: 2,
           item: "kubejs:ender_dew",
+        },
+        {
+          count: 4,
+          item: "forbidden_arcanus:mundabitur_dust",
+        },
+        {
+          count: 1,
+          item: "forbidden_arcanus:dark_matter",
+        },
+        {
+          count: 1,
+          item: "eidolon:holy_symbol",
         },
       ],
       input: {
@@ -468,18 +481,172 @@ ServerEvents.recipes((e) => {
       },
       output: {
         count: 1,
-        item: "botania:elvin_gateway",
+        item: "botania:alfheim_portal",
       },
       spirits: [
         {
           type: "arcane",
-          count: 1,
+          count: 32,
         },
         {
           type: "sacred",
-          count: 1,
+          count: 32,
+        },
+        {
+          type: "earthen",
+          count: 32,
+        },
+        {
+          type: "aqueous",
+          count: 32,
         },
       ],
+      id: recipeId + "alfheim_portal",
+    },
+    //Crude Manasteel
+    {
+      extra_items: [
+        {
+          count: 1,
+          item: "forbidden_arcanus:mundabitur_dust",
+        },
+        {
+          count: 1,
+          item: "malum:hex_ash",
+        },
+      ],
+      input: {
+        count: 1,
+        tag: "forge:ingots/steel",
+      },
+      output: {
+        item: "kubejs:crude_manasteel",
+      },
+      spirits: [
+        {
+          type: "sacred",
+          count: 2,
+        },
+      ],
+      id: recipeId + "crude_manasteel",
+    },
+    //Terrestrial Agglomeration Plate
+    {
+      extra_items: [
+        {
+          count: 1,
+          item: "forbidden_arcanus:mundabitur_dust",
+        },
+        {
+          count: 1,
+          item: "kubejs:ender_dew",
+        },
+        {
+          count: 1,
+          item: "malum:complete_design",
+        },
+        {
+          count: 1,
+          item: "botania:rune_water",
+        },
+        {
+          count: 1,
+          item: "botania:rune_earth",
+        },
+        {
+          count: 1,
+          item: "botania:rune_mana",
+        },
+        {
+          count: 1,
+          item: "botania:rune_air",
+        },
+        {
+          count: 1,
+          item: "botania:rune_fire",
+        },
+      ],
+      input: {
+        count: 1,
+        item: "botania:manasteel_block",
+      },
+      output: {
+        item: "botania:terra_plate",
+      },
+      spirits: [
+        {
+          type: "sacred",
+          count: 32,
+        },
+        {
+          type: "arcane",
+          count: 32,
+        },
+        {
+          type: "aerial",
+          count: 32,
+        },
+        {
+          type: "aqueous",
+          count: 32,
+        },
+        {
+          type: "earthen",
+          count: 32,
+        },
+        {
+          type: "infernal",
+          count: 32,
+        },
+      ],
+      id: recipeId + "terrestrial_agglomeration_plate",
+    },
+    //Mana Pool
+    {
+      extra_items: [
+        {
+          count: 1,
+          item: "forbidden_arcanus:carved_edelwood_log",
+        },
+        {
+          count: 1,
+          item: "eidolon:offering_incense",
+        },
+        {
+          count: 1,
+          item: "malum:mnemonic_fragment",
+        },
+        {
+          count: 1,
+          item: "malum:warp_flux",
+        },
+        {
+          count: 1,
+          item: "malum:astral_weave",
+        },
+        {
+          count: 1,
+          item: "eidolon:holy_symbol",
+        },
+      ],
+      input: {
+        count: 5,
+        item: "botania:livingrock",
+      },
+      output: {
+        item: "botania:mana_pool",
+      },
+      spirits: [
+        {
+          type: "arcane",
+          count: 24,
+        },
+        {
+          type: "sacred",
+          count: 16,
+        },
+      ],
+      id: recipeId + "mana_pool",
     },
   ];
   recipes.forEach((recipe) => {

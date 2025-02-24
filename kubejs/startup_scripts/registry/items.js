@@ -5,6 +5,7 @@ StartupEvents.registry("item", (e) => {
     "makeshift_mechanism",
     "basic_circuit",
     "advanced_circuit",
+    "rocket_circuit",
     "logistic_machine",
     "vaccum_tube",
     "golden_hand",

@@ -309,8 +309,25 @@ ServerEvents.recipes((event) => {
     "pneumaticcraft:thermopneumatic_processing_plant",
     "pneumaticcraft:vortex_tube",
     "malum:spectral_lens",
-    "botania:elvin_gateway",
-    "botania:manapool"
+    "botania:alfheim_portal",
+    "botania:manapool",
+    "botania:terra_plate",
+    "botania:mana_pool",
+    "botania:mana_infusion/manasteel",
+    "eidolon:reversal_pick",
+    "botania:runic_altar_alt",
+    "botania:runic_altar",
+    "malum:spirit_infusion/edge_of_deliverance",
+    "malum:spirit_infusion/weight_of_worlds",
+    "malum:spirit_infusion/malignant_stronghold_helmet",
+    "malum:spirit_infusion/malignant_stronghold_chestplate",
+    "malum:spirit_infusion/malignant_stronghold_leggings",
+    "malum:spirit_infusion/malignant_stronghold_boots",
+    "malum:spirit_infusion/spirit_crucible",
+    "malum:spirit_infusion/spirit_catalyzer",
+    "botania:mana_tablet_alt",
+    "botania:mana_tablet",
+    "botania:gaia_pylon"
   ];
   remove_recipe_recipeid.forEach((recipeID) => {
     event.remove({ id: recipeID });

@@ -2,6 +2,11 @@ StartupEvents.registry("item", (e) => {
   //Wrench
   e.create("wrench", "pickaxe").tier("wrench").maxStackSize(1);
 
+  //Elder Miner's Pickaxe
+  e.create("elder_miners_pickaxe", "pickaxe")
+    .maxStackSize(1)
+    .tier("elder_miners_pickaxe")
+
   //Primitive Saw
   e.create("primitive_fishing_net")
     .maxStackSize(1)

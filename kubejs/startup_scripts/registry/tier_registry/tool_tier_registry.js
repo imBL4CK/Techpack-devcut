@@ -31,12 +31,12 @@ ItemEvents.toolTierRegistry((e) => {
     tier.enchantmentValue = 0;
     tier.repairIngredient = "#forge:ingots/steel";
   });
-  e.add("elders_miner_pickaxe", (tier) => {
+  e.add("elder_miners_pickaxe", (tier) => {
     tier.uses = 712;
-    tier.speed = 4.0;
+    tier.speed = 8.0;
     tier.attackDamageBonus = 3.0;
     tier.level = 4;
-    tier.enchantmentValue = 0;
-    tier.repairIngredient = "#forge:ingots/soulsteel";
+    tier.enchantmentValue = 13;
+    tier.repairIngredient = "malum:malignant_pewter_ingot";
   });
 });

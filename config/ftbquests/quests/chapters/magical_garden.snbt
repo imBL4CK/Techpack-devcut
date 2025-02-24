@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magical_garden"
+	group: "4AD243FA5382E478"
+	id: "28F0905A573A1BD8"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3B62BB58A83AA698"
+			tasks: [{
+				id: "498CEE18CCDFACD5"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "5D7D6BBEFFC50345"
+			tasks: [{
+				id: "24DC72423DBA89F8"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+	title: "Magical Garden"
+}

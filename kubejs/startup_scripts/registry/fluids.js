@@ -12,4 +12,18 @@ StartupEvents.registry("fluid", (e) => {
     .flowingTexture("kubejs:block/benzene_flow")
     .density(1000)
     .viscosity(1000);
+  
+  //Acetaldehyde
+  e.create("acetaldehyde")
+    .stillTexture("kubejs:block/acetaldehyde_still")
+    .flowingTexture("kubejs:block/acetaldehyde_flow")
+    .density(1000)
+    .viscosity(1000);
+  
+  //Duroplast resin
+  e.create("duroplast_resin")
+    .stillTexture("kubejs:block/duroplast_resin_still")
+    .flowingTexture("kubejs:block/duroplast_resin_flow")
+    .density(1000)
+    .viscosity(1000);
 });

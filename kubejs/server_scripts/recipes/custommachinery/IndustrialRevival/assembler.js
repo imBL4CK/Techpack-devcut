@@ -106,7 +106,7 @@ ServerEvents.recipes((e) => {
   {
     e.recipes.custommachinery
       .custom_machine("custommachinery:industrialrevival/assembler", 300)
-      .requireItemTag("forge:ingots/gold")
+      .requireItemTag("forge:plates/gold")
       .requireItemTag("forge:ingots/red_alloy")
       .requireItem("create:electron_tube")
       .produceItem(Item.of("thermal:rf_coil", 2))
