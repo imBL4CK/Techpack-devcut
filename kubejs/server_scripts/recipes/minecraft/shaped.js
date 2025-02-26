@@ -1272,6 +1272,16 @@ ServerEvents.recipes((e) => {
       },
       id: recipeId + "shadow_bronze_coil",
     },
+    //Techpack Wrench
+    {
+      result: "kubejs:wrench",
+      pattern: ["S S", " G ", " S "],
+      key: {
+        S: "#forge:plates/steel",
+        G: "#forge:gears/steel",
+      },
+      id: recipeId + "techpack_wrench",
+    },
   ];
   recipes.forEach((recipe) => {
     e.shaped(recipe.result, recipe.pattern, recipe.key).id(recipe.id);

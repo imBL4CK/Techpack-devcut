@@ -21,6 +21,7 @@ global.sound = (entity, soundId, volume, pitch, shift) => {
 
   const whitelist = {
     "custommachinery:custom_machine_block": true,
+    "minecraft:furnace": true,
     "minecraft:piston": true,
     "minecraft:sticky_piston": true,
     "minecraft:repeater": true,
