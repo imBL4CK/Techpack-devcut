@@ -2,11 +2,11 @@
 navigation:
   title: Energetic Smelter
   icon: minecraft:furnace
-  parent: techlab.md
+  parent: techlab_machines.md
 ---
 # Energetic Smelter
 
-- <BlockImage id="minecraft:furnace" /> Furnace;
+- <BlockImage id="minecraft:furnace" />
 
 Energetic Smelter is a machine that works like a normal furnace, but consumes energy instead of fuel.
 
