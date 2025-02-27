@@ -7,14 +7,6 @@ ItemEvents.toolTierRegistry((e) => {
     tier.enchantmentValue = 14;
     tier.repairIngredient = "#forge:ingots/iron";
   });
-  e.add("basic_tier", (tier) => {
-    tier.uses = 312;
-    tier.speed = 4.0;
-    tier.attackDamageBonus = 2.0;
-    tier.level = 2;
-    tier.enchantmentValue = 14;
-    tier.repairIngredient = "#forge:ingots/steel";
-  });
   e.add("rustic_tier", (tier) => {
     tier.uses = 312;
     tier.speed = 4.0;
@@ -22,6 +14,14 @@ ItemEvents.toolTierRegistry((e) => {
     tier.level = 2;
     tier.enchantmentValue = 14;
     tier.repairIngredient = "#forge:ingots/bronze";
+  });
+  e.add("basic_tier", (tier) => {
+    tier.uses = 700;
+    tier.speed = 4.0;
+    tier.attackDamageBonus = 2.0;
+    tier.level = 2;
+    tier.enchantmentValue = 14;
+    tier.repairIngredient = "#forge:ingots/steel";
   });
   e.add("wrench", (tier) => {
     tier.uses = 1024;

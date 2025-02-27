@@ -1,21 +1,22 @@
 ---
 navigation:
   title: Macerator
-  icon: minecraft:furnace
+  icon: custommachinery:industrialrevival/macerator
   parent: techlab_machines.md
 ---
+
 # Macerator
 
-- <BlockImage id="minecraft:furnace" />
+<GameScene zoom="3">
+  <ImportStructure src="../game_scenes/macerator.nbt" />
+</GameScene>
 
-Macerator can crush items, ores and blocks
+Macerator can crush items, ores and blocks. It is can extract some resources from inputs, turns into more useful
 
-It is can extract some resources from inputs, turns into more useful
+## Supported Modifiers:
 
-## Supported Upgrade Chips:
-
-- Energy Upgrade Chip
-- Speed Upgrade Chip
+- <ItemLink id="kubejs:energy_modifier" />
+- <ItemLink id="kubejs:speed_modifier" />
 
 # Tier Upgrade
 

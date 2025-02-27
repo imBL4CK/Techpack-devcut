@@ -17,4 +17,5 @@ Moddedpedia is a book that will help guide you on your adventure through Techpac
 * You will also find some hidden features of items
 
 ## Check out some chapters
-<SubPages />
+* [Techlab Features](techlab.md)
+* [Techlab Machines](techlab_machines.md)

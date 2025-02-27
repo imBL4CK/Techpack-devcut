@@ -1,21 +1,22 @@
 ---
 navigation:
   title: Energetic Smelter
-  icon: minecraft:furnace
+  icon: custommachinery:industrialrevival/energetic_smelter
   parent: techlab_machines.md
 ---
+
 # Energetic Smelter
 
-- <BlockImage id="minecraft:furnace" />
+<GameScene zoom="3">
+  <ImportStructure src="../game_scenes/energetic_smelter.nbt" />
+</GameScene>
 
-Energetic Smelter is a machine that works like a normal furnace, but consumes energy instead of fuel.
+Energetic Smelter is a machine that works like a normal furnace, but consumes energy instead of fuel. It is also support upgrade chips, it is can boost the energy IO or incrase the process speed.
 
-Energetic Furnace also support upgrade chips, it is can boost the energy IO or incrase the process speed.
+## Supported Modifiers:
 
-## Supported Upgrade Chips:
-
-- Energy Upgrade Chip
-- Speed Upgrade Chip
+- <ItemLink id="kubejs:energy_modifier" />
+- <ItemLink id="kubejs:speed_modifier" />
 
 # Tier Upgrade
 

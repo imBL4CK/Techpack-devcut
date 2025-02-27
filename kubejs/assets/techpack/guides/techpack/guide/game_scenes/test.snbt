@@ -1,0 +1,11 @@
+{
+    DataVersion: 3337,
+    size: [1, 1, 1],
+    data: [
+        {z: 225, x: 547, message: '{"text":""}', machineID: "custommachinery:industrialrevival/energetic_smelter", ownerID: "82de6366-3ae5-4e06-9ec3-f36aa8b784be", id: "custommachinery:custom_machine_tile", ForgeCaps: {}, ownerName: '{"text":"Im_C4du"}', y: -55, componentManager: {data_component: {}, radius: 1, fuel: 0, energy: 0L, maxFuel: 0, active: 0b, config: {input: 0b, output: 0b, LEFT: 0b, RIGHT: 0b, FRONT: 0b, TOP: 0b, BOTTOM: 0b, BACK: 0b}, items: [{config: {input: 0b, output: 0b, LEFT: 0b, RIGHT: 0b, FRONT: 0b, TOP: 0b, BOTTOM: 0b, BACK: 0b}, slotID: "upgrade_slot"}, {config: {input: 0b, output: 0b, LEFT: 0b, RIGHT: 0b, FRONT: 0b, TOP: 0b, BOTTOM: 0b, BACK: 0b}, slotID: "input_slot"}, {config: {input: 0b, output: 0b, LEFT: 0b, RIGHT: 0b, FRONT: 0b, TOP: 0b, BOTTOM: 0b, BACK: 0b}, slotID: "input_slot2"}, {config: {input: 0b, output: 0b, LEFT: 1b, RIGHT: 1b, FRONT: 1b, TOP: 1b, BOTTOM: 1b, BACK: 1b}, slotID: "output_slot"}]}, craftingManager: {type: "custommachinery:machine", phase: "STARTING", recipeProgressTime: 0.0d}, status: "idle"}
+    ],
+    entities: [],
+    palette: [
+        "kubejs:machine/industrial_revival/energetic_smelter{light_level:0,waterlogged:false}"
+    ]
+}
