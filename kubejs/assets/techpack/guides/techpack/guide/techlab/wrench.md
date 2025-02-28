@@ -3,7 +3,7 @@ navigation:
   title: Wrench
   icon: kubejs:wrench
   parent: techlab.md
-  item_ids:
+item_ids:
   - kubejs:wrench
 ---
 # Wrench

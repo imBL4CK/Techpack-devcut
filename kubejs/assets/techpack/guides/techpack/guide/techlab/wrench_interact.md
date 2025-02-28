@@ -10,7 +10,7 @@ navigation:
 wrench have two features in this pack, pickup blocks with shift-right-click and rotate with right-click. you can see the list of items that can interact with wrench below.
 
 <GameScene zoom="3">
-  <ImportStructure src="../../game_scenes/wrench_can_interact.nbt" />
+  <ImportStructure src="../game_scenes/wrench_can_interact.nbt" />
 </GameScene>
 
 # List of items that can interact with wrench

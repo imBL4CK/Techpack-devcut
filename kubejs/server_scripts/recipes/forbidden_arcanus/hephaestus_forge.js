@@ -508,7 +508,7 @@ ServerEvents.lowPriorityData(e => {
     //Mana Tablet
     e.addJson('forbidden_arcanus:forbidden_arcanus/hephaestus_forge/ritual/mana_tablet', {
         "additional_requirements": {
-            "forge_tier": 4
+            "forge_tier": 2
         },
         "essences": {
             "aureal": 500,
@@ -540,7 +540,8 @@ ServerEvents.lowPriorityData(e => {
                 "id": "botania:mana_tablet"
             }
         }
-    })//Mana Tablet
+    })
+    //upgrade altar to tier 2
     e.addJson('forbidden_arcanus:forbidden_arcanus/hephaestus_forge/ritual/upgrade_tier_2', {
         "essences": {
             "aureal": 500,

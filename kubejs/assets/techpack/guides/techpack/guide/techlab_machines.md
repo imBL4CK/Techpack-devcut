@@ -1,7 +1,7 @@
 ---
 navigation:
   title: Techlab Machines
-  item_ids:
+item_ids:
   - custommachinery:custom_machine_item
 ---
 

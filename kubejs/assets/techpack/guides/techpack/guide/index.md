@@ -18,4 +18,4 @@ Moddedpedia is a book that will help guide you on your adventure through Techpac
 
 ## Check out some chapters
 * [Techlab Features](techlab.md)
-* [Techlab Machines](techlab_machines.md)
+* [Forbidden Arcanus](forbidden_arcanus.md)

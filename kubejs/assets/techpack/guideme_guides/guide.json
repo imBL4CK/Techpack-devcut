@@ -2,7 +2,7 @@
     "item_settings": {
       "display_name": {
         "type": "translatable",
-        "translate": "testmod.guide_name"
+        "translate": "techpack.guide_name"
       }
     }
   }
